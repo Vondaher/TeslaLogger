@@ -2666,7 +2666,7 @@ Supercharger-V3 FR-Champfleury,49.2043,4.0131
 Supercharger-V4 FR-Chanteloup-en-Brie,48.85693,2.75205
 Supercharger FR-Chapelle sur Erdre,47.282771,-1.550008
 Supercharger FR-Charleville-Mézières,49.736834,4.744095
-Supercharger-V4 FR-Charolles,46.43886,4.30145
+Supercharger-V4 FR-Charolles,46.4391,4.30167
 Supercharger-V3 FR-Chartres,48.44601,1.53902
 Supercharger-V4 FR-Chasse-sur-Rhône Sud,45.5738,4.81192
 Supercharger FR-Chasseneuil-du-Poitou,46.650703,0.374772
@@ -3163,7 +3163,7 @@ Supercharger-V4 HR-Jastrebarsko,45.6537,15.65555
 Supercharger HR-Karlovac,45.51297,15.54748
 Supercharger-V4 HR-Krapina,46.13145,15.8869
 Supercharger-V4 HR-Otočac,44.89332,15.18395
-Supercharger-V4 HR-Rijeka Jug,45.35515,14.351
+Supercharger-V4 HR-Rijeka Jug,45.3551,14.3511
 Supercharger-V4 HR-Rijeka Sjever,45.35582,14.35072
 Supercharger HR-Senj,44.98932,14.89781
 Supercharger-V4 HR-Slavonski Brod,45.1753,18.06326
@@ -5754,6 +5754,7 @@ Supercharger-V3 US-Grasonville MD - Hissey Road,38.9659,-76.1939
 Supercharger-V4 US-Greenbelt MD,38.99712,-76.89222
 Supercharger US-Hagerstown MD,39.60594,-77.7329
 Supercharger-V4 US-Hagerstown MD Cole Rd,39.6206,-77.7731
+Supercharger-V4 US-Hagerstown MD French Ln,39.6322,-77.8081
 Supercharger-V3 US-Hagerstown MD Venture Drive,39.6086,-77.7506
 Supercharger-V4 US-Halethorpe MD,39.2463,-76.67352
 Supercharger US-Halethorpe MD,39.2511,-76.66854
@@ -6774,6 +6775,7 @@ Supercharger US-Channelview TX,29.78466,-95.1106
 Supercharger US-Childress TX,34.4325,-100.21863
 Supercharger US-Childress TX,34.43528,-100.2319
 Supercharger US-Cisco TX,32.37452,-99.00665
+Supercharger-V4 US-Cleburne TX Victron Energy,32.37526,-97.4197
 Supercharger-V4 US-College Station TX,30.59985,-96.28912
 Supercharger-V3 US-College Station TX - Texas Avenue South,30.6129,-96.31733
 Supercharger US-Columbus TX,29.69013,-96.5376
@@ -12258,6 +12260,7 @@ Electrify-America US-Scipio UT Frontage Road,39.25552,-112.11646
 Electrify-America US-Seabrook NH Lafayette Rd,42.89365,-70.86579
 Electrify-America US-Secaucus NJ Park Plaza,40.79187,-74.04196
 Electrify-America US-Spanish Fork UT N Cyn Crk Pkwy,40.12416,-111.64038
+Electrify-America US-St. Louis MO IKEA Way,38.63326,-90.2434
 Electrify-America US-Stockton CA Trinity Pkwy,38.05094,-121.3758
 Electrify-America US-Sunnyvale CA Lawrence Expy,37.3838,-121.99527
 Electrify-America US-Sweetwater TX NE Georgia Ave,32.45292,-100.394
@@ -13202,7 +13205,7 @@ EnBW DE-Garbsen Planetenring,52.4185,9.5951
 EnBW DE-Garching an der Alz Am Binderfeld,48.12526,12.57323
 EnBW DE-Gardelegen Buschhorstweg,52.5157,11.40156
 EnBW DE-Gartow Springstraße,53.0272,11.45427
-EnBW DE-Gau-Bickelheim Rheinhessenblick,49.83532,7.9975,15
+EnBW DE-Gau-Bickelheim Rheinhessenblick,49.83532,7.9975,35
 EnBW DE-Gau-Odernheim Bahnstraße,49.7777,8.18875
 EnBW DE-Gebhardshain Wissener Straße,50.74965,7.82252
 EnBW DE-Geestland Schmidtkuhlsweg,53.61684,8.59768
@@ -17852,6 +17855,7 @@ GreenWay PL-Bielany Wrocławskie Czekoladowa,51.04657,16.96132
 GreenWay PL-Bielany Wrocławskie Wrocławska,51.04505,16.97112
 GreenWay PL-Bielany Wrocławskie Wrocławska,51.0467,16.97087
 GreenWay PL-Bielsko-Biała Leszczyńska,49.80343,19.04997
+GreenWay PL-Biskupiec-Kolonia Druga Trzecia,53.849,20.96543
 GreenWay PL-Bolesławiec Lipiany,51.33801,15.63159
 GreenWay PL-Chromna E30,52.10826,22.38702
 GreenWay PL-Częstochowa Generała Leopolda Okulickiego,50.82453,19.09885
@@ -22734,6 +22738,7 @@ ORLEN PL-MOP Kołbaskowo,53.33848,14.42308
 ORLEN PL-MOP Paszczyna Północ,50.09793,21.52051
 ORLEN PL-MOP Pawliki,53.2995,20.43715
 ORLEN PL-MOP Rudniki Południe,53.99783,22.82569
+ORLEN PL-MOP Sople,53.88982,19.73577
 ORLEN PL-MOP Sosna,52.32416,14.65298
 ORLEN PL-MOP Wieszowa,50.3705,18.7414
 ORLEN PL-MOP Wiśniowa Góra,51.70161,19.60419
@@ -23448,6 +23453,7 @@ Pfalzwerke DE-Zweibrücken Londoner Bogen,49.23082,7.40606
 Pfalzwerke DE-Zweibrücken Wilkstraße,49.25174,7.3445
 
 Pilot-FlyingJ US-Hayti MO MO-84,36.22725,-89.72486
+Pilot-FlyingJ US-Matthews MO MO-80,36.7604,-89.54045
 
 Pirk DE-Radevormwald Heisenbergstraße,51.20315,7.37866
 
@@ -25302,6 +25308,7 @@ SSW DE-St. Wendel Floriansweg,49.46283,7.1667
 st1 FI-Kempele Zeppeliinintie,64.90416,25.5372
 
 Stark DE-Hauenstein Alte Bundesstraße,49.20005,7.83614,25
+Stark DE-Ringsheim Ruster Straße,48.24998,7.76947
 Stark DE-Scharbeutz Bormwiese,54.05472,10.73083
 
 Stations-e FR-Draveil Rue Ferdinand Buisson,48.6735,2.40768
@@ -26142,6 +26149,7 @@ TEAG DE-Apolda Utenbacher Straße,51.02381,11.52331
 TEAG DE-Arnstadt Ichtershäuser Straße,50.84793,10.95449
 TEAG DE-Arnstadt Robert-Bosch-Straße,50.8599,10.94737
 TEAG DE-Autohof Am Erfurter Kreuz,50.88838,10.93515
+TEAG DE-Autohof Im Heidegrund Süd,51.03977,11.93776
 TEAG DE-Autohof Schleiz,50.55058,11.78792,30
 TEAG DE-Autohof Schleiz,50.55156,11.78998
 TEAG DE-Bad Arolsen Belgischer Platz,51.3774,9.01297
@@ -26285,7 +26293,6 @@ TEAG DE-Oberhof Dr.-Curt-Weidhaas-Straße,50.70772,10.72693
 TEAG DE-Ohrdruf Bahnhofstraße,50.82632,10.72531
 TEAG DE-Ohrdruf Suhler Straße,50.81464,10.72962
 TEAG DE-Orlamünde Saalstraße,50.7748,11.53256
-TEAG DE-Osterfeld Im Heidegrund Süd,51.03977,11.93776
 TEAG DE-Osterode am Harz Herzberger Straße,51.71795,10.2727
 TEAG DE-Petersberg Billerer Straße,50.55923,9.72693
 TEAG DE-Petersberg Eichenweg,50.96943,11.85505
