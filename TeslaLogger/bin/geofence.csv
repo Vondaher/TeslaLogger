@@ -299,7 +299,7 @@ Supercharger-V3 BE-Zaventem,50.8699,4.50205
 
 Supercharger BG-Plowdiw Пловдив,42.14452,24.76887
 Supercharger-V3 BG-Sofia,42.65777,23.313598
-Supercharger-V4 BG-Sofia София Bulgaria Boulevard,42.66372,23.28946
+Supercharger-V4 BG-Sofia София Bulgaria Boulevard,42.66404,23.28884
 
 Supercharger-V4 CA-Abbotsford BC Delair Rd,49.0362,-122.26673
 Supercharger CA-Abbotsford BC Mount Lehman Road,49.05906,-122.37702
@@ -2350,7 +2350,7 @@ Supercharger-V3 DK-Kirke Såby,55.64015,11.830563
 Supercharger-V3 DK-Kliplev,54.9401,9.37887,40
 Supercharger-V3 DK-Kolding,55.512661,9.462733
 Supercharger-V4 DK-Korsør,55.35237,11.14138
-Supercharger-V4 DK-København,55.68184,12.5321
+Supercharger-V4 DK-København,55.68166,12.53123
 Supercharger DK-Køge,55.489014,12.163153
 Supercharger-V4 DK-Lumsås,55.94219,11.50824
 Supercharger-V4 DK-Lyngby,55.7711,12.505377,60
@@ -2764,7 +2764,7 @@ Supercharger FR-Morlaix,48.57439,-3.85318
 Supercharger FR-Mougins,43.603668,7.011086
 Supercharger FR-Mulhouse,47.782016,7.388299
 Supercharger-V4 FR-Mulhouse Rue des Cévennes,47.7821,7.3871
-Supercharger-V3 FR-Mundolsheim,48.65302,7.73188,40
+Supercharger-V3 FR-Mundolsheim,48.653,7.7319
 Supercharger-V4 FR-Mâcon,46.34663,4.84906
 Supercharger FR-Nancy,48.638215,6.184349
 Supercharger-V3 FR-Nantes - Atlantis,47.225998,-1.62904
@@ -3306,7 +3306,7 @@ Supercharger IT-Mogliano Veneto,45.58469,12.28721
 Supercharger IT-Moncalieri,44.973333,7.730113
 Supercharger-V4 IT-Moncalieri Corso Savona,44.983348,7.707259
 Supercharger-V3 IT-Mondovì,44.419691,7.849982
-Supercharger-V3 IT-Montenero di Bisaccia,42.06266,14.77868,55
+Supercharger-V3 IT-Montenero di Bisaccia,42.06242,14.77885
 Supercharger IT-Morano Calabro,39.875989,16.065094
 Supercharger-V4 IT-Napoli West,40.836326,14.191578
 Supercharger-V4 IT-Nola,40.94808,14.48911
@@ -10951,6 +10951,8 @@ Compleo DE-Zwickau Uhdestraße,50.70933,12.50408
 Compleo DE-Zwingenberg Gießer Weg,49.72307,8.60184
 Compleo GB-Leeds Princes Exchange,53.7949,-1.54902
 
+Contipark DE-Berchtesgaden Salzburger Straße,47.63887,13.01533
+
 Costco US-Rocklin CA Sierra College Blvd,38.80773,-121.20377
 
 Couche-Tard CA-Ange-Gardien QC Rte 235,45.36482,-72.93384
@@ -11122,6 +11124,7 @@ Duferco IT-Torino Via Parenzo,45.10306,7.64613
 Duferco IT-Uscio Via Crocetta,44.41144,9.16827
 Duferco IT-Vado Ligure Via Trieste,44.26627,8.43146
 
+e-con DE-Bodnegg Eichelstraße,47.73042,9.69902
 e-con DE-Buchloe Neue Mitte,48.03518,10.71952
 e-con DE-Isny Am Bühlberg,47.70359,10.04971
 e-con DE-Memmingen Zeissweg,47.96655,10.18286
@@ -11412,7 +11415,6 @@ E.ON DE-Rastplatz Eichsfeld Nord,51.40398,10.41655
 E.ON DE-Rastplatz Eichsfeld Süd,51.40302,10.41453
 E.ON DE-Rastplatz Hochfelln Nord,47.82897,12.5902
 E.ON DE-Rastplatz Hochfelln Süd,47.82788,12.5909
-E.ON DE-Rastplatz Ruraue,50.9298,6.3373
 E.ON DE-Raststätte Aachener Land Nord,50.81753,6.21413,10
 E.ON DE-Raststätte Aachener Land Süd,50.81714,6.21555,16
 E.ON DE-Raststätte Aalbek,54.09272,9.92967,25
@@ -11536,6 +11538,7 @@ E.ON DE-Raststätte Rhön Ost,50.26758,9.8825
 E.ON DE-Raststätte Rhön West,50.2635,9.88106
 E.ON DE-Raststätte Riedener Wald West,49.94547,10.01636,20
 E.ON DE-Raststätte Rohnetal Nord,51.4352,11.42673
+E.ON DE-Raststätte Ruraue West,50.9298,6.3373
 E.ON DE-Raststätte Samerberg Nord,47.80283,12.17897,20
 E.ON DE-Raststätte Sauerland,51.22291,7.67015
 E.ON DE-Raststätte Sauerland,51.2231,7.66751
@@ -12102,6 +12105,7 @@ Elbizz NL-Hilversum Bisonlaan,52.23422,5.14745
 ElDrive BG-Студена Автомагистрала Струма,42.5392,23.12914
 ElDrive LT-Senoji Varėna Vilniaus g.,54.25522,24.5415
 ElDrive LT-Vilnius Vikingų g.,54.64979,25.27977
+ElDrive LT-Žadvainai Tilto gatvė,55.64372,21.87138
 Eldrive RO-Bacău Strada Narciselor,46.5387,26.90934
 ElDrive RO-Brașov Bulevardul Gării,45.66146,25.61138
 ElDrive RO-Brașov Strada Egretei,45.6638,25.56452
@@ -12112,8 +12116,10 @@ ElDrive RO-Giurgiu Bulevardul Academician Miron Nicolescu,43.90515,25.9736
 ElDrive RO-Giurgiu DN5,43.90831,25.98683
 ElDrive RO-Hărman Strada Dorobanți,45.70247,25.69246
 ElDrive RO-Lehliu-Gară Str. Elefterie Papadisia,44.4359,26.85662
+ElDrive RO-Sebeș Strada Augustin Bena,45.95935,23.5511
 ElDrive RO-Sovata Strada Primăverii,46.58118,25.05548
 ElDrive RO-Târgu Mureș Strada Gheorghe Doja,46.52475,24.53758
+ElDrive RO-Vladimirescu Str. Cetății Orod,46.1674,21.38752
 
 ELE DE-Gelsenkirchen Husemannstraße,51.50603,7.09896,20
 
@@ -20038,7 +20044,6 @@ KEW DE-Neunkirchen Margarethe-Bacher-Straße,49.34578,7.16772
 
 KH-Energie DE-Winterberg Am Eschenberg,51.24578,8.52863
 
-Kia BG-Sifia София Bulgaria Mall,42.66405,23.2888,20
 Kia BG-Sofia Gorublyane Mladost,42.63669,23.41572
 
 Kilowatt MA-CasablancaRoute de Bouskoura,33.48726,-7.63375
@@ -25946,6 +25951,7 @@ SWM DE-München Staffelseestraße,48.09215,11.50657
 SWM DE-München Steinstraße,48.1291,11.59414
 SWM DE-München Steubenplatz,48.15114,11.52008
 SWM DE-München Stolzhofstraße,48.12058,11.6839
+SWM DE-München Tegelbergstraße,48.09273,11.57066
 SWM DE-München Weyprechtstraße,48.20394,11.56544
 SWM DE-München Widenmayerstraße,48.14003,11.59346
 SWM DE-München Winthirstraße,48.1566,11.52762
@@ -26667,7 +26673,7 @@ TotalEnergies NL-Palmpol,52.16306,5.53343
 TotalEnergies NL-Papendrecht,51.84622,4.68115,80
 TotalEnergies NL-Poort Van Veghel,51.59953,5.51673,80
 TotalEnergies NL-Schiedam,51.93024,4.40394,80
-TotalEnergies NL-Vliedberg,51.48462,3.85002,80
+TotalEnergies NL-Vliedberg,51.48466,3.8497
 
 Trugo TR-Diliskelesi 735. Sk.,40.77284,29.52015
 Trugo TR-Mehmet Akif Ersoy Bağdat Caddesi,39.96176,32.76858
@@ -28019,6 +28025,7 @@ BY Minsk Мінск Картленд,53.91144,27.52007
 BY Minsk Мінск Парк Цівалі,53.9114,27.46703
 BY Minsk Мінск ТЦ Грин Тайм,53.8615,27.63807
 CH Affoltern Blauer Elefant,47.27289,8.4388
+CH Arosa Alteinstrasse,46.7825,9.68525
 CH Arosa Brüggli,46.77581,9.6648
 CH Arosa Valsana Hotel,46.78388,9.68427
 CH Balsthal Bahnhof,47.31329,7.69449
