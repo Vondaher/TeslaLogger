@@ -7,7 +7,8 @@ Es wird ein Beispiel für Google Drive gezeigt, andere (Cloud)Diense sind ähnli
 
 ### Annahmen zum System:
 *IP-Adresse*: 192.168.1.30
-*Benutzer-Name*: pi (ggf. in folgenden Befehlen anpassen)
+
+*Benutzername*: pi (ggf. in folgenden Befehlen anpassen)
 
 ### rclone einrichten
 - Per SSH mit Teslalogger verbinden: `ssh -L 53682:localhost:53682 pi@192.168.1.30`
@@ -35,14 +36,10 @@ Es wird Konfiguration mit Tokens angeziegt, mit **ENTER** bestätigen und mit **
 ```
 #!/bin/bash
 
-
 BACKUP_DIR="/etc/teslalogger/backup"
 REMOTE_NAME="tl_backup:Backup/teslalogger"
 
-tar -czf "$BACKUP_DIR"/$(date +%Y-%m-%d_%H-%M-%S).tar.gz /root/config
-
-/usr/bin/rclone copy --update --verbose --transfers 3 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10 --stats 1s "$BACKUP_DIR" "$REMOTE_NAME" --dri>
-
+/usr/bin/rclone copy --update --verbose --transfers 3 --contimeout 60s --timeout 300s --retries 3 --low-level-retries 10 --stats 1s "$BACKUP_DIR" "$REMOTE_NAME" --drive-use-trash=false
 ```
 
 Die Pfade, besonders bei Docker Installation müssen angepasst werden!
