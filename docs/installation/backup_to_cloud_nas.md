@@ -46,7 +46,7 @@ Die Pfade, besonders bei Docker Installation müssen angepasst werden!
 
 `tl_backup:Backup/teslalogger` bedeutet: es wird ein Ordner Namens Backup und in diesem noch ein Ordner teslalogger angelegt.
 
-Fall man mehrere Applikationen in dem selben "Backup" Ordner ablegen möchte, wird folgendes empfohlen:
+Falls man mehrere Applikationen in dem selben "Backup" Ordner ablegen möchte, wird folgendes empfohlen:
 
 `REMOTE_NAME="tl_backup,root_folder_id=abcdefg:/teslalogger"`
 
@@ -63,7 +63,7 @@ Nach dem ersten Test wird empfohlen statt `copy` `move` zu nutzen. So werden hoc
 - Bei vielen Backups dauert der erste Lauf länger. Erfolg sieht so aus:
 ![Image](https://raw.githubusercontent.com/bassmaster187/TeslaLogger/master/TeslaLogger/screenshots/backup_gdrive9.png)
 
-### Backup Script jede nacht ausführen
+### Backup Script jede Nacht ausführen
 
 #### Backup service einrichten:
 `sudo nano /etc/systemd/system/backup-rclone.service`
