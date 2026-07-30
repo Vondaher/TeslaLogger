@@ -1992,7 +1992,7 @@ Supercharger-V4 DE-Busdorf,54.47796,9.54494,40
 Supercharger-V3 DE-Böblingen,48.69138,9.00365,55
 Supercharger-V4 DE-Bühl,48.724669,8.110452
 Supercharger-V4 DE-Chemnitz,50.864124,12.867845
-Supercharger-V4 DE-Cottbus,51.71605,14.3521
+Supercharger-V4 DE-Cottbus,51.71586,14.35225
 Supercharger-V4 DE-Darmstadt Kasinostraße,49.88314,8.64662
 Supercharger-V3 DE-Dasing,48.393731,11.070452
 Supercharger-V3 DE-Denkendorf,48.707,9.306556
@@ -3208,6 +3208,7 @@ Supercharger-V4 IE-Longford,53.74114,-7.80391
 Supercharger-V4 IE-Mallow,52.13163,-8.64577
 Supercharger-V4 IE-Sligo,54.32865,-8.50272
 Supercharger IE-Tralee,52.260703,-9.659141
+Supercharger-V4 IE-Wicklow,52.95217,-6.095
 
 Supercharger-V4 IN-Gurgaon DLF One Horizon Centre,28.45167,77.09706
 Supercharger-V4 IN-Gurugram Orchid Business Park,28.42593,77.03676
@@ -3218,12 +3219,13 @@ Supercharger-V4 IN-New Delhi Aerocity Worldmark 3,28.55123,77.12205
 Supercharger-V4 IS-Akureyri,65.69741,-18.13922
 Supercharger-V4 IS-Blönduós,65.66053,-20.27496
 Supercharger-V3 IS-Egilsstaðir,65.259368,-14.406532
+Supercharger-V4 IS-Egilsstaðir Kaupvangur,65.26084,-14.4069
 Supercharger IS-Fossvogur,64.11765,-21.8996
 Supercharger IS-Grafarholt,64.1244,-21.77683
 Supercharger-V4 IS-Hveragerði,63.9958,-21.19315
-Supercharger IS-Hvolsvöllur,63.75234,-20.235952
+Supercharger-V3 IS-Hvolsvöllur,63.75234,-20.23595
 Supercharger-V4 IS-Hólmavík,65.70068,-21.68593
-Supercharger IS-Höfn,64.250137,-15.205539
+Supercharger-V4 IS-Höfn,64.25014,-15.20554
 Supercharger-V4 IS-Keflavik,63.99698,-22.58424
 Supercharger-V3 IS-Kirkjubæjarklaustur,63.789025,-18.052187
 Supercharger-V4 IS-Laugarvatn Efstidalur II,64.2425,-20.55058
@@ -3283,7 +3285,7 @@ Supercharger-V3 IT-Forlì,44.24304,12.081501,22
 Supercharger-V3 IT-Forte dei Marmi,43.95653,10.1946
 Supercharger-V3 IT-Genova North,44.470371,8.900865
 Supercharger-V3 IT-Grandate,45.769049,9.056739
-Supercharger IT-Grosseto,42.789221,11.115743
+Supercharger-V4 IT-Grosseto,42.78922,11.11574
 Supercharger-V4 IT-Imola,44.375448,11.732268
 Supercharger IT-Imperia,43.892498,8.039031
 Supercharger-V4 IT-Ivrea,45.446661,7.853005
@@ -7116,6 +7118,7 @@ Supercharger-V4 US-Federal Way WA S 320th St,47.31488,-122.316
 Supercharger-V3 US-Forks WA,47.94305,-124.3853
 Supercharger-V3 US-George WA,47.08112,-119.86192
 Supercharger US-Issaquah WA,47.54745,-122.03972
+Supercharger-V4 US-Issaquah WA Klahanie Dr SE,47.56488,-122.00288
 Supercharger-V4 US-Issaquah WA NW Gilman Blvd,47.54318,-122.04837
 Supercharger-V3 US-Kelso WA,46.14327,-122.8989
 Supercharger US-Kennewick WA,46.19857,-119.16218
@@ -14812,6 +14815,7 @@ Eneco DE-Pentling Hohengebrachinger Straße,48.97936,12.06739
 Eneco NL-Haarlem Emrikweg,52.39576,4.66413
 Eneco NL-Zoetermeer Zilverstraat,52.04378,4.50256
 
+Enefit EE-Harju maakond Keskuse,59.22636,24.1444
 Enefit EE-Jüri Harju maakond,59.35896,24.89517
 Enefit EE-Kuressaare Raekoja tn,58.25286,22.4881
 Enefit EE-Narva Tallinna mnt,59.37906,28.18792
@@ -18311,6 +18315,7 @@ IECharge FR-Rue Chem. des Joncs,50.26372,1.69225
 IECharge FR-Saint-Pierre-le-Moûtier D108,46.79767,3.11052
 IECharge FR-Vezin-le-Coquet Rue de la Belle Épine,48.1251,-1.75488
 
+Ignitis EE-Haapsalu Ranna tee,58.9398,23.5175
 Ignitis LT-Jonava Parko g.,55.07326,24.28165
 Ignitis LT-Klaipėda Baltijos pr.,55.68572,21.15422
 Ignitis LT-Liepāja Vētru iela,56.48325,21.00323
@@ -18734,6 +18739,7 @@ Ionity AT-Angath Nord,47.51922,12.06553
 Ionity AT-Ansfelden Haider Straße,48.21098,14.27965,25
 Ionity AT-Eberstalzell Solarstraße,48.03913,13.99065,30
 Ionity AT-Eisentratten,46.91994,13.57928
+Ionity AT-Flachau Wagrainer Straße,47.3624,13.38392
 Ionity AT-Fürnitz Kärntner Straße,46.56675,13.80946
 Ionity AT-Golling,47.58478,13.15794
 Ionity AT-Grafenstein,46.63964,14.45139
@@ -19149,7 +19155,7 @@ Ionity GB-Polmadie,55.83723,-4.24249
 Ionity GB-Stafford Spitfire Cl,52.83142,-2.13565
 Ionity HR-Gospić Budačka ul.,44.57699,15.39295
 Ionity HR-Kanfanar Okreti,45.1117,13.80262
-Ionity HR-Rašćane Gornje,43.3205,17.16605,25
+Ionity HR-Rašćane Gornje,43.3205,17.16605,31
 Ionity HR-Rijeka Osječka ul.,45.34964,14.41835
 Ionity HR-Sop,45.78354,16.15155
 Ionity HR-Vrankovec,46.08676,15.91246
@@ -19984,6 +19990,7 @@ Kaufland HR-Poreč Ul. Mate Vlašića,45.23206,13.6205
 Kaufland HR-Pula Ul. Jurja Žakna,44.87824,13.86323
 Kaufland HR-Rijeka Zametska ul.,45.34078,14.3991
 Kaufland HR-Rovinj Ulica Spinè,45.0893,13.65603
+Kaufland HR-Samobor Ul. Grada Wirgesa,45.79943,15.7356
 Kaufland HR-Sesvete Bistrička ul.,45.8334,16.10836
 Kaufland HR-Trogir kneza Trpimira,43.5334,16.28098
 Kaufland HR-Umag Novigradska ulica,45.4238,13.5272
@@ -22173,6 +22180,7 @@ Morbihan FR-Sarzeau,47.54678,-2.72131,25
 Morbihan FR-Vannes Rue Alain Gerbault,47.66539,-2.73089
 
 MOVE CH-Au Hauptstrasse,47.43289,9.63415
+MOVE CH-Basel Parkweg,47.5492,7.59347
 MOVE CH-Bern Hallerstrasse,46.95472,7.43838
 MOVE CH-Bern Klösterlistutz,46.94962,7.45947
 MOVE CH-Bern Murtenstrasse,46.95224,7.41675
@@ -23772,6 +23780,7 @@ Powerdot PL-Płońsk Pułtuska,52.62474,20.38752
 Powerdot PL-Słubice Wrocławska,52.3482,14.5686
 Powerdot PL-Ustronie Morskie Kolejowa,54.203,15.74983
 Powerdot PL-Wieliczka Tadeusza Kościuszki,49.98872,20.0416
+Powerdot PL-Władysławowo Starowiejska,54.79076,18.42377
 Powerdot PL-Żagań Księżnej Żaganny,51.61755,15.31173
 Powerdot PT-Amadora Estr. da Circunvalação,38.72544,-9.20863
 Powerdot PT-Amadora Estr. do Monte da Cabreira,38.72754,-9.21128
@@ -24410,6 +24419,7 @@ Salzburg AT-Strobl Wolfgangseestraße,47.71297,13.48525
 Salzburg AT-Tamsweg Sauerfelder Straße,47.12661,13.81435
 Salzburg AT-Uttendorf Seeweg,47.28129,12.57948
 Salzburg AT-Wald im Pinzgau Wald,47.24507,12.2303
+Salzburg AT-Werfenweng Weng,47.4588,13.2746
 Salzburg AT-Wildshut Wildshuter Straße,48.00855,12.8662
 Salzburg AT-Zell am See Salzachtal-Bundesstraße,47.29976,12.78889
 
