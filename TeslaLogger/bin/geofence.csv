@@ -2273,6 +2273,7 @@ Supercharger-V4 DE-Sulz-Vöhringen,48.34328,8.66314,70
 Supercharger-V4 DE-Sulzbach (Taunus) MTZ,50.1167,8.5303,18
 Supercharger DE-Süderholz,54.09304,13.08592
 Supercharger-V4 DE-Süderholz-Grimmen,54.0933,13.08785,40
+Supercharger-V4 DE-Süderlügum,54.88254,8.9101
 Supercharger-V4 DE-Tiengen,47.98355,7.71917
 Supercharger-V4 DE-Trier,49.77216,6.65757
 Supercharger-V3 DE-Troisdorf,50.813668,7.107535
@@ -3940,7 +3941,7 @@ Supercharger NO-Skibotn,69.392448,20.268423
 Supercharger-V3 NO-Skien,59.206742,9.609061
 Supercharger-V4 NO-Skjåk,61.88317,8.26694
 Supercharger-V4 NO-Skulestadmo Storrviki,60.65695,6.43733
-Supercharger-V4 NO-Slependen,59.87368,10.50276
+Supercharger-V4 NO-Slependen,59.87392,10.5038
 Supercharger NO-Solli,59.324292,10.954448
 Supercharger-V4 NO-Sortland,68.69684,15.4189
 Supercharger NO-Spydeberg Jaren,59.61764,11.00354
@@ -5604,6 +5605,7 @@ Supercharger-V3 US-Lebanon IN,40.03507,-86.46958
 Supercharger-V3 US-Merrillville IN,41.46858,-87.3434
 Supercharger US-Mishawaka IN,41.71733,-86.18856
 Supercharger-V3 US-Munster IN,41.56798,-87.50803
+Supercharger-V4 US-New Albany IN,38.34898,-85.79494
 Supercharger-V3 US-Portage IN George Ade Travel Plaza,41.58747,-87.2177
 Supercharger-V3 US-Portage IN J.T. McCutcheon Travel Plaza,41.58837,-87.21655
 Supercharger-V3 US-Richmond IN,39.86788,-84.88724
@@ -6684,6 +6686,7 @@ Supercharger-V3 US-Greenville SC - Haywood Road,34.8483,-82.33945
 Supercharger-V4 US-Greenville SC Woodruff Rd,34.82725,-82.30178
 Supercharger-V4 US-Greenwood SC,34.22558,-82.19667
 Supercharger-V3 US-Hardeeville SC,32.2705,-81.081
+Supercharger-V4 US-Isle of Palms SC Island Center,32.78924,-79.78787
 Supercharger-V3 US-Lexington SC,33.9524,-81.23285
 Supercharger-V4 US-Manning SC,33.7025,-80.2376
 Supercharger-V4 US-McBee SC,34.4686,-80.25497
@@ -12176,10 +12179,12 @@ ELE DE-Gelsenkirchen Husemannstraße,51.50603,7.09896,20
 Electra AT-Amstetten Oiden,48.13345,14.83784
 Electra AT-Graz Kärntner Straße,47.0448,15.41478
 Electra AT-Linz Wankmüllerhofstraße,48.28068,14.30622
+Electra AT-St. Johann im Pongau Bundesstraße,47.34954,13.19453
 Electra BE-Antwerpen Herentalsebaan,51.20978,4.4586
 Electra BE-Auderghem Chaussée de Wavre,50.79478,4.47889
 Electra BE-Blankenberge Polderlaan,51.31562,3.1471
 Electra BE-Brugge Blankenbergse Steenweg,51.22646,3.2067
+Electra BE-Herstal Rue Basse Campagne,50.6865,5.6432
 Electra BE-Maasmechelen Koninginnelaan,50.98633,5.7015
 Electra BE-Zandhoven Liersebaan,51.1989,4.64353
 Electra CH-Bern Mingerstrasse,46.9592,7.46917
@@ -19405,6 +19410,7 @@ IZIVIA FR-Cournon-d’Auvergne Av. Maréchal Leclerc,45.73998,3.17278,30
 IZIVIA FR-Dunkerque Av. du Stade,51.03307,2.39317
 IZIVIA FR-Déols Avenue Georges Hennequin,46.8519,1.7028
 IZIVIA FR-Fécamp Bd de la République,49.75933,0.37653
+IZIVIA FR-Grayan-et-l’Hôpital Rte de Depee,45.41616,-1.14176
 IZIVIA FR-Haudainville Bd de l’Europe,49.1406,5.40984
 IZIVIA FR-Lempdes Avenue de l’Europe,45.77636,3.18628
 IZIVIA FR-Lyon Rue Jean Marcuit,45.78868,4.81438
@@ -21401,6 +21407,7 @@ Lidl FR-Saint-Priest Rte de Grenoble,45.71637,4.95826
 Lidl FR-Salon-de-Provence All. de Szentendre,43.63804,5.07582
 Lidl FR-Serres-Castet Rue des Eaux bonnes,43.36005,-0.38521,30
 Lidl FR-Socx Fbg de Cassel,50.96278,2.43232
+Lidl FR-Soulac-sur-Mer Rte de Grayan,45.5066,-1.11818
 Lidl FR-Sète Av. Gilbert Martelli,43.41077,3.70984,30
 Lidl FR-Thonon-les-Bains Av. de Thuyset,46.38055,6.49881
 Lidl FR-Varennes-sur-Seine Rte du Petit Fossard,48.36123,2.95788
@@ -22789,6 +22796,7 @@ OMV SK-Púchov Vsetínska cesta,49.1285,18.30397
 
 ON IS-Akureyri Strandgata,65.68403,-18.08697
 ON IS-Borgarnes Digranesgata,64.54262,-21.9084
+ON IS-Fagurhólsmýri Öræfi,63.88132,-16.64638
 ON IS-Fosshótel Mývatn Þingeyjarsveit Mývatni Norðurland,65.65894,-16.95667
 ON IS-Geysir Sveitarfélagið Árborg,64.30918,-20.30389
 ON IS-Jökulsárlón Þjóðvegur,64.04827,-16.17941
@@ -24266,12 +24274,14 @@ RheiNet DE-Rheine Osnabrücker Straße,52.285,7.4609
 rhenag DE-Siegburg Bachstraße,50.79821,7.20391
 rhenag DE-Siegburg Wilhelm-Ostwald-Straße,50.79278,7.221,30
 
+RhönEnergie DE-Fulda Buttlarstraße,50.561,9.67533
 RhönEnergie DE-Fulda Johannisstraße,50.5423,9.66554
 RhönEnergie DE-Fulda Kreuzbergstraße,50.53826,9.69693
 RhönEnergie DE-Fulda Leipziger Straße,50.5701,9.6962
 RhönEnergie DE-Fulda Pacelliallee,50.5464,9.70328
 RhönEnergie DE-Fulda Unterm Heilig Kreuz,50.552,9.67682
 RhönEnergie DE-Gersfeld (Rhön) Wasserkuppe,50.4982,9.94722
+RhönEnergie DE-Großenlüder St.-Georg-Straße,50.58683,9.5398
 RhönEnergie DE-Neuhof Fuldaer Straße,50.45864,9.61928
 
 RICARICA IT-Livorno Via Giovanni Gelati,43.53036,10.32583
