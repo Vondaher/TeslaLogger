@@ -9478,6 +9478,7 @@ AVENCY DE-Wesel Rudolf-Diesel-Straße,51.66348,6.66397
 
 AVIA CH-Chur Rossbodenstrasse,46.85187,9.50544
 AVIA CH-Frauenfeld Zürcherstrasse,47.56279,8.90669
+AVIA CH-Grischun Via Cumünela,46.5783,9.9274
 AVIA CH-Kriens Luzernerstrasse,47.03439,8.28683
 AVIA CH-Lauterbrunnen Zuben,46.59728,7.9074
 AVIA CH-Niederbüren Staatsstrasse,47.46502,9.20127
@@ -11702,6 +11703,8 @@ E.ON SK-Moldava nad Bodvou Rožňavská,48.60853,20.98571
 E.ON SK-Nitra Bratislavská,48.31442,18.06249
 E.ON SK-Sládkovičovo Fučíkova,48.19786,17.62947
 E.ON SK-Trenčín Belá,48.86455,18.02273,20
+
+e1 IS-Vík Sunnubraut,63.4171,-19.01157
 
 EAM DE-Bad Hersfeld Schlossplatz,50.87962,9.85586
 EAM DE-Bad Karlshafen An der Schlagd,51.64255,9.45043
@@ -19386,6 +19389,7 @@ IONNA US-Portsmouth NH Woodbury Avenue,43.08905,-70.7923
 IONNA US-Reading MA Walkers Brook Dr,42.51857,-71.0948
 IONNA US-Reynoldsburg OH Brice Rd,39.92575,-82.8321
 IONNA US-Scranton PA Scranton Carbondale Highway,41.4633,-75.65076
+IONNA US-Simsbury CT Bushy Hill Rd,41.81708,-72.86375
 IONNA US-Springfield IL S Dirksen Pkwy,39.7615,-89.60653
 IONNA US-Springfield OH Titus Road,39.89597,-83.72013
 IONNA US-Valdosta GA Norman Dr,30.82437,-83.3179
@@ -20515,6 +20519,7 @@ Lidl CZ-Praha (Přátelství),50.03887,14.58928,10
 Lidl CZ-Praha K Barrandovu,50.03246,14.38279
 Lidl CZ-Průhonice Uhříněveská,50.0041,14.5654
 Lidl CZ-Slavkov u Brna,49.14736,16.87703
+Lidl CZ-Strakonice Ellerova,49.26028,13.91344
 Lidl CZ-Sulice-Kamenice Hlavní,49.9234,14.5753
 Lidl CZ-Unhošť Pražská,50.08711,14.14139
 Lidl CZ-Valašské Klobouky,49.14074,18.01103,10
@@ -26636,16 +26641,16 @@ TotalEnergies BE-De Haan Koninklijk Plein,51.27272,3.0338
 TotalEnergies BE-De Haan Leopold II-laan,51.30076,3.07835
 TotalEnergies BE-Heusden-Zolder,51.013,5.3332
 TotalEnergies BE-Jabbeke Vlamingveld,51.18532,3.10609
-TotalEnergies BE-Total Bierges E411 Dir Arlon,50.71784,4.58329,80
-TotalEnergies BE-Total Bierges E411 Dir Bruxelles,50.71891,4.58453,80
-TotalEnergies BE-Total Nazareth E17 Dir Gent,50.97076,3.6096,80
-TotalEnergies BE-Total Nazareth E17 Dir Kortrijk,50.97394,3.61569,80
-TotalEnergies BE-Total Nivelles E19 Dir Bruxelles,50.61517,4.30056,80
-TotalEnergies BE-Total Ruisbroek E19 Dir Bruxelles,50.77734,4.30142,80
-TotalEnergies BE-Total Ruisbroek E19 Dir Paris,50.7792,4.30045,80
-TotalEnergies BE-Totalenergies Vilvoorde,50.91901,4.42591,80
-TotalEnergies BE-Totalenergies Zwijndrecht,51.2037,4.31819,80
+TotalEnergies BE-Nazareth E17 Dir Gent,50.97076,3.6096
+TotalEnergies BE-Nazareth E17 Dir Kortrijk,50.97394,3.6157
+TotalEnergies BE-Nivelles E19 Dir Bruxelles,50.61517,4.30056
+TotalEnergies BE-Ruisbroek E19 Dir Bruxelles,50.77734,4.30142
+TotalEnergies BE-Ruisbroek E19 Dir Paris,50.7792,4.30045
+TotalEnergies BE-Vilvoorde Schaarbeeklei,50.919,4.4259
+TotalEnergies BE-Wavre E411 Dir Arlon,50.71784,4.5833
+TotalEnergies BE-Wavre E411 Dir Bruxelles,50.7189,4.58453
 TotalEnergies BE-Zolder Zonhofen,51.0112,5.3321
+TotalEnergies BE-Zwijndrecht Krijgsbaan,51.2037,4.3182
 TotalEnergies DE-Ahlen Kruppstraße,51.76906,7.9292
 TotalEnergies DE-Barsinghausen,52.33315,9.41458,80
 TotalEnergies DE-Berlin,52.58205,13.43239,80
