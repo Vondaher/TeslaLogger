@@ -10193,7 +10193,7 @@ ChargePoint US-West Gardiner Maine Turnpike,44.20741,-69.82712
 
 chargespot GR-Kerkira Κέρκυρα EO Vrionis-Agiou Nikolaou,39.5466,19.9136
 chargespot GR-Loutraki Λουτράκι Meg. Alexandrou,37.97272,22.97817
-chargespot GR-Ξανθη χιλ Ξανθης-Καβαλας,41.12297,24.88067
+chargespot GR-Xanthi Ξανθη χιλ Ξανθης-Καβαλας,41.12297,24.88067
 
 ChargeUp CZ-Brno-Královo Pole Cimburkova,49.21703,16.60614
 
@@ -11704,6 +11704,7 @@ E.ON SK-Nitra Bratislavská,48.31442,18.06249
 E.ON SK-Sládkovičovo Fučíkova,48.19786,17.62947
 E.ON SK-Trenčín Belá,48.86455,18.02273,20
 
+e1 IS-Selfoss Eyravegur,63.93668,-21.00428
 e1 IS-Vík Sunnubraut,63.4171,-19.01157
 
 EAM DE-Bad Hersfeld Schlossplatz,50.87962,9.85586
@@ -12372,8 +12373,6 @@ ELEN HR-Bjelovar Trg Hrvatskih Branitelja,45.90063,16.83896
 ELEN HR-Brinje Autocesta A1,45.00604,15.12841
 ELEN HR-Brinje Autocesta A1,45.00711,15.1282
 ELEN HR-Cres Aldo Negri,44.96024,14.40533
-ELEN HR-Crodux Janjče,44.75127,15.37329,16
-ELEN HR-Crodux Janjče,44.75131,15.3752,16
 ELEN HR-Dubrovnik Ul. Ivana Meštrovića,42.65542,18.0786
 ELEN HR-Dubrovnik Ul. Iza Grada,42.64249,18.10766
 ELEN HR-Funtana Ribarska ul.,45.17531,13.60255
@@ -12383,12 +12382,14 @@ ELEN HR-Kastav,45.3727,14.34987
 ELEN HR-Lepa Bukva,46.23926,15.84732
 ELEN HR-Lopar D105,44.8358,14.72537
 ELEN HR-Makarska Ul. Ruđera Boškovića,43.29709,17.01489
-ELEN HR-Mogorić Odmorište Zir,44.46139,15.60251
-ELEN HR-Mogorić Odmorište Zir,44.46272,15.60272
+ELEN HR-Mogorić Odmorište Zir Istok,44.46272,15.60272
+ELEN HR-Mogorić Odmorište Zir Zapad,44.4614,15.6025
 ELEN HR-Motovun,45.33122,13.82498
 ELEN HR-Nadin-Sjever,44.06219,15.53119
 ELEN HR-Nova Gradiška Trg kralja Tomislava,45.25869,17.38101
 ELEN HR-Novalja Burin Bok,44.55254,14.89333
+ELEN HR-Odmorište Janjče Istok,44.7512,15.37522,16
+ELEN HR-Odmorište Janjče Zapad,44.75127,15.3733,16
 ELEN HR-Odmorište Novoselec,45.63787,16.51281
 ELEN HR-Opatija Štangerova,45.34735,14.31912
 ELEN HR-Orebić Ul. Bana Josipa Jelačića,42.97708,17.18783
@@ -14854,6 +14855,7 @@ Enefit EE-Kuressaare Raekoja tn,58.25286,22.4881
 Enefit EE-Narva Tallinna mnt,59.37906,28.18792
 Enefit EE-Pärnu Ranna pst,58.37367,24.50322
 Enefit EE-Tallinn Marja tn,59.42299,24.69653
+Enefit EE-Tallinn Rävala pst,59.43377,24.75668
 Enefit LV-Cēsis Raunas iela,57.31243,25.27532
 
 EnelX IT-Adria Via Bortolina,45.06226,12.05158
@@ -22048,6 +22050,8 @@ Milence DE-München Werner-Heisenberg-Allee,48.211,11.6196
 Milence DE-Oranienbaum-Wörlitz An der A 9,51.85247,12.34155
 Milence DE-Recklinghausen Blitzkuhlenstraße,51.5929,7.22212
 
+Milepost SE-Vaxholm Parkgatan,59.40192,18.34825
+
 MNCA FR-Nice Rue Trachel,43.70642,7.26382
 
 MOBI.E PT-Aveiro Estrada Nacional,40.65115,-8.62016
@@ -22160,6 +22164,7 @@ MOON AT-Tarsdorf Weilhartstraße,48.07886,12.82685
 MOON AT-Umhausen Niederthai,47.12481,10.96205
 MOON AT-Wien Harry-Glück-Platz,48.16716,16.34891
 MOON AT-Wien Ketzergasse,48.13058,16.29811
+MOON BA-Sarajevo Rajlovačka cesta,43.87316,18.31058
 MOON CH-Nussbaumen Schulstrasse,47.48777,8.2926
 MOON DE-Anger Hauptstraße,47.79073,12.86924
 MOON DE-Augsburg Donaustraße 8,48.37555,10.9318
@@ -23579,6 +23584,7 @@ PKP PL-Wrocław Marszałka Józefa Piłsudskiego,51.09902,17.03853
 Plan-Net-solar SI-Ljubljana Celovška cesta,46.09948,14.45996
 
 Plenitude CH-Delémont Rte de Porrentruy,47.3609,7.33547
+Plenitude CH-Val Müstair San Roc,46.62792,10.3322
 Plenitude DE-Ahrensfelde Blumberger Chaussee,52.5826,13.58773
 Plenitude DE-Alsfeld An der Hessenhalle,50.7385,9.24728,40
 Plenitude DE-Altenburg Leipziger Straße,51.0098,12.4536
@@ -24105,6 +24111,8 @@ Recharge SE-Örnsköldsvik Valhallavägen,63.30156,18.72527
 
 ReCharge-Alaska US-Anchorage AK E 33rd Ave,61.19156,-149.87014
 ReCharge-Alaska US-Glennallen Glenn Hwy,62.10706,-145.52762
+
+reCHARGEon DE-Worpswede Albert-Reiners-Platz,53.221,8.93133
 
 RED-E US-Elk Rapids MI Ames St,44.89894,-85.401
 
@@ -25912,6 +25920,7 @@ SW-Strausberg DE-Strausberg Herrenseeallee,52.55756,13.87258
 SW-Strausberg DE-Strausberg Lindenplatz,52.5789,13.88275
 SW-Stuttgart DE-Gerlingen Hauptstraße,48.79803,9.06156,20
 SW-Stuttgart DE-Stuttgart Hedelfinger Straße,48.76977,9.24844
+SW-Stuttgart DE-Stuttgart Rotenwaldstraße,48.7655,9.11652
 SW-Treuchtlingen DE-Treuchtlingen Fischergasse,48.95573,10.9098
 SW-Trier DE-Konz Am Markt,49.698,6.57217
 SW-Trier DE-Trier Am Gillenbach,49.76767,6.6242
