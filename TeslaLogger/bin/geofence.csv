@@ -5015,6 +5015,7 @@ Supercharger-V3 US-Weaverville CA,40.72057,-122.92813
 Supercharger-V4 US-Weed CA,41.42157,-122.38462
 Supercharger-V4 US-Weed CA Shastina Dr,41.39864,-122.38034
 Supercharger-V3 US-West Covina CA,34.07044,-117.88954
+Supercharger-V4 US-West Hollywood CA,34.09163,-118.38224
 Supercharger-V3 US-West Hollywood CA (Pay to Park),34.09124,-118.38263
 Supercharger-V4 US-West Sacramento CA,38.57305,-121.5804
 Supercharger-V4 US-Westlake Village CA,34.18477,-118.78797
@@ -6634,6 +6635,7 @@ Supercharger-V4 US-Newtown PA,40.22825,-74.90337
 Supercharger US-North Huntingdon PA,40.31408,-79.6714
 Supercharger-V3 US-North Huntingdon PA Ronda Ct,40.31676,-79.68386
 Supercharger-V3 US-North Wales PA,40.21872,-75.2475
+Supercharger-V4 US-North Wales PA Bethlehem Pike,40.2222,-75.23312
 Supercharger-V4 US-Philadelphia PA,39.96523,-75.1326
 Supercharger US-Philadelphia PA - Center City,39.95145,-75.15846
 Supercharger-V3 US-Philadelphia PA - Church Street,40.0023,-75.08164
@@ -6703,6 +6705,7 @@ Supercharger-V3 US-Ridgeland SC,32.48533,-80.97808
 Supercharger-V4 US-Ridgeland SC E Main St,32.47923,-80.97413
 Supercharger US-Santee SC,33.48625,-80.47596
 Supercharger-V3 US-Spartanburg SC,34.93652,-81.98282
+Supercharger-V4 US-Spartanburg SC Simuel Rd,34.96914,-82.00052
 Supercharger-V3 US-St. George SC,33.1955,-80.59985
 Supercharger-V3 US-Summerton SC,33.58692,-80.35722
 Supercharger-V3 US-Walterboro SC,32.93214,-80.6927
@@ -6865,6 +6868,7 @@ Supercharger-V3 US-Houston TX Hempstead Hwy,29.913,-95.61584
 Supercharger-V4 US-Houston TX Hwy 6 S,29.70547,-95.643
 Supercharger-V3 US-Houston TX Queensbury Lane,29.77892,-95.5592
 Supercharger-V4 US-Houston TX S Sam Houston Pkwy E,29.6015,-95.26502
+Supercharger-V4 US-Houston TX S Texas 6 Stealth Group,29.72495,-95.6443
 Supercharger-V4 US-Houston TX Weslayan St,29.72268,-95.44293
 Supercharger-V3 US-Houston TX Westheimer Road,29.73707,-95.46457
 Supercharger US-Houston-North TX,29.9803,-95.42156
@@ -11705,6 +11709,7 @@ E.ON SK-Sládkovičovo Fučíkova,48.19786,17.62947
 E.ON SK-Trenčín Belá,48.86455,18.02273,20
 
 e1 IS-Selfoss Eyravegur,63.93668,-21.00428
+e1 IS-Selfoss Skógarás,64.2789,-20.44442
 e1 IS-Vík Sunnubraut,63.4171,-19.01157
 
 EAM DE-Bad Hersfeld Schlossplatz,50.87962,9.85586
@@ -12350,6 +12355,7 @@ electrip HR-Krnjak Budačka Rijeka,45.31045,15.6153
 electrip HR-Osijek Svilajska ul.,45.56092,18.63974
 electrip HR-Osijek Ul. Svetog Leopolda Bogdana Mandića,45.54814,18.65775
 electrip HR-Rijeka Osječka ul.,45.34167,14.42436
+electrip HR-Tučepi Slatina,43.2731,17.04598
 electrip HR-Zagreb Oreškovićeva ulica,45.75946,15.98306
 electrip HR-Zagreb Ulica Velimira Škorpika,45.79679,15.85954
 electrip IT-Argenta Largo Ludovico Ariosto,44.58344,11.86157
@@ -14159,6 +14165,7 @@ EnBW DE-Piding Lattenbergstraße,47.76424,12.90358,10
 EnBW DE-Piding Lattenbergstraße,47.76546,12.9053
 EnBW DE-Pirmasens Zweibrücker Straße,49.2147,7.59586
 EnBW DE-Plankstadt Am Festplatz,49.39615,8.59142
+EnBW DE-Plankstadt Am Ungersgarten,49.39828,8.58067
 EnBW DE-Plankstadt Friedrichstraße,49.3912,8.5968
 EnBW DE-Plankstadt Jahnstraße,49.3971,8.58498
 EnBW DE-Plankstadt Schwetzinger Straße,49.39218,8.59498
@@ -14856,6 +14863,7 @@ Enefit EE-Narva Tallinna mnt,59.37906,28.18792
 Enefit EE-Pärnu Ranna pst,58.37367,24.50322
 Enefit EE-Tallinn Marja tn,59.42299,24.69653
 Enefit EE-Tallinn Rävala pst,59.43377,24.75668
+Enefit EE-Tartu Sadama,58.37682,26.73498
 Enefit LV-Cēsis Raunas iela,57.31243,25.27532
 
 EnelX IT-Adria Via Bortolina,45.06226,12.05158
@@ -19188,6 +19196,7 @@ Ionity GB-Perth,56.4194,-3.46308
 Ionity GB-Peterborough,52.53266,-0.32065
 Ionity GB-Polmadie,55.83723,-4.24249
 Ionity GB-Stafford Spitfire Cl,52.83142,-2.13565
+Ionity GB-Stranraer Bellevilla Rd,54.9051,-5.02367
 Ionity HR-Gospić Budačka ul.,44.57699,15.39295
 Ionity HR-Kanfanar Okreti,45.1117,13.80262
 Ionity HR-Rašćane Gornje,43.3205,17.16605,31
@@ -22461,6 +22470,7 @@ Neogy IT-Dorf Tirol Aichweg,46.68868,11.15756
 Neogy IT-Eppan an der Weinstraße Kalterer Straße,46.44028,11.25971
 Neogy IT-Kurtinig Weinstraße,46.26909,11.22297
 Neogy IT-Laces Via Centrale,46.6213,10.86706
+Neogy IT-Laces Via Nazionale,46.62225,10.86343
 Neogy IT-Marlengo Franz Innerhofer Straße,46.65566,11.14103
 Neogy IT-Meran Rennstallweg,46.65586,11.14929
 Neogy IT-Merano F.-Innerhofer-Straße,46.66734,11.16443
@@ -22533,6 +22543,7 @@ NEW DE-Niederkrüchten Schulstraße,51.21257,6.163
 NEW DE-Schwalmtal Lüttelforst,51.19272,6.2431
 NEW DE-Schwalmtal Markt,51.2134,6.2726
 NEW DE-Viersen Albertstraße,51.25696,6.33213
+NEW DE-Viersen Brüsseler Allee,51.25572,6.40416
 NEW DE-Viersen Freiheitsstraße,51.255,6.39817
 NEW DE-Viersen Grefrather Straße,51.29454,6.36472
 NEW DE-Viersen Heidweg,51.28635,6.3623
@@ -25744,6 +25755,7 @@ SW-Kiel DE-Kiel Zur Helling,54.3137,10.13654
 SW-Kiel DE-Mönkeberg Am Eksol,54.3485,10.18843
 SW-Kiel DE-Schwentinental Mergenthalerstraße,54.28837,10.22054
 SW-Kiel DE-Schönberg Bürgermeister-Wiese-Straße,54.39314,10.37349
+SW-Kitzbühel DE-Kitzbühel Schwarzseestraße,47.45576,12.36597
 SW-Klagenfurt AT-Klagenfurt 10.-Oktober-Straße,46.62162,14.30779
 SW-Klagenfurt AT-Klagenfurt Kardinalplatz,46.62392,14.31198
 SW-Klagenfurt AT-Klagenfurt Villacher Straße,46.62095,14.2631
@@ -27336,6 +27348,7 @@ Virta SE-Gävle Geodetgatan,60.64035,17.14678
 Virta SE-Höör Frostavallsvägen,55.93715,13.55393
 Virta SE-Järpen Lagervägen,63.3599,13.438
 Virta SE-Luleå Besiktningsvägen,65.61797,22.04446
+Virta SE-Mörrum Kvarnvägen,56.19183,14.74817
 Virta SE-Råneå Kängsövägen,65.85626,22.29
 Virta SE-Smygehamn Smyge strandväg,55.33922,13.35998
 Virta SE-Smögen Hasselösundsvägen,58.36185,11.23254
