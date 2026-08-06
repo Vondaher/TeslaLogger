@@ -3249,7 +3249,7 @@ Supercharger-V4 IS-Laugarvatn Efstidalur II,64.2425,-20.55058
 Supercharger-V3 IS-Staðarskáli,65.14475,-21.084813
 Supercharger-V3 IS-Vatnagardar,64.14496,-21.854711
 Supercharger-V4 IS-Vestmannaeyjabær,63.44277,-20.27188
-Supercharger-V4 IS-Álfabakki,64.10455,-21.8612,60
+Supercharger-V4 IS-Álfabakki,64.1046,-21.8613
 
 Supercharger-V3 IT-Adda Nord,45.511548,9.634876
 Supercharger-V3 IT-Adda Sud,45.510724,9.63624
@@ -3739,7 +3739,7 @@ Supercharger NL-Apeldoorn,52.17832,5.91264
 Supercharger-V3 NL-Apeldoorn Oost,52.2047,6.0161
 Supercharger-V4 NL-Arnhem,52.01587,5.92948
 Supercharger NL-Assen,52.9929,6.52447
-Supercharger NL-Badhoevedorp,52.3293,4.78487
+Supercharger-V4 NL-Badhoevedorp,52.3293,4.78487
 Supercharger-V4 NL-Best,51.49095,5.42457
 Supercharger NL-Breda,51.5775,4.72997
 Supercharger NL-Breukelen,52.16717,4.98908
@@ -4043,6 +4043,7 @@ Supercharger-V4 PL-Ostróda,53.68538,19.99991
 Supercharger-V4 PL-Piła,53.15074,16.77015
 Supercharger-V4 PL-Poznań,52.40033,16.89305
 Supercharger-V4 PL-Poznań Głogowska,52.3532,16.83784
+Supercharger-V4 PL-Radom,51.37864,21.12812
 Supercharger-V4 PL-Radom,51.37953,21.12552
 Supercharger-V4 PL-Rumia,54.585732,18.37139
 Supercharger-V4 PL-Stryków,51.8928,19.5927
@@ -4484,6 +4485,7 @@ Supercharger-V3 US-Buttonwillow CA - Cal Club Rd (No Amenities),35.49843,-119.54
 Supercharger US-Cabazon CA,33.93134,-116.82013
 Supercharger-V3 US-Cabazon CA Morongo Trail,33.9236,-116.80328
 Supercharger-V3 US-Calabasas CA,34.15445,-118.64546
+Supercharger-V4 US-Calexico CA,32.69506,-115.4972
 Supercharger-V4 US-Camarillo CA,34.2168,-119.06643
 Supercharger-V4 US-Camarillo CA E Daily Dr,34.21838,-119.04555
 Supercharger-V3 US-Cameron Park CA,38.65562,-120.96554
@@ -6518,6 +6520,7 @@ Supercharger-V4 US-Chemult OR,43.0806,-121.8246
 Supercharger-V3 US-Coos Bay OR,43.36633,-124.2156
 Supercharger US-Detroit Lake OR,44.73704,-122.152
 Supercharger-V4 US-Eugene OR,44.06694,-123.0767
+Supercharger-V4 US-Eugene OR Chad Dr,44.09143,-123.06722
 Supercharger-V4 US-Fairview OR,45.53277,-122.44368
 Supercharger-V4 US-Florence OR,44.0073,-124.10196
 Supercharger US-Grants Pass OR,42.46093,-123.32412
@@ -11472,6 +11475,7 @@ E.ON DE-Rastplatz Eichsfeld Nord,51.40398,10.41655
 E.ON DE-Rastplatz Eichsfeld Süd,51.40302,10.41453
 E.ON DE-Rastplatz Hochfelln Nord,47.82897,12.5902
 E.ON DE-Rastplatz Hochfelln Süd,47.82788,12.5909
+E.ON DE-Rastplatz Mahndorfer Marsch West,53.02798,8.94036
 E.ON DE-Raststätte Aachener Land Nord,50.81753,6.21413,10
 E.ON DE-Raststätte Aachener Land Süd,50.81714,6.21555,16
 E.ON DE-Raststätte Aalbek,54.09272,9.92967,25
@@ -12372,6 +12376,7 @@ Elektrum LT-Kaunas Islandijos pl.,54.93426,23.9657
 Elektrum LT-Klaipėda Dvaro g.,55.719,21.2941
 Elektrum LV-Liepāja Jūras iela,56.51114,21.00933
 Elektrum LV-Lubāna Tilta iela,56.9024,26.72048
+Elektrum LV-Rīga Muitas iela,56.95255,24.1003
 
 ELEN HR-Bačva,45.23834,13.71582,15
 ELEN HR-Biograd na Moru Kneza Višeslava,43.93933,15.44046
@@ -18082,6 +18087,8 @@ Grüne-Säule DE-Chemnitz Technologie-Campus,50.8157,12.92507
 Grüne-Säule DE-Glauchau Leipziger Straße,50.82108,12.54255
 Grüne-Säule DE-Magdeburg Am Fuchsberg,52.11238,11.61701
 
+Grünstrom DE-Marsberg Dalheimer Straße,51.53755,8.83984
+
 GW-Finnentrop DE-Finnentrop Bamenohler Straße,51.17225,7.96488
 GW-GP DE-Garmisch-Partenkirchen Am Kreuzeckbahnhof,47.47211,11.0634
 GW-GP DE-Garmisch-Partenkirchen Marienplatz,47.49217,11.08608
@@ -18369,6 +18376,7 @@ Ignitis LT-Raseinių Gabšiai,55.3399,23.09851
 Ignitis LT-Rokiškis Respublikos g.,55.94649,25.58947
 Ignitis LT-Saldus Apvedceļš,56.68284,22.4754
 Ignitis LT-Vilnius Birutės g.,54.69206,25.24607
+Ignitis LT-Vilnius J. Tiškevičiaus g.,54.62414,25.11088
 Ignitis LT-Vilnius Upės g.,54.69392,25.27507
 Ignitis LT-Vilnius Vikingų g.,54.6533,25.27893
 Ignitis LT-Šilagalys Panevėžio aplinkelis,55.67072,24.34852
@@ -22823,6 +22831,7 @@ ON IS-Geysir Sveitarfélagið Árborg,64.30918,-20.30389
 ON IS-Jökulsárlón Þjóðvegur,64.04827,-16.17941
 ON IS-Vegamót Borgarbyggð Borgarnesi Vesturland,64.84913,-22.73512
 ON IS-Vík Austurvegur,63.41773,-19.0021
+ON IS-Ölfus Hellisheiðarvirkjun,64.0373,-21.40162
 
 On-Electric IT-Como Via Giovanni Perlasca,45.8084,9.0885
 
