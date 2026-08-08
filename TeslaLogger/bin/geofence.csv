@@ -3164,7 +3164,6 @@ Supercharger-V4 GR-Thessaloniki Θεσσαλονίκη,40.5547,22.99516
 
 Supercharger-V4 HR-Bačva,45.23919,13.71488
 Supercharger-V4 HR-Bačva,45.23939,13.71592
-Supercharger-V4 HR-Cvetković,45.65381,15.65603,60
 Supercharger-V4 HR-Gospic,44.57727,15.39267
 Supercharger-V4 HR-Gospić,44.5771,15.39341
 Supercharger-V4 HR-Janjče East,44.75155,15.37485
@@ -3172,6 +3171,7 @@ Supercharger-V4 HR-Janjče West,44.75082,15.37355
 Supercharger-V4 HR-Jasenice,44.24,15.5705
 Supercharger-V4 HR-Jasenice,44.2409,15.566
 Supercharger-V4 HR-Jastrebarsko,45.6537,15.65555
+Supercharger-V4 HR-Jastrebarsko,45.65402,15.65658,10
 Supercharger HR-Karlovac,45.51297,15.54748
 Supercharger-V4 HR-Krapina,46.13145,15.8869
 Supercharger-V4 HR-Otočac,44.89332,15.18395
@@ -3257,7 +3257,7 @@ Supercharger-V3 IT-Affi,45.55129,10.78726
 Supercharger-V3 IT-Afragola - Napoli North,40.933331,14.357418
 Supercharger-V4 IT-Agrate Brianza,45.56748,9.36236
 Supercharger-V3 IT-Alessandria,44.916643,8.599638
-Supercharger-V4 IT-Andora,43.962592,8.142398
+Supercharger-V4 IT-Andora,43.9627,8.14287
 Supercharger-V3 IT-Arese,45.561371,9.055905
 Supercharger-V4 IT-Arezzo,43.4368,11.7796
 Supercharger-V4 IT-Asti,44.905472,8.17778
@@ -3311,7 +3311,7 @@ Supercharger-V4 IT-Lecce,40.37623,18.1424
 Supercharger-V4 IT-Livorno,43.5498,10.33986
 Supercharger-V4 IT-Lodi,45.27676,9.45862
 Supercharger-V4 IT-L’Aquila,42.35998,13.3789
-Supercharger IT-Magliano Sabina,42.372085,12.471703
+Supercharger-V4 IT-Magliano Sabina,42.37208,12.4717
 Supercharger-V3 IT-Mantua,45.086472,10.856081,30
 Supercharger-V4 IT-Marina di Sibari,39.753241,16.464725
 Supercharger IT-Melegnano,45.34834,9.282206
@@ -3348,7 +3348,7 @@ Supercharger-V4 IT-Poggibonsi,43.469627,11.15474
 Supercharger IT-Pollein,45.737122,7.372441
 Supercharger-V3 IT-Porto Sant’Elpidio,43.232404,13.749889
 Supercharger-V4 IT-Potenza,40.631634,15.834372
-Supercharger-V4 IT-Reggio Emilia,44.714879,10.638041
+Supercharger-V4 IT-Reggio Emilia,44.71645,10.63623
 Supercharger-V3 IT-Rimini,44.04066,12.589
 Supercharger-V4 IT-Roma,41.88447,12.606245
 Supercharger-V3 IT-Roma Aurelio,41.90242,12.43941
@@ -3727,6 +3727,7 @@ Supercharger-V4 MY-Kuala Lumpur Pavilion Damansara Heights,3.14543,101.66298
 Supercharger-V3 MY-Kuala Lumpur Pavilion KL,3.14892,101.71365
 Supercharger-V4 MY-Kuala Lumpur The Gardens Mall,3.11962,101.67647
 Supercharger-V3 MY-Kuantan Majlis Bandaraya Kuantan,3.7982,103.3218
+Supercharger-V4 MY-Penang Queensbay Mall,5.33302,100.3067
 Supercharger-V3 MY-Penang Sunway Carnival,5.39945,100.39827
 Supercharger-V3 MY-Petaling Jaya Sunway Pyramid,3.07356,101.60725
 Supercharger-V4 MY-Puchong IOI Mall,3.04466,101.61854
@@ -4512,6 +4513,7 @@ Supercharger-V4 US-Citrus Heights CA,38.7092,-121.31373
 Supercharger-V3 US-City of Industry CA - Gale Avenue,33.99457,-117.90036
 Supercharger-V3 US-Clovis CA,36.83666,-119.69763
 Supercharger-V3 US-Coalinga CA,36.25412,-120.23762
+Supercharger-V4 US-Cold Springs CA,38.16208,-120.0563
 Supercharger-V4 US-Colfax CA,39.09484,-120.95197
 Supercharger-V3 US-Commerce CA,34.00693,-118.14955
 Supercharger US-Concord CA,37.9722,-122.05662
@@ -4753,6 +4755,7 @@ Supercharger-V4 US-Olancha CA,36.0478,-117.94648
 Supercharger US-Olema CA,38.04048,-122.78778
 Supercharger-V3 US-Ontario CA,34.06588,-117.6501
 Supercharger-V3 US-Ontario CA - South Vineyard Avenue,34.02976,-117.61213
+Supercharger-V4 US-Ontario CA Inland Empire Blvd,34.06827,-117.5737
 Supercharger-V4 US-Ontario CA Mills Cir,34.07172,-117.55617
 Supercharger-V4 US-Ontario CA N Haven Ave,34.077,-117.57428
 Supercharger-V4 US-Ontario CA Ontario Mills Pkwy,34.06925,-117.55586
@@ -5499,6 +5502,7 @@ Supercharger-V4 US-Jerome ID,42.71492,-114.51795
 Supercharger-V4 US-Kellogg ID,47.54703,-116.1323
 Supercharger-V4 US-Lewiston ID,46.4008,-117.00744
 Supercharger-V4 US-McCall ID,44.9096,-116.1013
+Supercharger-V4 US-Meridian ID,43.59624,-116.392
 Supercharger-V4 US-Mountain Home ID,43.1702,-115.74577
 Supercharger-V3 US-Pocatello ID,42.8996,-112.43523
 Supercharger US-Twin Falls ID,42.59805,-114.45558
@@ -5947,6 +5951,7 @@ Supercharger-V3 US-Saint Louis MO - Riverview Drive,38.76887,-90.18284
 Supercharger-V4 US-Saint Robert MO,37.81535,-92.14107
 Supercharger-V4 US-Sikeston MO,36.89306,-89.52952
 Supercharger US-Springfield MO,37.25215,-93.26524
+Supercharger-V4 US-St Clair MO,38.35633,-90.9794
 Supercharger US-St. Charles MO,38.78214,-90.53284
 Supercharger US-St. Charles MO - Beale Street,38.76474,-90.49338
 Supercharger US-St. Joseph MO,39.76863,-94.8019
@@ -6201,6 +6206,7 @@ Supercharger-V4 US-Piscataway NJ,40.53984,-74.50197
 Supercharger-V3 US-Pompton Lakes NJ,41.00762,-74.29403
 Supercharger-V4 US-Riverdale NJ,40.99024,-74.32465
 Supercharger US-Robbinsville NJ,40.1941,-74.59536
+Supercharger-V4 US-Rochelle Park NJ,40.91423,-74.0791
 Supercharger US-Rockaway NJ,40.9084,-74.55758
 Supercharger-V4 US-Rockaway NJ Green Pond Rd,40.91088,-74.50143
 Supercharger-V3 US-Saddle Brook NJ,40.8972,-74.09745
@@ -12445,6 +12451,7 @@ Elevat SI-Dolenjske Toplice Sokolski trg,45.7557,15.05995
 EleXA TH-Tak Phahonyothin Rd,16.853,99.11637
 
 Elinta LT-Alytus Jotvingių g.,54.39597,24.0441
+Elinta LT-Alytus Rotušės a.,54.3965,24.05048
 Elinta LT-Kaunas Jonavos g.,54.90003,23.88745
 Elinta LT-Kėdainiai J. Basanavičiaus g.,55.28763,23.9742
 Elinta LT-Marijampolė Šv. Margaritos g.,54.55353,23.34648
@@ -13345,7 +13352,7 @@ EnBW DE-Gottmadingen Kornblumenweg,47.73646,8.787,30
 EnBW DE-Grafenwöhr Neue Amberger Straße,49.7161,11.9172
 EnBW DE-Grasleben Helmstedter Straße,52.3029,11.01355
 EnBW DE-Greding Bahnhofstraße,49.04387,11.34986,10
-EnBW DE-Grefrath Lobbericher Straße,51.3316,6.33744
+EnBW DE-Grefrath Lobbericher Straße,51.3311,6.33798
 EnBW DE-Greifswald Hans-Beimler-Straße,54.08788,13.3988
 EnBW DE-Greiz Plauensche Straße,50.6417,12.19472
 EnBW DE-Grevenbroich Frankenstraße,51.04143,6.58426
@@ -13820,7 +13827,7 @@ EnBW DE-Linnich Erkelenzer Straße,50.98292,6.27463
 EnBW DE-Lippstadt Windmüllerstraße,51.66056,8.36052
 EnBW DE-Loiching Landshuter Straße,48.6377,12.42318
 EnBW DE-Lonnerstadt Bürgermeister-Sucker-Straße,49.69634,10.76218
-EnBW DE-Losheim am See Haagstraße,49.513,6.7567
+EnBW DE-Losheim am See Haagstraße,49.51097,6.75578
 EnBW DE-Loßburg Freudenstädter Straße,48.42033,8.44403
 EnBW DE-Loßburg Hauptstraße,48.41414,8.45013
 EnBW DE-Luckau Lübbener Straße,51.85388,13.72795
@@ -14785,7 +14792,7 @@ EnBW DE-Wuppertal Dahler Straße,51.27927,7.23848
 EnBW DE-Wuppertal In der Krim,51.2279,7.20392
 EnBW DE-Wuppertal Oberbergische Straße,51.24568,7.18793
 EnBW DE-Wuppertal Schützenstraße,51.27933,7.1857
-EnBW DE-Wuppertal Uellendahler Straße,51.27535,7.15288
+EnBW DE-Wuppertal Uellendahler Straße,51.27535,7.15288,40
 EnBW DE-Wuppertal Widukindstraße,51.27264,7.22128
 EnBW DE-Wurmberg Dachsteinstraße,48.87183,8.80115
 EnBW DE-Wurmberg Wiernsheimer Straße,48.8728,8.82537
@@ -21651,6 +21658,7 @@ M-Charge CH-Interlaken Rugenparkstrasse,46.68183,7.85233
 M-Charge CH-Konolfingen Thunstrasse,46.8762,7.62082
 M-Charge CH-La Chaux-de-Fonds Rue Daniel-Jeanrichard,47.10027,6.82698
 M-Charge CH-Locarno Via Stefano Franscini,46.16578,8.79575
+M-Charge CH-Murten Bernstrasse,46.93003,7.12302
 M-Charge CH-Rheinfelden Lindenstrasse,47.55543,7.79782
 M-Charge CH-Rothrist Neue Aarburgerstrasse,47.31132,7.8949
 M-Charge CH-Sant’Antonino Via Serrai,46.1534,8.96325
@@ -22829,6 +22837,7 @@ ON IS-Fagurhólsmýri Öræfi,63.88132,-16.64638
 ON IS-Fosshótel Mývatn Þingeyjarsveit Mývatni Norðurland,65.65894,-16.95667
 ON IS-Geysir Sveitarfélagið Árborg,64.30918,-20.30389
 ON IS-Jökulsárlón Þjóðvegur,64.04827,-16.17941
+ON IS-Selfoss Þingvallavegur,64.27967,-21.08915
 ON IS-Vegamót Borgarbyggð Borgarnesi Vesturland,64.84913,-22.73512
 ON IS-Vík Austurvegur,63.41773,-19.0021
 ON IS-Ölfus Hellisheiðarvirkjun,64.0373,-21.40162
@@ -23381,6 +23390,7 @@ Pfalzwerke DE-Lünen Bergstraße,51.60414,7.51474
 Pfalzwerke DE-Mackenbach Hauptstraße,49.47478,7.58678
 Pfalzwerke DE-Magdeburg Salbker Chaussee,52.0811,11.6083
 Pfalzwerke DE-Magdeburg Silberbergweg,52.16672,11.608
+Pfalzwerke DE-Maikammer An der Südumgehung,49.29944,8.13174
 Pfalzwerke DE-Maikammer Eulbuschgasse,49.30843,8.1309
 Pfalzwerke DE-Maikammer Johannes-Damm-Straße,49.30286,8.13225
 Pfalzwerke DE-Mainz Am Schleifweg 5,49.96695,8.2385
@@ -23638,6 +23648,7 @@ Plenitude DE-Riegel Leopoldstraße,48.15456,7.75523
 Plenitude DE-Thurnau Industriestraße,50.02157,11.4081
 Plenitude DE-Weiterstadt Rudolf-Diesel-Straße,49.8998,8.61568
 Plenitude IT-Abano Terme Via Monteortone,45.35475,11.77765
+Plenitude IT-Bardolino Via Madonnina,45.54488,10.72348
 Plenitude IT-Bollate Via Pace,45.55967,9.13734
 Plenitude IT-Bologna Via Antoniotto Usodimare,44.51902,11.32701
 Plenitude IT-Bolzano Romstraße,46.48754,11.3432
@@ -23836,6 +23847,7 @@ Powerdot FR-Thann Rue du Général de Gaulle,47.8081,7.10573
 Powerdot FR-Tulle Quai Victor Continsouza,45.27476,1.77406
 Powerdot FR-Ussac Av. du Griffolet,45.1634,1.48153,30
 Powerdot FR-Valence Imp. des Auréats,44.90199,4.88327
+Powerdot FR-Verdun Av. de Metz,49.14276,5.4083
 Powerdot PL-Cieszyn Wierzbowa,49.75655,18.6395
 Powerdot PL-Gdańsk Gdańska,54.40236,18.63141
 Powerdot PL-Kraków Pawia,50.06798,19.94628
@@ -24332,6 +24344,7 @@ RoboCharge NL-Kamperland Golfslag,51.58942,3.6726
 RoboCharge NL-Nieuwvliet Zeedijk,51.39103,3.45642
 RoboCharge NL-Zeewolde Slingerweg,52.26078,5.39597
 
+Route220 IT-Modena Viale Virginia Reiter,44.6501,10.9373
 Route220 IT-Querce al Pino Via dei Tulipani,43.01616,11.90872
 
 RW-Bodensee DE-Langenargen Bleichweg,47.59338,9.5508
@@ -27844,6 +27857,7 @@ Wirelane DE-Hagenburg Lütgen Hagen,52.4253,9.3216
 Wirelane DE-Hamm Karl-Mecklenbrauck-Weg,51.68263,7.86165
 Wirelane DE-Heppenheim (Bergstraße) Wilhelmstraße,49.64144,8.6409
 Wirelane DE-Hof Kulmbacher Straße,50.32034,11.90445
+Wirelane DE-Karlsruhe Carl-Metz-Straße,49.0093,8.352
 Wirelane DE-Lüdenscheid Kölner Str,51.21608,7.62664
 Wirelane DE-Lütetsburg Landstraße,53.60104,7.2532
 Wirelane DE-Maierhöfen Kirchweg,47.6524,10.0507
