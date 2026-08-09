@@ -9910,7 +9910,6 @@ ChargeIn PL-Żnin-Wieś Aliantów,52.84956,17.69854
 
 chargeIT DE-Coburg Arena,50.28709,10.98081
 chargeIT DE-Greifswald Walther-Rathenau-Straße,54.09027,13.40204
-chargeIT DE-Kaufbeuren,47.88613,10.6389,10
 chargeIT DE-Kist Sonnleite,49.73821,9.8407
 chargeIT DE-Königshofen,49.53672,9.74167
 chargeIT DE-Memmingerberg,47.99015,10.23011
@@ -11175,6 +11174,7 @@ Drivee DK-Thyborøn Vesterhavsgade,56.7052,8.21354
 DriWe IT-Lazise Via della Pergolana,45.51286,10.7314
 
 DRV DE-Rue Rue de Moulin,50.2757,1.66018
+DRV FR-Soulac-sur-Mer Rte de Bordeaux,45.5134,-1.11357
 
 Duferco IT-Albenga Via Cardinale Alimonda,44.05489,8.19572
 Duferco IT-Albissola Marina Via Faraggiana,44.33432,8.50436
@@ -11470,6 +11470,7 @@ E.ON DE-Neumünster Polizei,54.07617,9.96679
 E.ON DE-Neumünster Wasbeker Straße,54.0706,9.94136,20
 E.ON DE-Neuss Langemarck,51.19906,6.71102
 E.ON DE-Norderstedt Stormarnstraße,53.70985,10.01916
+E.ON DE-Parkplatz Sötern,49.59596,7.0486
 E.ON DE-Quickborn Ladepark HanseWerk,53.74554,9.94261
 E.ON DE-Rastanlage Fränkische Schweiz-Pegnitz,49.74842,11.51005
 E.ON DE-Rastanlage Fränkische Schweiz-Pegnitz,49.74854,11.5141
@@ -12188,10 +12189,10 @@ ElDrive RO-Giurgiu Bulevardul Academician Miron Nicolescu,43.90515,25.9736
 ElDrive RO-Giurgiu DN5,43.90831,25.98683
 ElDrive RO-Hărman Strada Dorobanți,45.70247,25.69246
 ElDrive RO-Lehliu-Gară Str. Elefterie Papadisia,44.4359,26.85662
-ElDrive RO-Sebeș Strada Augustin Bena,45.95935,23.5511
+ElDrive RO-Sebeș Strada Augustin Bena,45.95935,23.55118
 ElDrive RO-Sovata Strada Primăverii,46.58118,25.05548
 ElDrive RO-Târgu Mureș Strada Gheorghe Doja,46.52475,24.53758
-ElDrive RO-Vladimirescu Str. Cetății Orod,46.1674,21.38752
+ElDrive RO-Vladimirescu Str. Cetății Orod,46.16738,21.3875
 
 ELE DE-Gelsenkirchen Husemannstraße,51.50603,7.09896,20
 
@@ -17853,6 +17854,8 @@ GOFAST CH-Zug Industriestrasse,47.17238,8.51764
 GOFAST CH-Zweisimmen Thunstrasse,46.5625,7.3758
 GOFAST CH-Zürich Hohlstrasse,47.3906,8.49138
 
+Goldbeck DE-Dresden Prager Straße,51.0457,13.73602
+
 GOplusEAuto PL-Kraków Praska,50.04758,19.91431
 
 GP-JOULE DE-Bad Herrenalb Ettlinger Straße,48.80534,8.44495
@@ -20255,7 +20258,23 @@ Ladegrün DE-Süderholz Pommerndreieck,54.0941,13.0878,25
 Ladegrün DE-Uetze Marktstraße,52.46865,10.20433
 Ladegrün DE-Viernheim Heidelberger Straße,49.52831,8.57323
 
+Ladesonne DE-Bremen Altenwall,53.07213,8.81046
+Ladesonne DE-Bremen Faulenstraße,53.08185,8.79546
 Ladesonne DE-Buchholz (Aller) An der Autobahn,52.67374,9.68755,20
+Ladesonne DE-Celle Arlohstraße,52.6864,10.11407
+Ladesonne DE-Garbsen Steinriede,52.4301,9.61003
+Ladesonne DE-Neustadt am Rübenberge Eilveser Hauptstraße,52.54566,9.4089
+Ladesonne DE-Neustadt am Rübenberge Großer Weg,52.5108,9.46055
+Ladesonne DE-Neustadt am Rübenberge Mardorfer Straße,52.4894,9.2934
+Ladesonne DE-Neustadt am Rübenberge Mecklenhorster Straße,52.50422,9.47694
+Ladesonne DE-Neustadt am Rübenberge Raiffeisenweg,52.57258,9.50414
+Ladesonne DE-Rehburg-Loccum Heidtorstraße,52.47452,9.2279
+Ladesonne DE-Rödermark Carl-Benz-Straße,49.9827,8.7956
+Ladesonne DE-Schönberg Sabower Höhe,53.83842,10.9501
+Ladesonne DE-Sottrum Am Eichkamp,53.11444,9.2268
+Ladesonne DE-Varel Altjührdener Str,53.35917,8.07058
+Ladesonne DE-Werben (Elbe) Marktplatz,52.8618,11.9822
+Ladesonne DE-Wittingen Lindenstraße,52.67543,10.70378
 
 LAKD LT-Biruliškės A1,54.92962,24.02116
 LAKD LT-Pasiekos Europos g,54.31857,23.13653
@@ -20342,8 +20361,6 @@ LichtBlick DE-Hohen Neuendorf Oranienburger Straße,52.67336,13.28186
 LichtBlick DE-Hohen Neuendorf Puschkinallee,52.67006,13.28803
 LichtBlick DE-Höchberg Einsteinstraße,49.77266,9.87102
 LichtBlick DE-Kahl am Main Am Christnersee,50.07708,9.01211
-LichtBlick DE-Kaufbeuren Füssener Straße,47.87142,10.62865
-LichtBlick DE-Kaufbeuren/Neugablonz Sudetenstrasse,47.90372,10.63826
 LichtBlick DE-Kiel Grot Steenbusch,54.2838,10.13211
 LichtBlick DE-Kiel Seekoppelweg,54.2993,10.08652
 LichtBlick DE-Kitzingen Im Richthofen Circle,49.74797,10.18836
@@ -22064,7 +22081,12 @@ MFG GB-Dover Hammond’s Garage,51.11795,1.30706
 MFG GB-GB-Newcastle upon Tyne Airport,55.03737,-1.71405
 MFG GB-Sowerby York Road,54.22878,-1.32917
 
-Midorion DE-Karlsruhe Parkplatz Karlsbad A8,48.94493,8.49432
+Midorion DE-Graben-Neudorf Haydnstraße,49.1716,8.5014
+Midorion DE-Graben-Neudorf Tullastraße,49.16058,8.48406
+Midorion DE-Karlsruhe Rudolf-Link-Straße,48.94493,8.49432
+Midorion DE-Linkenheim-Hochstetten Karlsruher Straße,49.12862,8.41563
+Midorion DE-Stutensee Hauptstraße,49.0601,8.4695
+Midorion DE-Stutensee Kirchstraße,49.11048,8.51512
 
 Milence DE-Himmelkron Frankenring,50.0516,11.62134
 Milence DE-Kirchberg an der Jagst Von-Humboldt-Straße,49.1751,9.9627
@@ -25769,11 +25791,17 @@ SW-Kiel DE-Flensburg Langberger Weg,54.77389,9.39517
 SW-Kiel DE-Holtenau Kanalstraße,54.36995,10.14207
 SW-Kiel DE-Kiel Am Seefischmarkt,54.32578,10.17976
 SW-Kiel DE-Kiel Antipper,54.3123,10.13718
+SW-Kiel DE-Kiel Bernhard-Harms-Weg,54.33743,10.15664
+SW-Kiel DE-Kiel Feldstraße,54.3475,10.1396
+SW-Kiel DE-Kiel Former,54.3137,10.13654
 SW-Kiel DE-Kiel Herzog-Friedrich-Straße,54.3177,10.13083
+SW-Kiel DE-Kiel Lorentzendamm,54.3259,10.13483
 SW-Kiel DE-Kiel Mühlendamm,54.31149,10.0999
+SW-Kiel DE-Kiel Reichenberger Allee,54.29468,10.1851
+SW-Kiel DE-Kiel Stemmer,54.31315,10.13612
+SW-Kiel DE-Kiel Tempest,54.42545,10.16796
 SW-Kiel DE-Kiel Tiefe Allee,54.32907,10.18977
 SW-Kiel DE-Kiel Wall,54.32142,10.14047
-SW-Kiel DE-Kiel Zur Helling,54.3137,10.13654
 SW-Kiel DE-Mönkeberg Am Eksol,54.3485,10.18843
 SW-Kiel DE-Schwentinental Mergenthalerstraße,54.28837,10.22054
 SW-Kiel DE-Schönberg Bürgermeister-Wiese-Straße,54.39314,10.37349
@@ -27364,6 +27392,7 @@ Virta FI-Vaasa Kiitokaari,63.05324,21.71852,30
 Virta FI-Vaasa Laivakatu,63.10321,21.62373
 Virta FR-Reichstett Boulevard des Enseignes,48.65242,7.73073
 Virta FR-Saintes Rue de la Côte de Beauté,45.74666,-0.66974
+Virta FR-Vielle-Saint-Girons Route de la Plage,43.95595,-1.35736
 Virta HU-Budapest Erzsébet krt.,47.49892,19.07007
 Virta IS-Akureyri Gleráreyrar,65.68835,-18.10166
 Virta SE-Gävle Geodetgatan,60.64035,17.14678
@@ -27603,9 +27632,21 @@ VSW DE-Mölln Waldhallenweg,53.62199,10.7059
 VSW DE-Ratzeburg Schloßwiese,53.69925,10.76584
 
 VWEW DE-Biessenhofen Füssener Straße,47.83015,10.6412
+VWEW DE-Kaufbeuren Augsburger Straße,47.88613,10.6389,10
+VWEW DE-Kaufbeuren Bachschmidstraße,47.8866,10.62858
+VWEW DE-Kaufbeuren Bavariaring,47.89433,10.64327
+VWEW DE-Kaufbeuren Füssener Straße,47.8714,10.6286
 VWEW DE-Kaufbeuren Grünwalder Straße,47.915,10.62955
+VWEW DE-Kaufbeuren Johannes-Haag-Straße,47.88088,10.62712
+VWEW DE-Kaufbeuren Mathildenstraße,47.89074,10.6201
+VWEW DE-Kaufbeuren Sudetenstraße,47.90372,10.63826
+VWEW DE-Marktoberdorf Alfons-Wanner-Straße,47.7896,10.61268
+VWEW DE-Marktoberdorf Brückenstraße,47.77347,10.604
 VWEW DE-Marktoberdorf Georg-Fischer-Straße,47.7779,10.61797
+VWEW DE-Marktoberdorf Kurfürstenstraße,47.77986,10.62323
 VWEW DE-Mindelheim Georgenstraße,48.04487,10.48474
+VWEW DE-Mindelheim Kloster-Heilig-Kreuz-Straße,48.0509,10.4959
+VWEW DE-Mindelheim Reichenwallerstraße,48.04783,10.49245
 
 Wally’s US-Pontiac IL Holiday Rd,40.87077,-88.66856
 
