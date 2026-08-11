@@ -5899,6 +5899,7 @@ Supercharger US-Duluth MN,46.78458,-92.1023
 Supercharger-V3 US-Eagan MN,44.79518,-93.20555
 Supercharger-V4 US-Eden Prairie MN,44.8582,-93.42274
 Supercharger US-Hinckley MN,46.00986,-92.9299
+Supercharger-V4 US-Lakeville MN,44.6828,-93.2905
 Supercharger-V3 US-Maple Grove MN,45.135,-93.47624
 Supercharger-V4 US-Medina MN Medina Ventures,45.052,-93.5614
 Supercharger-V3 US-Minneapolis MN,45.00467,-93.22836
@@ -6221,6 +6222,7 @@ Supercharger-V3 US-Union NJ,40.69584,-74.254
 Supercharger-V3 US-Westampton NJ Rancocas Road,40.00685,-74.86095
 Supercharger-V3 US-Woodbridge Township NJ,40.53635,-74.29802
 Supercharger-V3 US-Woodcliff Lake NJ,41.04138,-74.0748
+Supercharger-V4 US-Woodcliff Lake NJ Chestnut Ridge Rd,41.0438,-74.0721
 
 Supercharger-V4 US-Alamogordo NM,32.90048,-105.9563
 Supercharger US-Albuquerque NM,35.10856,-106.6127
@@ -11660,7 +11662,6 @@ E.ON DK-Blankhøj,56.17523,10.06582
 E.ON DK-Christiansfeld Tyrstrup Vestervej 6 Kro,55.3598,9.4664
 E.ON DK-Ebeltoft Vestervej,56.1926,10.67051
 E.ON DK-Harte E20,55.5143,9.39947
-E.ON DK-Harte Syd Rasteplads,55.51194,9.3949
 E.ON DK-Helsingør Ny Kronborgvej,56.03927,12.61313
 E.ON DK-Herning Midtjyske Motorvej,56.03965,9.00487
 E.ON DK-Hurup Thy Idrætsvej,56.75326,8.4158
@@ -11675,6 +11676,7 @@ E.ON DK-Pedersminde,56.17808,10.06549
 E.ON DK-Randers Danish Crown Vej,56.41266,10.06471
 E.ON DK-Randers Gammel Århusvej,56.41237,10.07628
 E.ON DK-Randers Gammel Århusvej,56.41283,10.07415
+E.ON DK-Rasteplads Harte Syd,55.51194,9.3949
 E.ON DK-Ringsted Nørretorv,55.45078,11.78904
 E.ON DK-Roskilde Schmeltz Pl.,55.63985,12.07869
 E.ON DK-Rømø Lakolk,55.14638,8.49568
@@ -14718,7 +14720,7 @@ EnBW DE-Welschbillig Op Kullert,49.8563,6.55467
 EnBW DE-Welver Werler Straße,51.61524,7.9546
 EnBW DE-Welzheim Kirchplatz,48.87536,9.63444
 EnBW DE-Wemding Bahnhofstraße,48.8726,10.7108
-EnBW DE-Wendelstein Rother Straße,49.3344,11.11436
+EnBW DE-Wendelstein Rother Straße,49.3344,11.11436,40
 EnBW DE-Wentorf Südring,53.48795,10.2695
 EnBW DE-Werdau Stiftstraße,50.71095,12.41507
 EnBW DE-Werder (Havel) Auf dem Strengfeld,52.36213,12.9362
@@ -15013,6 +15015,7 @@ EnelX IT-Tortoli Via Cedrino,39.92554,9.66188
 EnelX IT-Tortolì Via Giacomo Puccini,39.92556,9.65228
 EnelX IT-Trapani Via Nicolò Rodolico,38.00995,12.5658
 EnelX IT-Tremezzina Via Patrizio Peduzzi,45.98272,9.22183
+EnelX IT-Trevignano Romano Via della Rena,42.15598,12.24504
 EnelX IT-Urbino Piazza Mercatale,43.72436,12.63451
 EnelX IT-Urbino Via Bonconte da Montefeltro,43.73488,12.63195
 EnelX IT-Vada SP13,43.35361,10.46148
@@ -17416,6 +17419,7 @@ Fastned DE-Werl Büdericher Bundesstraße,51.54347,7.87732
 Fastned DE-Wittenburg Zur Winterweilt,53.50762,11.0969,12
 Fastned DE-Wittstock/Dosse Hamburgerstraße,53.15744,12.45124
 Fastned DE-Wolpertshausen Birkichstraße,49.1707,9.86035
+Fastned DK-Rasteplads Gudenå Vest,56.45,9.9981
 Fastned FR-Achères-la-Forêt Aire d A6,48.36078,2.574
 Fastned FR-Aire de Gevrey-Chambertin Ouest,47.21672,5.00188,30
 Fastned FR-Aire de Keskastel,48.97201,7.06871
@@ -18297,6 +18301,7 @@ Iberdrola ES-Eivissa Carrer de Cales Ànimes,38.92095,1.4411
 Iberdrola ES-El Burgo de Osma Av. Juan Carlos I,41.5879,-3.06723
 Iberdrola ES-El Palmar C.Mayor,37.93556,-1.16327
 Iberdrola ES-Elche Av. del Alcalde Vicente Quiles,38.27242,-0.69049
+Iberdrola ES-Elgorriaga Leitza Doneztebe errepidea,43.13435,-1.69007
 Iberdrola ES-Encinas de Abajo Ctra. de Villacastín,40.93201,-5.4669
 Iberdrola ES-Figueres Ctra. De Figueres to Roses,42.26855,2.99926
 Iberdrola ES-Finestrat Avinguda País Valencià,38.53643,-0.17942
@@ -20025,7 +20030,7 @@ Kaufland DE-Weinsberg Haller Straße,49.1503,9.29884
 Kaufland DE-Weiterstadt Rudolf-Diesel-Straße,49.90244,8.60882
 Kaufland DE-Weißenburg in Bayern Eichstätter Straße,49.0271,10.9853,60
 Kaufland DE-Weißenfels Max-Planck-Straße,51.18782,11.98175
-Kaufland DE-Wendelstein Rother Straße,49.33484,11.1149
+Kaufland DE-Wendelstein Rother Straße,49.33484,11.1149,30
 Kaufland DE-Wendlingen am Neckar Wertstraße,48.6727,9.36416
 Kaufland DE-Wernigerode Am Schreiberteich,51.8435,10.78094
 Kaufland DE-Wertheim Bismarckstraße,49.76712,9.50925
@@ -21847,6 +21852,7 @@ Mer AT-Leobersdorf Europastraße,47.93148,16.20426
 Mer AT-Linz Freistädter Straße,48.3292,14.31256
 Mer AT-Linz Wegscheider Straße,48.25432,14.28143,40
 Mer AT-Lustenau Sägerstraße,47.41796,9.67112
+Mer AT-Mattighofen Braunauerstraße,48.108,13.14802
 Mer AT-Neusiedl am See Wiener Straße,47.97165,16.83809
 Mer AT-Rohrbach Volksfeststraße,48.56651,13.98278
 Mer AT-Rum Kaplanstraße,47.27711,11.4562
@@ -22427,6 +22433,7 @@ N-ERGIE DE-Nürnberg Singerstraße,49.43848,11.06887
 N-ERGIE DE-Nürnberg Sulzbacher Straße,49.45787,11.09089
 N-ERGIE DE-Nürnberg Südliche Fürther Straße,49.44859,11.06246,25
 N-ERGIE DE-Nürnberg Südwestpark,49.42782,11.01953
+N-ERGIE DE-Pleinfeld Leitenbuckstraße,49.12018,10.93026
 N-ERGIE DE-Roßtal Dinkelsbühler Straße,49.3633,10.87108
 N-ERGIE DE-Schnaittach Festungsstraße,49.55954,11.34225
 N-ERGIE DE-Schnaittach Simonshofer Straße,49.55663,11.33758
@@ -22892,6 +22899,7 @@ ON IS-Borgarnes Digranesgata,64.54262,-21.9084
 ON IS-Fagurhólsmýri Öræfi,63.88132,-16.64638
 ON IS-Fosshótel Mývatn Þingeyjarsveit Mývatni Norðurland,65.65894,-16.95667
 ON IS-Geysir Sveitarfélagið Árborg,64.30918,-20.30389
+ON IS-Húsavík Ketilsbraut,66.04615,-17.3393
 ON IS-Jökulsárlón Þjóðvegur,64.04827,-16.17941
 ON IS-Selfoss Þingvallavegur,64.27967,-21.08915
 ON IS-Vegamót Borgarbyggð Borgarnesi Vesturland,64.84913,-22.73512
@@ -24343,6 +24351,8 @@ REWAG DE-Regensburg Schwanenplatz,49.01842,12.10193
 REWAG DE-Regensburg Weichser Weg,49.02644,12.11542
 REWAG DE-Regenstauf Am Spangl,49.12192,12.12467
 
+Rexel NL-Brielle Oude Verdaam,51.90962,4.18347
+
 Rheinenergie DE-Aachen Europaplatz,50.7795,6.10656
 Rheinenergie DE-Alsdorf Max-Planck-Straße,50.87809,6.18548
 Rheinenergie DE-Bergheim Kölner Straße,50.95217,6.64674
@@ -24401,6 +24411,7 @@ RoboCharge NL-Nieuwvliet Zeedijk,51.39103,3.45642
 RoboCharge NL-Zeewolde Slingerweg,52.26078,5.39597
 
 Route220 IT-Modena Viale Virginia Reiter,44.6501,10.9373
+Route220 IT-Piombino Località Montecaselli,42.94262,10.53556
 Route220 IT-Querce al Pino Via dei Tulipani,43.01616,11.90872
 
 RW-Bodensee DE-Langenargen Bleichweg,47.59338,9.5508
@@ -25644,6 +25655,7 @@ SW-Bielefeld DE-Bielefeld Schopketalweg,51.93301,8.61019
 SW-Bitterfeld-Wolfen DE-Muldestausee Parkplatz Pegelturm Goitzsche,51.6383,12.35653
 SW-BK DE-Bad Kissingen Geschwister-Scholl-Platz,50.20659,10.08166
 SW-Blankenburg DE-Hasselfelde Blauvogel,51.67625,10.83572
+SW-Blankenburg DE-Rübeland Blankenburger Straße,51.75467,10.84388
 SW-Bochum DE-Bochum Blumenau,51.438,7.27965
 SW-Bochum DE-Bochum Dorstener Straße,51.5066,7.19202,20
 SW-Bochum DE-Bochum Hauptbahnhof,51.47871,7.2221
@@ -26696,6 +26708,7 @@ teamstrom DE-Harrislee Westerstraße,54.8036,9.3724
 teamstrom DE-Kappeln Eckernförder Straße,54.65752,9.94595
 teamstrom DE-Kronshagen Eckernförder Straße,54.33708,10.1056
 teamstrom DE-Kropp Am Markt,54.4121,9.5083
+teamstrom DE-Langballig Schwarze Straße,54.79913,9.63582
 teamstrom DE-Lüchow (Wendland) Seerauer Straße,52.9776,11.16427
 teamstrom DE-Magdeburg Berliner Chausee,52.1302,11.6786
 teamstrom DE-Munster Zum Sprötzloh,52.98774,10.10913
@@ -27510,6 +27523,8 @@ Virta SE-Smygehamn Smyge strandväg,55.33922,13.35998
 Virta SE-Smögen Hasselösundsvägen,58.36185,11.23254
 Virta SE-Västervik Allén,57.76055,16.61269
 Virta SK-Prešov Cesta na Senec,48.98978,21.25838
+
+Vispiron DE-Hallbergmoos Messerschmittstraße,48.3308,11.7301
 
 Volkswagen AT-Haag am Hausruck Reischau,48.19852,13.6362
 Volkswagen AT-Mondsee Am Schusterbach,47.87779,13.32143
@@ -28376,6 +28391,7 @@ CH Knonau Dollägerten,47.22587,8.45925
 CH Laax Via Principala,46.80573,9.2575
 CH Lenzerheide Hotel La Palanca,46.72523,9.54805
 CH Lostorf Vogt,47.3855,7.953
+CH Luzern Unterlachenstrasse,47.04205,8.31313
 CH Mollis Flugplatz,47.07917,9.06692
 CH Moosseedorf Shoppyland,47.01751,7.4925
 CH Nendaz Green Motion Charging Station Rte des Ecluses,46.18237,7.29118,10
