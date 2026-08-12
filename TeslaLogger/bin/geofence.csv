@@ -2828,6 +2828,7 @@ Supercharger-V4 FR-Saint-Geours-de-Maremne,43.711847,-1.232819
 Supercharger-V4 FR-Saint-Germain-les-Corbeil,48.630851,2.494625
 Supercharger-V3 FR-Saint-Jean-de-Maurienne,45.266392,6.372743
 Supercharger-V3 FR-Saint-Julien-en-Genevois,46.12969,6.08737
+Supercharger-V3 FR-Saint-Julien-en-Genevois Route de Lathoy,46.14147,6.09545
 Supercharger-V3 FR-Saint-Louis,47.605065,7.543048
 Supercharger-V4 FR-Saint-Pardoux-l’Ortigier,45.306263,1.561602
 Supercharger-V3 FR-Saint-Parres,48.29339,4.13019,70
@@ -3234,6 +3235,7 @@ Supercharger-V4 IN-Navi Mumbai Nexus Seawoods,19.02202,73.01916
 Supercharger-V4 IN-New Delhi Aerocity Worldmark 3,28.55123,77.12205
 
 Supercharger-V4 IS-Akureyri,65.69741,-18.13922
+Supercharger-V4 IS-Akureyri Iceland Leiruvegur,65.66967,-18.08028
 Supercharger-V4 IS-Blönduós,65.66053,-20.27496
 Supercharger-V3 IS-Egilsstaðir,65.259368,-14.406532
 Supercharger-V4 IS-Egilsstaðir Kaupvangur,65.26084,-14.4069
@@ -7341,6 +7343,7 @@ Tesla Service Center DE-Kirchheim,48.15108,11.74895
 Tesla Service Center DE-Leipzig,51.33855,12.2989
 Tesla Service Center DE-Magdeburg,52.165,11.60307
 Tesla Service Center DE-Mannheim,49.44428,8.57507
+Tesla Service Center DE-München Freiham,48.1381,11.418
 Tesla Service Center DE-München Parsdorf,48.14702,11.79131
 Tesla Service Center DE-Neu-Ulm,48.38666,10.03026
 Tesla Service Center DE-Nürnberg,49.46377,11.12743
@@ -8052,6 +8055,7 @@ Allego DE-Bernau am Chiemsee Theodor-Sanne-Straße,47.8138,12.36648,20
 Allego DE-Bernau bei Berlin Rüdnitzer Chaussee,52.6846,13.5985
 Allego DE-Bielefeld Bielitzer Straße,51.99863,8.60896
 Allego DE-Bielefeld Herforder Straße,52.0393,8.56794
+Allego DE-Binz Bahnhofstraße,54.39117,13.6146
 Allego DE-Binzen Am Dreispitz,47.62568,7.60696
 Allego DE-Bischofsheim Neben dem Mühlenweg,49.9748,8.37982
 Allego DE-Bissendorf Zum Eistruper Feld,52.23774,8.16333,25
@@ -11722,6 +11726,7 @@ E.ON SK-Nitra Bratislavská,48.31442,18.06249
 E.ON SK-Sládkovičovo Fučíkova,48.19786,17.62947
 E.ON SK-Trenčín Belá,48.86455,18.02273,20
 
+e1 IS-Borgarbyggð Baulan,64.6748,-21.66553
 e1 IS-Selfoss Eyravegur,63.93668,-21.00428
 e1 IS-Selfoss Skógarás,64.2789,-20.44442
 e1 IS-Vík Sunnubraut,63.4171,-19.01157
@@ -15954,6 +15959,7 @@ evpass CH-Martigny Rue d’Octodure,46.09823,7.07558
 evpass CH-Rorschacherberg Thalerstrasse,47.47408,9.51585
 evpass CH-St. Gallen Bildweiherstrasse,47.40445,9.30893
 evpass CH-Thônex Rte de Sous-Moulin,46.1902,6.1932
+evpass CH-Widen Allmend,47.3671,8.36618
 
 EVPlus PL-Sieradz 1 Maja,51.57957,18.71439
 
@@ -18119,6 +18125,7 @@ Helen FI-Espoo Piispansilta,60.16177,24.73858
 Helen FI-Mäyry Seinäjoentie,62.76815,23.52667
 
 HEnW DE-Grömitz Rathausplatz,54.15084,10.95822
+HEnW DE-Hamburg Adolphsplatz,53.54935,9.99115
 HEnW DE-Hamburg Alter Fischmarkt,53.54854,9.99706
 HEnW DE-Hamburg Am Beckerkamp,53.49727,10.20954
 HEnW DE-Hamburg Auf dem Königslande,53.58113,10.0791
@@ -19445,6 +19452,7 @@ IZIVIA FR-Cournon-d’Auvergne Av. Maréchal Leclerc,45.73998,3.17278,30
 IZIVIA FR-Dunkerque Av. du Stade,51.03307,2.39317
 IZIVIA FR-Déols Avenue Georges Hennequin,46.8519,1.7028
 IZIVIA FR-Fécamp Bd de la République,49.75933,0.37653
+IZIVIA FR-Grand-Fort-Philippe Av. Pierre Pleuvret,50.9902,2.1126,30
 IZIVIA FR-Grayan-et-l’Hôpital Rte de Depee,45.41616,-1.14176
 IZIVIA FR-Haudainville Bd de l’Europe,49.1406,5.40984
 IZIVIA FR-Lempdes Avenue de l’Europe,45.77636,3.18628
