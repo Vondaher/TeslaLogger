@@ -5245,6 +5245,7 @@ Supercharger-V4 US-Jacksonville FL Gate Parkway,30.2887,-81.46467
 Supercharger-V3 US-Jasper FL,30.44665,-82.9336
 Supercharger US-Kissimmee FL,28.3455,-81.6042
 Supercharger-V3 US-Kissimmee FL - West Osceola Parkway,28.34132,-81.41093
+Supercharger-V4 US-Kissimmee FL 5400 W Irlo Bronson Memorial Hwy,28.3325,-81.4989
 Supercharger-V4 US-Kissimmee FL Vineland Rd,28.34488,-81.4838
 Supercharger-V4 US-Kissimmee FL W Irlo Bronson Memorial Hwy,28.34804,-81.6104
 Supercharger-V3 US-Lady Lake FL,28.91695,-81.92245
@@ -5276,6 +5277,7 @@ Supercharger US-Miami FL Mary Brickell Village,25.7645,-80.19466
 Supercharger US-Miami FL NE 41st St,25.8141,-80.19394
 Supercharger-V4 US-Miami FL NW 183rd St,25.93844,-80.29784
 Supercharger-V4 US-Miami FL SW 124th Ave,25.6894,-80.39378
+Supercharger-V4 US-Miami FL SW 127th Ave,25.65397,-80.39966
 Supercharger-V4 US-Miami FL SW 177th Ave,25.76236,-80.48272
 Supercharger US-Miami FL SW 7th St,25.76747,-80.1923
 Supercharger-V3 US-Miami FL W Flagler St,25.76915,-80.32418
@@ -6502,6 +6504,7 @@ Supercharger-V4 US-Henryetta OK,35.44053,-95.97013
 Supercharger-V4 US-Henryetta OK Hornbeam Rd Francis Energy,35.43467,-96.0181
 Supercharger-V4 US-Jenks OK Francis Energy,36.02822,-95.96146
 Supercharger-V4 US-Lawton OK Francis Energy,34.6112,-98.38872
+Supercharger-V4 US-Midwest City OK Francis Energy,35.46753,-97.37188
 Supercharger-V4 US-Muskogee OK Francis Energy,35.76757,-95.40344
 Supercharger-V4 US-Norman OK Chautauqua Ave Francis Energy,35.1815,-97.45112
 Supercharger-V3 US-Oklahoma City OK,35.4617,-97.6514
@@ -10612,6 +10615,7 @@ Clever DK-Herning Merkurvej,56.13552,8.99657
 Clever DK-Hjørring Bispetorv,57.45526,9.99397
 Clever DK-Kerteminde Martin Kolds Vej,55.45214,10.66218
 Clever DK-Kolding Skovvangen,55.51545,9.46155
+Clever DK-København Trangravsvej,55.67943,12.59887
 Clever DK-Køge Lyngvej,55.48672,12.15743
 Clever DK-Køge Servicevej,55.48925,12.1614
 Clever DK-Lundby Københavnsvej,55.08051,11.95925
@@ -11727,6 +11731,7 @@ E.ON SK-Sládkovičovo Fučíkova,48.19786,17.62947
 E.ON SK-Trenčín Belá,48.86455,18.02273,20
 
 e1 IS-Borgarbyggð Baulan,64.6748,-21.66553
+e1 IS-Króksfjarðarnes Garpadalsvegur,65.45572,-21.91564
 e1 IS-Selfoss Eyravegur,63.93668,-21.00428
 e1 IS-Selfoss Skógarás,64.2789,-20.44442
 e1 IS-Vík Sunnubraut,63.4171,-19.01157
@@ -28158,6 +28163,8 @@ Zunder ES-Villalpando Cam. de los Gallegos,41.82615,-5.37888,12
 Zunder ES-Zafra Plaza del Alcázar,38.4244,-6.41493
 Zunder ES-Área de servicio Quintanilla Norte,42.0224,-5.8536
 
+Ísorka IS-Patreksfjörður Vatnsfirði,65.57604,-23.16874
+Ísorka IS-Reykjahlíð Hlíðarvegur,65.64152,-16.9107
 Ísorka IS-Stykkishólmur Borgarbraut,65.07335,-22.72929
 Ísorka IS-Suðurland Arnberg Sveitarfélagið,63.94378,-21.00855
 
