@@ -2314,7 +2314,7 @@ Supercharger-V4 DE-Wiesbaden-Äppelallee,50.046184,8.219883
 Supercharger-V4 DE-Wildau,52.3136,13.60497,40
 Supercharger-V4 DE-Willich,51.28072,6.50886,35
 Supercharger-V4 DE-Wilnsdorf,50.8163,8.0864,90
-Supercharger-V4 DE-Windischeschenbach,49.80413,12.18416,22
+Supercharger-V4 DE-Windischeschenbach,49.80413,12.18416,24
 Supercharger-V3 DE Winsen (Luhe),53.35028,10.147426
 Supercharger-V3 DE-Wismar,53.879307,11.454047
 Supercharger-V3 DE-Wittenburg,53.50736,11.09685
@@ -3073,9 +3073,9 @@ Supercharger GB-Northampton,52.185729,-0.89127
 Supercharger-V3 GB-Northampton Service Centre,52.2425,-0.8341
 Supercharger-V3 GB-Norwich East,52.627571,1.383871
 Supercharger-V3 GB-Norwich Service Centre,52.656593,1.28759
-Supercharger-V3 GB-Nottingham - Service Centre,52.936032,-1.134447
-Supercharger-V3 GB-Nottingham - Victoria Centre,52.957656,-1.147067
+Supercharger-V3 GB-Nottingham Service Centre,52.93603,-1.13445
 Supercharger-V4 GB-Nottingham Trent Bridge EV OTM,52.94038,-1.13968
+Supercharger-V3 GB-Nottingham Victoria Centre,52.9577,-1.147
 Supercharger GB-Oxford,51.7374,-1.0948
 Supercharger-V4 GB-Oxford 2,51.793653,-1.283858
 Supercharger-V3 GB-Oxford Redbridge,51.729656,-1.249647
@@ -3768,7 +3768,8 @@ Supercharger-V3 NL-Horst,51.47005,6.05723
 Supercharger-V4 NL-Houten,52.02602,5.13827
 Supercharger NL-Leiderdorp,52.16046,4.54913
 Supercharger-V3 NL-Leusden,52.14405,5.4169,35
-Supercharger-V3 NL-Maastricht,50.81652,5.72566
+Supercharger-V3 NL-Maastricht,50.81507,5.72314,10
+Supercharger-V3 NL-Maastricht,50.81652,5.72566,40
 Supercharger-V3 NL-Meerkerk,51.8995,4.98264,32
 Supercharger-V3 NL-Meerkerk,51.89962,4.98346,32
 Supercharger-V3 NL-Middelburg,51.4804,3.63615
@@ -10014,167 +10015,167 @@ ChargePoint AU-Point Cook VIC Town Centre,-37.88419,144.73424
 ChargePoint BE-Groot-Bijgaarden,50.882,4.25334
 ChargePoint CH-Davos Promenade,46.80706,9.83838
 ChargePoint CH-Giubiasco Viale Camillo Olgiati,46.18199,9.01791
-ChargePoint DE-Abensberg 13 Werkstraße,48.80768,11.8771
-ChargePoint DE-Alsdorf 29A Carl-Zeiss-Straße,50.86967,6.18106
-ChargePoint DE-Augsburg 73 Haunstetter Str,48.34775,10.90594
-ChargePoint DE-Autohof Senden,51.90359,7.4893
+ChargePoint DE-Abensberg Werkstraße,48.80768,11.8771
+ChargePoint DE-Alsdorf Carl-Zeiss-Straße,50.86967,6.18106
+ChargePoint DE-Augsburg Haunstetter Straße,48.34775,10.90594
+ChargePoint DE-Autohof Senden,51.9036,7.4893
 ChargePoint DE-Backnang Weissacher Straße,48.93568,9.44652,25
 ChargePoint DE-Bad Bergzabern Meßplatz,49.10053,7.9965
-ChargePoint DE-Bad Säckingen 6 Am Buchrain,47.55541,7.92799
-ChargePoint DE-Bamberg 38 Kronacher Straße,49.91868,10.90268
-ChargePoint DE-Baunatal Fuldastraße 1-5,51.22769,9.42735
-ChargePoint DE-Berge 45 Hauptstraße,52.62112,7.74976
-ChargePoint DE-Berlin 212-1930 Salzufer,52.51538,13.3303
+ChargePoint DE-Bad Säckingen Am Buchrain,47.5554,7.928
+ChargePoint DE-Bamberg Kronacher Straße,49.91868,10.90268
+ChargePoint DE-Baunatal Fuldastraße,51.2277,9.42735
+ChargePoint DE-Berge Hauptstraße,52.62112,7.74976
+ChargePoint DE-Berlin Salzufer,52.51538,13.3303
 ChargePoint DE-Berlin Willi-Schwabe-Straße,52.43233,13.53823
-ChargePoint DE-Bersenbrück 11 Ankumer Straße,52.55601,7.94295
-ChargePoint DE-Blaubeuren 17 Ehinger Straße,48.40333,9.77963
-ChargePoint DE-Bottrop 2 Raiffeisenstraße,51.60861,6.93291
-ChargePoint DE-Burg Ringchaussee,51.83711,14.14034
-ChargePoint DE-Böblingen 20 Rudolf-Diesel-Straße,48.67546,9.01733
-ChargePoint DE-Bönnigheim Industriestraße 37,49.04449,9.10445
-ChargePoint DE-Bünde 77 Lange Straße,52.20729,8.57763
-ChargePoint DE-Chemnitz Blankenburgstraße 67,50.8608,12.91045
-ChargePoint DE-Dachau Fraunhoferstraße 5,48.26249,11.47404
+ChargePoint DE-Bersenbrück Ankumer Straße,52.556,7.94295
+ChargePoint DE-Blaubeuren Ehinger Straße,48.40333,9.77963
+ChargePoint DE-Bottrop Raiffeisenstraße,51.6086,6.9329
+ChargePoint DE-Burg Ringchaussee,51.8371,14.14034
+ChargePoint DE-Böblingen Rudolf-Diesel-Straße,48.67546,9.01733
+ChargePoint DE-Bönnigheim Industriestraße,49.0445,9.10445
+ChargePoint DE-Bünde Lange Straße,52.2073,8.57763
+ChargePoint DE-Chemnitz Blankenburgstraße,50.8608,12.91045
+ChargePoint DE-Dachau Fraunhoferstraße,48.2625,11.47404
 ChargePoint DE-Dannenberg Lüchower Straße,53.09273,11.08838,25
-ChargePoint DE-Darmstadt 100 Rheinstraße,49.86889,8.63222
+ChargePoint DE-Darmstadt Rheinstraße,49.8689,8.63222
 ChargePoint DE-Donauwörth Dr.-Ludwig-Bölkow-Straße,48.712,10.76157
-ChargePoint DE-Dresden Wiener Platz 3,51.04235,13.73075
-ChargePoint DE-Düren 15 Bahnstraße,50.78947,6.46766
-ChargePoint DE-Düsseldorf 1 Mercedesstraße,51.2502,6.79929
-ChargePoint DE-Düsseldorf 11-15 Bertha-von-Suttner-Straße,51.1328,6.90679
-ChargePoint DE-Ebersbach an der Fils 5 Fabrikstraße,48.7163,9.53681
-ChargePoint DE-Ehningen Birkensee 1,48.65099,8.9453
-ChargePoint DE-Elchingen 3 Robert-Bosch-Straße,48.45313,10.10213
-ChargePoint DE-Engstingen 12 Meidelstetter Straße,48.3861,9.28743
-ChargePoint DE-Erbach 1 Am Graben,48.34061,9.81817
-ChargePoint DE-Erfurt Schwerborner Straße 30c,51.01366,11.04034
-ChargePoint DE-Ergolding 32 Moosfeldstraße,48.56056,12.15791
-ChargePoint DE-Eschenlohe 12 Blauänger,47.61233,11.19419
-ChargePoint DE-Esslingen am Neckar 43 Alleenstraße,48.7247,9.34805
-ChargePoint DE-Esslingen am Neckar 6 Ottostraße,48.73726,9.29369
-ChargePoint DE-Fahrenbach 1 Ampereweg,49.42613,9.15584
-ChargePoint DE-Fehmarn Landkirchener Weg,54.44251,11.18186,25
+ChargePoint DE-Dresden Wiener Platz,51.04235,13.73075
+ChargePoint DE-Düren Bahnstraße,50.78947,6.46766
+ChargePoint DE-Düsseldorf Bertha-von-Suttner-Straße,51.1328,6.9068
+ChargePoint DE-Düsseldorf Mercedesstraße,51.2502,6.7993
+ChargePoint DE-Ebersbach an der Fils Fabrikstraße,48.7163,9.5368
+ChargePoint DE-Ehningen Birkensee,48.651,8.9453
+ChargePoint DE-Elchingen Robert-Bosch-Straße,48.45313,10.10213
+ChargePoint DE-Engstingen Meidelstetter Straße,48.3861,9.28743
+ChargePoint DE-Erbach Am Graben,48.3406,9.81817
+ChargePoint DE-Erfurt Schwerborner Straße,51.01366,11.04034
+ChargePoint DE-Ergolding Moosfeldstraße,48.56056,12.1579
+ChargePoint DE-Eschenlohe Blauänger,47.61233,11.1942
+ChargePoint DE-Esslingen am Neckar Alleenstraße,48.7247,9.34805
+ChargePoint DE-Esslingen am Neckar Ottostraße,48.73726,9.2937
+ChargePoint DE-Fahrenbach Ampereweg,49.42613,9.15584
+ChargePoint DE-Fehmarn Landkirchener Weg,54.4425,11.18186,25
 ChargePoint DE-Feldkirchen Otto-Lilienthal-Ring,48.14167,11.73714
-ChargePoint DE-Fellbach 102 Pestalozzistraße,48.82023,9.2739
-ChargePoint DE-Fellbach 68-70 Waiblinger Straße,48.81351,9.28227
-ChargePoint DE-Forst Karl-Wirth-Straße 100,49.15806,8.57384
+ChargePoint DE-Fellbach Pestalozzistraße,48.82023,9.2739
+ChargePoint DE-Fellbach Waiblinger Straße,48.8135,9.28227
+ChargePoint DE-Forst Karl-Wirth-Straße,49.15806,8.57384
 ChargePoint DE-Frankfurt am Main Heinrich-Lanz-Allee,50.1936,8.64226
-ChargePoint DE-Frankfurt am Main Schwarzwaldstraße 92,50.08341,8.65009
+ChargePoint DE-Frankfurt am Main Schwarzwaldstraße,50.0834,8.6501
 ChargePoint DE-Freiburg im Breisgau Bismarckallee,47.99782,7.84307
-ChargePoint DE-Freiburg im Breisgau Kappler Straße 58,47.98047,7.90428
-ChargePoint DE-Friesoythe 1 Bürgermeister-Olberding-Straße,53.02181,7.88255
-ChargePoint DE-Fürth 90 Flugplatzstraße,49.50109,10.96613
-ChargePoint DE-Fürth Schwabacher Straße 382,49.44339,10.99043
+ChargePoint DE-Freiburg im Breisgau Kappler Straße,47.98047,7.90428
+ChargePoint DE-Friesoythe Bürgermeister-Olberding-Straße,53.0218,7.88255
+ChargePoint DE-Fürth Flugplatzstraße,49.5011,10.96613
+ChargePoint DE-Fürth Schwabacher Straße,49.4434,10.99043
 ChargePoint DE-Genthin Genthiner Straße,52.35142,12.0801
 ChargePoint DE-Goslar Dörntener Straße,51.92447,10.41526
 ChargePoint DE-Goslar Dörntener Straße,51.92614,10.41598
-ChargePoint DE-Gransee 13a Kraatzer Weg,53.0031,13.17018
-ChargePoint DE-Göppingen 22 Leonhard-Weiss-Straße,48.70101,9.67064
-ChargePoint DE-Göppingen 3 Heilbronner Str,48.69513,9.67887
-ChargePoint DE-Gütersloh 10 Dalkestraße,51.90148,8.37778
-ChargePoint DE-Gütersloh 24 Goethestraße,51.917,8.38577
-ChargePoint DE-Gütersloh 25 James-Watt-Straße,51.92073,8.40702
-ChargePoint DE-Gütersloh 48 Carl-Miele-Straße,51.91052,8.39659
+ChargePoint DE-Gransee Kraatzer Weg,53.0031,13.17018
+ChargePoint DE-Göppingen Heilbronner Straße,48.69513,9.67887
+ChargePoint DE-Göppingen Leonhard-Weiss-Straße,48.701,9.67064
+ChargePoint DE-Gütersloh Carl-Miele-Straße,51.91052,8.3966
+ChargePoint DE-Gütersloh Dalkestraße,51.90148,8.37778
+ChargePoint DE-Gütersloh Goethestraße,51.917,8.38577
+ChargePoint DE-Gütersloh James-Watt-Straße,51.92073,8.40702
 ChargePoint DE-Hallbergmoos Am Söldnermoos,48.32874,11.74045
-ChargePoint DE-Hansestadt Seehausen Märsche 2,52.97321,11.7368
-ChargePoint DE-Hauzenberg 5 Wastlmühlstraße,48.62785,13.6437
-ChargePoint DE-Heidbecker,53.58142,9.49552
+ChargePoint DE-Hansestadt Seehausen Märsche,52.9732,11.7368
+ChargePoint DE-Hauzenberg Wastlmühlstraße,48.62785,13.6437
 ChargePoint DE-Helbra Hauptstraße,51.5555,11.48714
-ChargePoint DE-Hilden 2 Düsseldorfer Straße,51.16601,6.92113
-ChargePoint DE-Hildesheim 6 Daimlerring,52.16373,9.98888
+ChargePoint DE-Hilden Düsseldorfer Straße,51.166,6.92113
+ChargePoint DE-Hildesheim Daimlerring,52.16373,9.98888
 ChargePoint DE-Hofstetten Am Anger,48.01145,10.96784
-ChargePoint DE-Hunding 1 Gewerbedorf,48.83849,13.15101
-ChargePoint DE-Höhenkirchen-Siegertsbrunn Sportplatzstraße 4,48.02315,11.70199
-ChargePoint DE-Ibbenbüren 27 Gutenbergstraße,52.25994,7.7255
-ChargePoint DE-Idstein Black-und-Decker Straße,50.21361,8.25458,30
-ChargePoint DE-Ingolstadt 110 Manchinger Strasse,48.74779,11.4631
-ChargePoint DE-Ingolstadt 80 Manchinger Strasse,48.75318,11.44972
-ChargePoint DE-Kaltenkirchen Borsigstrasse 7,53.82071,9.97759
-ChargePoint DE-Kamenz 94 Nordstraße,51.29938,14.09153
-ChargePoint DE-Kappeln Nordstraße 3,54.66522,9.92065
-ChargePoint DE-Kappelrodeck Binzigstraße 27,48.59769,8.11277
-ChargePoint DE-Kassel Dresdener Straße 5,51.31265,9.51344
+ChargePoint DE-Hunding Gewerbedorf,48.8385,13.151
+ChargePoint DE-Höhenkirchen-Siegertsbrunn Sportplatzstraße,48.02315,11.702
+ChargePoint DE-Ibbenbüren Gutenbergstraße,52.25994,7.7255
+ChargePoint DE-Idstein Black-und-Decker Straße,50.2136,8.25458,30
+ChargePoint DE-Ingolstadt Manchinger Strasse,48.7478,11.4631
+ChargePoint DE-Ingolstadt Manchinger Strasse,48.75318,11.44972
+ChargePoint DE-Kaltenkirchen Borsigstrasse,53.8207,9.9776
+ChargePoint DE-Kamenz Nordstraße,51.29938,14.09153
+ChargePoint DE-Kappeln Nordstraße,54.66522,9.92065
+ChargePoint DE-Kappelrodeck Binzigstraße,48.5977,8.11277
+ChargePoint DE-Kassel Dresdener Straße,51.31265,9.51344
+ChargePoint DE-Kassel Frankfurter Straße,51.2821,9.46532
 ChargePoint DE-Kassel Frankfurter Straße,51.2965,9.47984
-ChargePoint DE-Kassel Frankfurter Straße 315,51.28209,9.46532
-ChargePoint DE-Kehl Am Läger 1,48.57476,7.81459
+ChargePoint DE-Kehl Am Läger,48.57476,7.8146
 ChargePoint DE-Kiel Gutenbergstraße,54.33315,10.11484,30
-ChargePoint DE-Kirchdorf an der Iller 23 Liebherrstraße,48.07766,10.13129
-ChargePoint DE-Kirchlengern 7 Sunderhofstraße,52.24872,8.6371
+ChargePoint DE-Kirchdorf an der Iller Liebherrstraße,48.07766,10.1313
+ChargePoint DE-Kirchlengern Sunderhofstraße,52.24872,8.6371
 ChargePoint DE-Kißlegg Eugen-Bolz-Straße,47.79278,9.88625
-ChargePoint DE-Kornwestheim 1 Leibnizstraße,48.86699,9.19878
-ChargePoint DE-Kornwestheim 18 Albstraße,48.85137,9.18769
+ChargePoint DE-Kornwestheim Albstraße,48.85137,9.1877
+ChargePoint DE-Kornwestheim Leibnizstraße,48.867,9.19878
 ChargePoint DE-Kraftisried Mühlenstraße,47.777,10.4778
-ChargePoint DE-Köln 41 Richard-Byrd-Straße,50.99003,6.88995
-ChargePoint DE-Laaber 2 Reiserweg,49.08861,11.88499
-ChargePoint DE-Landau in der Pfalz Gilletstraße 5,49.2116,8.12024
-ChargePoint DE-Legden Industriepark,52.04749,7.06345
+ChargePoint DE-Köln Richard-Byrd-Straße,50.99003,6.88995
+ChargePoint DE-Laaber Reiserweg,49.0886,11.885
+ChargePoint DE-Landau in der Pfalz Gilletstraße,49.2116,8.12024
+ChargePoint DE-Legden Industriepark,52.0475,7.06345
 ChargePoint DE-Lippstadt Rixbecker Straße,51.67296,8.3582
-ChargePoint DE-Luckau Bersteallee,51.91111,13.79682
-ChargePoint DE-Ludwigsburg 140 Schwieberdinger Straße,48.89053,9.15822
-ChargePoint DE-Ludwigsburg 57 Teinacher Straße,48.90339,9.16552
-ChargePoint DE-Lübbecke 115 Rahdener Straße,52.31918,8.61428
-ChargePoint DE-Lübbecke 4 Am Zollamt,52.30988,8.63315
+ChargePoint DE-Luckau Bersteallee,51.9111,13.79682
+ChargePoint DE-Ludwigsburg Schwieberdinger Straße,48.89053,9.15822
+ChargePoint DE-Ludwigsburg Teinacher Straße,48.9034,9.16552
+ChargePoint DE-Lübbecke Am Zollamt,52.30988,8.63315
+ChargePoint DE-Lübbecke Rahdener Straße,52.31918,8.61428
 ChargePoint DE-Lütjenburg Gildenplatz,54.29287,10.59362
-ChargePoint DE-Magdeburg Parchauer Straße 1h,52.19909,11.67245
-ChargePoint DE-Melle 8 Ochsenweg,52.21495,8.31715
+ChargePoint DE-Magdeburg Parchauer Straße,52.1991,11.67245
 ChargePoint DE-Melle Maschweg,52.1931,8.35802
+ChargePoint DE-Melle Ochsenweg,52.21495,8.31715
 ChargePoint DE-Montabaur Staufenbergallee,50.42714,7.82098
-ChargePoint DE-Mücheln (Geiseltal) 1B Bahnhofsiedlung,51.3471,11.75512
+ChargePoint DE-Mücheln (Geiseltal) Bahnhofsiedlung,51.3471,11.75512
 ChargePoint DE-München Friedenstraße,48.12526,11.6049
 ChargePoint DE-Münster Loddenheide,51.93873,7.6472
-ChargePoint DE-Neuss 4 Im Taubental,51.16686,6.75827
-ChargePoint DE-Nürnberg 97 Flughafenstraße,49.49355,11.08022
+ChargePoint DE-Neuss Im Taubental,51.16686,6.75827
+ChargePoint DE-Nürnberg Flughafenstraße,49.49355,11.08022
 ChargePoint DE-Nürnberg Kilianstraße,49.47382,11.09064
 ChargePoint DE-Nürnberg Stadenstraße,49.48265,11.13448
 ChargePoint DE-Oberding Flughafen Südring P36 Delivery,48.35294,11.81686
 ChargePoint DE-Offenbach an der Queich Hauptstraße,49.19305,8.19056
 ChargePoint DE-Offenbach Mozartstraße,49.19478,8.19143
-ChargePoint DE-Olpe 5 Ziegeleistraße,51.03833,7.86167
-ChargePoint DE-Ostbevern 57 Loburg,52.03693,7.85751
-ChargePoint DE-Pfaffenhofen an der Ilm 6 Otto-Hahn-Straße,48.54499,11.51335
-ChargePoint DE-Pfarrkirchen 10 Südeinfahrt,48.41721,12.94478
-ChargePoint DE-Pfarrkirchen 12 Franz-Stelzenberger-Straße,48.419,12.93734
-ChargePoint DE-Pforzheim 32 Karlsruher Straße,48.9033,8.65868
-ChargePoint DE-Pforzheim 52 Habermehlstraße,48.8907,8.68188
-ChargePoint DE-Pfullendorf Otterswanger Straße 1,47.92952,9.24276
-ChargePoint DE-Pförring 2 Max-Pollin-Straße,48.81661,11.69382
+ChargePoint DE-Olpe Ziegeleistraße,51.03833,7.86167
+ChargePoint DE-Ostbevern Loburg,52.03693,7.8575
+ChargePoint DE-Pfaffenhofen an der Ilm Otto-Hahn-Straße,48.545,11.51335
+ChargePoint DE-Pfarrkirchen Franz-Stelzenberger-Straße,48.419,12.93734
+ChargePoint DE-Pfarrkirchen Südeinfahrt,48.4172,12.94478
+ChargePoint DE-Pforzheim Habermehlstraße,48.8907,8.68188
+ChargePoint DE-Pforzheim Karlsruher Straße,48.9033,8.65868
+ChargePoint DE-Pfullendorf Otterswanger Straße,47.92952,9.24276
+ChargePoint DE-Pförring Max-Pollin-Straße,48.8166,11.69382
 ChargePoint DE-Potsdam Gerlachstraße,52.36856,13.13115
-ChargePoint DE-Remscheid 17 Fritz-Reuter-Straße Bäckerei,51.19414,7.27069
-ChargePoint DE-Remshalden 37 Fellbacher Straße,48.8147,9.41531
-ChargePoint DE-Rheine 4 Carl-Zeiss-Straße,52.28784,7.48438
-ChargePoint DE-Satteldorf 2-3 Leonhard-Weiss-Straße,49.18135,10.07629
-ChargePoint DE-Schorndorf 11/1 Gerberstraße,48.80473,9.51555
-ChargePoint DE-Schorndorf 40 Baumwasenstraße,48.80665,9.50994
-ChargePoint DE-Schwäbisch Gmünd 40 Im Benzfeld,48.80584,9.84713
-ChargePoint DE-Schwäbisch Gmünd Buchstraße 200,48.80103,9.83309
+ChargePoint DE-Remscheid Fritz-Reuter-Straße,51.19414,7.2707
+ChargePoint DE-Remshalden Fellbacher Straße,48.8147,9.4153
+ChargePoint DE-Rheine Carl-Zeiss-Straße,52.28784,7.48438
+ChargePoint DE-Satteldorf Leonhard-Weiss-Straße,49.18135,10.0763
+ChargePoint DE-Schorndorf Baumwasenstraße,48.80665,9.50994
+ChargePoint DE-Schorndorf Gerberstraße,48.80473,9.51555
+ChargePoint DE-Schwäbisch Gmünd Buchstraße,48.80103,9.8331
+ChargePoint DE-Schwäbisch Gmünd Im Benzfeld,48.80584,9.84713
 ChargePoint DE-Schöneck/Vogtland Waldstraße,50.39435,12.3436
 ChargePoint DE-Schöneck/Vogtland Waldstraße,50.39494,12.34484
-ChargePoint DE-Schönefeld 61 Hans-Grade-Allee,52.39603,13.51707
-ChargePoint DE-Schöngeising Gusso-Reuss-Straße 12,48.14604,11.20444
-ChargePoint DE-Sebnitz 72 Schandauer Straße,50.96775,14.25426
-ChargePoint DE-Sindelfingen Benzstraße,48.70229,8.98307
-ChargePoint DE-Sindelfingen Calwer Straße,48.70551,8.99053
+ChargePoint DE-Schönefeld Hans-Grade-Allee,52.39603,13.51707
+ChargePoint DE-Schöngeising Gusso-Reuss-Straße,48.14604,11.20444
+ChargePoint DE-Sebnitz Schandauer Straße,50.96775,14.25426
+ChargePoint DE-Sindelfingen Benzstraße,48.7023,8.98307
+ChargePoint DE-Sindelfingen Calwer Straße,48.7055,8.99053
 ChargePoint DE-Sindelfingen Niederer Wasen,48.6921,8.9765
-ChargePoint DE-Spelle 5 Dreierwalder Straße,52.35849,7.47706
-ChargePoint DE-Spenge 25 Industriestraße,52.14473,8.49627
+ChargePoint DE-Spelle Dreierwalder Straße,52.3585,7.47706
+ChargePoint DE-Spenge Industriestraße,52.14473,8.49627
 ChargePoint DE-St. Märgen Rathausplatz,48.007,8.09216
-ChargePoint DE-Tecklenburg 10 Wechter Straße,52.22104,7.74793
-ChargePoint DE-Trierweiler 12 Kiemstraße,49.77236,6.58319
-ChargePoint DE-Ummendorf / Börde Meyendorffstraße 2,52.15592,11.18236
+ChargePoint DE-Stade Heidbecker Damm,53.58142,9.49552
+ChargePoint DE-Tecklenburg Wechter Straße,52.22104,7.74793
+ChargePoint DE-Trierweiler Kiemstraße,49.77236,6.5832
+ChargePoint DE-Ummendorf/Börde Meyendorffstraße,52.15592,11.18236
 ChargePoint DE-Velen Ostendorfer Straße,51.88374,6.9215
-ChargePoint DE-Waidhaus 7 Hauptstraße,49.64112,12.49361
-ChargePoint DE-Waldkraiburg 12 Zirndorfer Straße,48.21757,12.41586
-ChargePoint DE-Weinstadt 1 Heerbergstraße,48.8143,9.35792
-ChargePoint DE-Weißenburg in Bayern 2 Treuchtlinger Straße,49.01932,10.96039
-ChargePoint DE-Wemding 1 Kehläcker,48.87155,10.70521
-ChargePoint DE-Werlte Am Arenberge 1,52.84428,7.65418
+ChargePoint DE-Waidhaus Hauptstraße,49.64112,12.4936
+ChargePoint DE-Waldkraiburg Zirndorfer Straße,48.21757,12.41586
+ChargePoint DE-Weinstadt Heerbergstraße,48.8143,9.35792
+ChargePoint DE-Weißenburg in Bayern Treuchtlinger Straße,49.01932,10.9604
+ChargePoint DE-Wemding Kehläcker,48.87155,10.7052
+ChargePoint DE-Werlte Am Arenberge,52.84428,7.65418
 ChargePoint DE-Wertheim am Main Almosenberg,49.77407,9.57673
 ChargePoint DE-Wertheim am Main Almosenberg,49.77633,9.57542,25
-ChargePoint DE-Wesseling 37-39 Industriestraße,50.83438,6.95135
-ChargePoint DE-Wilburgstetten 1 Karl-Ruf-Straße,49.01736,10.3974
+ChargePoint DE-Wesseling Industriestraße,50.83438,6.95135
+ChargePoint DE-Wilburgstetten Karl-Ruf-Straße,49.01736,10.3974
 ChargePoint DE-Wilhelmshaven Bahnhofstraße,53.51964,8.10916
-ChargePoint DE-Wörthsee 11 Inninger Straße,48.0855,11.19936
-ChargePoint DE-Würzburg 10a Friedrichstraße,49.79716,9.91477
+ChargePoint DE-Wörthsee Inninger Straße,48.0855,11.19936
+ChargePoint DE-Würzburg Friedrichstraße,49.79716,9.91477
 ChargePoint GB-Morpeth New Market,55.16662,-1.69094
 ChargePoint HR-Poreč Zelena laguna,45.20186,13.59522
 ChargePoint IT-Area di servizio Altivole,45.75278,11.89671
@@ -12282,6 +12283,7 @@ Electra IT-Savignano sul Rubicone Piazza Cristoforo Colombo,44.15735,12.42982,30
 Electra IT-Sesto San Giovanni Viale Ercole Marelli,45.52774,9.22938
 Electra IT-Stezzano Via Guzzanica,45.64659,9.62873
 Electra LU-Schengen Schengerwis,49.47933,6.36605
+Electra NL-Maastricht Slakweg,50.81605,5.72545,25
 
 Electra-Avellana ES-Vilademuls Hotel Sausa,42.09476,2.89294
 
@@ -12378,6 +12380,7 @@ electrip HR-Rijeka Osječka ul.,45.34167,14.42436
 electrip HR-Tučepi Slatina,43.2731,17.04598
 electrip HR-Zagreb Oreškovićeva ulica,45.75946,15.98306
 electrip HR-Zagreb Ulica Velimira Škorpika,45.79679,15.85954
+electrip HR-Đakovo Ul. Petra Preradovića,45.2849,18.41015
 electrip IT-Argenta Largo Ludovico Ariosto,44.58344,11.86157
 electrip IT-Assago Business Park,45.40732,9.15087
 electrip IT-Bucine Via Giacomo Matteotti,43.4749,11.61735
@@ -12871,7 +12874,7 @@ EnBW DE-Bonn Gartenstraße,50.7502,7.12967
 EnBW DE-Bonn Otto-Hahn-Straße,50.76142,7.057
 EnBW DE-Bonndorf im Schwarzwald Bahnhofstraße,47.81766,8.33323
 EnBW DE-Bopfingen Bergstraße,48.85124,10.3577
-EnBW DE-Boppard Casinostraße,50.2148,7.54228
+EnBW DE-Boppard Casinostraße,50.2152,7.54214
 EnBW DE-Borken (Hessen) Alfred-Nobel-Straße,51.05216,9.2688
 EnBW DE-Bornheim Aarhusweg,50.79354,6.95835
 EnBW DE-Bornheim Bonner Straße,50.75324,7.0151
@@ -15878,6 +15881,7 @@ EVN AT-Eisenstadt Haidäckerstraße,47.825,16.532,25
 EVN AT-Ennsdorf Straße 3,48.22133,14.5061
 EVN AT-Grafenwörth Gewerbepark,48.41187,15.776
 EVN AT-Grimmenstein Wechselbundesstrasse,47.63344,16.13192
+EVN AT-Gänserndorf Bodenzeile,48.33526,16.7145
 EVN AT-Gänserndorf Neusiedler Straße,48.3351,16.71196,30
 EVN AT-Göllersdorf Hammerschmiedstraße,48.49825,16.11453
 EVN AT-Harmannsdorf Kirchengasse,48.3917,16.37124
@@ -18319,6 +18323,7 @@ Iberdrola ES-Figueres Ctra. De Figueres to Roses,42.26855,2.99926
 Iberdrola ES-Finestrat Avinguda País Valencià,38.53643,-0.17942
 Iberdrola ES-Gandia Partida Rajolar,38.96205,-0.17367
 Iberdrola ES-Getafe Av. Río Guadalquivir,40.27163,-3.69702
+Iberdrola ES-Gijón Camín del Fondo de Porceyo,43.51132,-5.69214
 Iberdrola ES-Gran Alacant Carrer de Finlandia,38.23334,-0.55008
 Iberdrola ES-Huelva,37.30624,-6.87322
 Iberdrola ES-Huércal de Almería Ctra. Almería,36.87233,-2.44416
@@ -19737,7 +19742,7 @@ Kaufland DE-Dillingen an der Donau Johannes-Scheiffele-Straße,48.57867,10.47816
 Kaufland DE-Dillingen/Saar Daimlerstraße,49.36785,6.71343
 Kaufland DE-Dingolfing Frontenhausener Straße,48.6301,12.49323
 Kaufland DE-Dippoldiswalde Industriering,50.89744,13.69293
-Kaufland DE-Donauwörth Neurieder Weg,48.7198,10.76197
+Kaufland DE-Donauwörth Neurieder Weg,48.72076,10.76217
 Kaufland DE-Dortmund Bornstraße,51.52857,7.47095
 Kaufland DE-Dortmund Luisenglück,51.47736,7.4329
 Kaufland DE-Dossenheim Gewerbestraße,49.4542,8.66467
@@ -23128,6 +23133,7 @@ Petrol SI-Izola Ulica prekomorskih brigad,45.53593,13.65875
 Petrol SI-Koper Kolodvorska cesta,45.54275,13.7358,30
 Petrol SI-Novo mesto Otoška cesta,45.82659,15.18632
 Petrol SI-Portorož Cesta solinarjev,45.50684,13.59696
+Petrol SI-Portorož Obala,45.51375,13.59447
 Petrol SI-Počivališče Barje,46.02873,14.47913
 Petrol SI-Počivališče Barje,46.0293,14.48123
 Petrol SI-Počivališče Lom,45.89864,14.25664
@@ -24113,6 +24119,7 @@ Qovoltis FR-Les Ulis Rue de la Réunion,48.68259,2.20282
 Qwello DE-Berlin Dresdener Straße,52.50642,13.41383
 Qwello DE-Berlin Genter Straße,52.54898,13.35145
 Qwello DE-Berlin Scherenbergstraße,52.55057,13.41987
+Qwello DE-Hamburg Bauerberg,53.55138,10.0797
 Qwello DE-Leipzig Cöthner Straße,51.36438,12.36952
 Qwello DE-Leverkusen Heinrich-Böll-Straße,51.05675,6.94513
 Qwello SE-Stockholm Torkel Knutssonsgatan,59.32025,18.0564
@@ -27871,6 +27878,7 @@ westenergie DE-Saffig Rauschermühlenstraße,50.38793,7.40462
 westenergie DE-Scharbeutz Am Bürgerhaus,54.02151,10.74924
 westenergie DE-Scharbeutz Strandallee,54.01225,10.76887
 westenergie DE-Schillingen Hochwaldstraße,49.63436,6.78597
+westenergie DE-Timmendorfer Strand Wohldstraße,54.00017,10.77326
 westenergie DE-Wesel Reeser Landstraße,51.6665,6.60876
 
 Westfalen DE-Ahaus Wüllener Straße,52.07354,6.9964
@@ -28141,6 +28149,7 @@ ZSE SK-Trenčín Gen. M. R. Štefánika,48.89185,18.05658
 ZSE SK-Žilina-Solinky Prielohy,49.19491,18.73937
 
 Zunder ES-Aranga AC-151,43.21173,-8.05183
+Zunder ES-Aranguren PA-30,42.80046,-1.6115
 Zunder ES-Bormujos Salida,37.3752,-6.086
 Zunder ES-Burgos C. del Carmen,42.33681,-3.70531
 Zunder ES-Castejón Hotel el Villa Castejón,42.1346,-1.69945
@@ -28155,6 +28164,7 @@ Zunder ES-Lloret de Mar Carrer Joan Miró,41.71372,2.83083
 Zunder ES-L’Ametlla del Vallès Calle Llerona Poligon,41.66448,2.26983
 Zunder ES-Mieres C. Rector Julio Rodríguez,43.24328,-5.77581
 Zunder ES-Monesterio C. de los Carpinteros,38.08253,-6.25831
+Zunder ES-Mutilva PA-30,42.8015,-1.61268
 Zunder ES-Oviedo C. de Francisco Rodríguez García,43.3686,-5.8394
 Zunder ES-Pancorbo C. Poligono Cantarranas,42.6263,-3.11337
 Zunder ES-Rois Sar Galicia,42.77438,-8.65104
