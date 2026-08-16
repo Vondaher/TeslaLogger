@@ -5411,6 +5411,7 @@ Supercharger-V4 US-Alpharetta GA Old Milton Pkwy,34.0679,-84.28458
 Supercharger US-Athens GA,33.91652,-83.45242
 Supercharger-V3 US-Atlanta GA (Floor P2),33.7936,-84.39735
 Supercharger US-Atlanta GA - Peachtree Road,33.84832,-84.36394
+Supercharger-V4 US-Atlanta GA 11th St NW,33.7832,-84.40812
 Supercharger-V4 US-Atlanta GA Caroline St NE,33.75626,-84.34716
 Supercharger US-Atlanta GA Lenox Rd,33.84706,-84.36008
 Supercharger-V4 US-Atlanta GA Roswell Rd,33.8569,-84.38285
@@ -5590,6 +5591,7 @@ Supercharger-V3 US-Bloomington IN,39.16605,-86.5791
 Supercharger-V4 US-Bloomington IN E 3rd St,39.1601,-86.49475
 Supercharger US-Carmel IN,39.9719,-86.1526
 Supercharger-V3 US-Carmel IN - Illinois Street,39.9545,-86.16268
+Supercharger-V3 US-Chesterton IN,41.6176,-87.0447
 Supercharger-V3 US-Columbus IN,39.1337,-85.9611
 Supercharger-V3 US-Elkhart IN - George Craig Travel Plaza,41.73195,-86.00715
 Supercharger-V3 US-Elkhart IN - Henry Schricker Travel Plaza,41.73255,-86.00293
@@ -7942,6 +7944,7 @@ Aldi DE-Wörnitz,49.25937,10.24192
 Aldi DE-Zimmern ob Rottweil Raiffeisenstraße,48.17144,8.57428
 Aldi DE-Zweibrücken Etzelweg,49.22708,7.35531
 Aldi DE-Öhringen Steinsfeldle,49.18992,9.49556
+Aldi FR-Vielle-Saint-Girons Rte de Pichelèbe,43.91588,-1.3053
 Aldi HU-Győr Fehérvári út,47.68239,17.6557
 
 Allego AT-Brunn am Gebirge Johann Steinböck-Straße,48.10617,16.31035
@@ -9860,6 +9863,8 @@ Charge-Construct DE-Pleinfeld Bahnhofstraße,49.10752,10.9816
 
 Charge-ON DE-Raststätte Brokenlande,54.01328,9.93295,25
 
+chargecloud AT-Helpfau-Uttendorf Uttendorf,48.15444,13.11786
+
 Chargee CZ-Valašské Meziříčí Masarykova,49.49204,17.96265
 
 Chargefox AU-Airport West VIC Louis St,-37.71359,144.88545
@@ -10145,6 +10150,7 @@ ChargePoint DE-Rheine Carl-Zeiss-Straße,52.28784,7.48438
 ChargePoint DE-Satteldorf Leonhard-Weiss-Straße,49.18135,10.0763
 ChargePoint DE-Schorndorf Baumwasenstraße,48.80665,9.50994
 ChargePoint DE-Schorndorf Gerberstraße,48.80473,9.51555
+ChargePoint DE-Schwangau-Hohenschwangau Colomanstraße,47.55903,10.7422
 ChargePoint DE-Schwäbisch Gmünd Buchstraße,48.80103,9.8331
 ChargePoint DE-Schwäbisch Gmünd Im Benzfeld,48.80584,9.84713
 ChargePoint DE-Schöneck/Vogtland Waldstraße,50.39435,12.3436
@@ -11376,6 +11382,7 @@ E.ON CZ-Lovosice Siřejovická,50.50625,14.05232
 E.ON CZ-Ostrovačice Veveří,49.21819,16.41266
 E.ON CZ-Plzeň 3-Jižní Předměstí Sukova,49.72964,13.36279
 E.ON CZ-Praha Fajtlova,50.09256,14.29079
+E.ON CZ-Rozvadov Svatá Kateřina,49.67924,12.60354
 E.ON CZ-Sulejovice-Lovosice Siřejovická,50.50452,14.0513
 E.ON CZ-Trutnov Horská,50.57227,15.8977
 E.ON CZ-Uherský Brod Močidla,49.02558,17.66029
@@ -12071,6 +12078,7 @@ EDEKA DE-Wolgast Chausseestraße,54.05123,13.76838
 EDEKA DE-Wrist Eken,53.92854,9.75124
 EDEKA DE-Wuppertal Albertstraße,51.26963,7.20943
 EDEKA DE-Zossen Gutstedtstraße,52.16976,13.47217
+EDEKA DE-Übersee Feldwieser Straße,47.82303,12.4834
 
 EDP ES-Avilés Av. de Lugo,43.57515,-5.92896
 EDP ES-Bergara Urteaga kalea,43.10806,-2.40634
@@ -12177,6 +12185,8 @@ eins-energie DE-Zschopau An den Anlagen,50.74782,13.07278
 eins-energie DE-Zschopau Launer Ring,50.75472,13.06859
 eins-energie DE-Zschopau Straubeweg,50.75683,13.06982
 eins-energie DE-Zwickau Georgenstraße,50.71893,12.49008
+
+EKO ME-Kotor Котор Put prvoborca,42.41934,18.76965
 
 EKOEN PL-Nadarzyn Aleja Katowicka,52.07336,20.76802
 EKOEN PL-Warszawa Postępu,52.17818,20.9972
@@ -12419,6 +12429,8 @@ ELEN HR-Novalja Burin Bok,44.55254,14.89333
 ELEN HR-Odmorište Janjče Istok,44.7512,15.37522,16
 ELEN HR-Odmorište Janjče Zapad,44.75127,15.3733,16
 ELEN HR-Odmorište Novoselec,45.63787,16.51281
+ELEN HR-Odmorište Pula istok,44.93352,13.891
+ELEN HR-Odmorište Pula zapad,44.9332,13.8896
 ELEN HR-Odmorište Zir Istok,44.46272,15.60272
 ELEN HR-Odmorište Zir Zapad,44.4614,15.6025
 ELEN HR-Opatija Štangerova,45.34735,14.31912
@@ -13472,7 +13484,7 @@ EnBW DE-Harburg Hardauring,53.47813,9.88555
 EnBW DE-Harburg Maldfeldstraße,53.43046,9.93585,28
 EnBW DE-Hardegsen Am Gladeberg,51.64926,9.8359
 EnBW DE-Harsefeld Am Bahnhof-Süd,53.45047,9.49655
-EnBW DE-Harzgerode Schloßberg,51.64327,11.13962
+EnBW DE-Harzgerode Schloßberg,51.64348,11.14
 EnBW DE-Haslach im Kinzigtal Im Spießacker,48.27842,8.0927
 EnBW DE-Hattenhofen Schulgasse,48.6672,9.57225
 EnBW DE-Hattersheim am Main Heddingheimer Straße,50.07168,8.47406,35
@@ -15035,6 +15047,7 @@ EnelX IT-Vada SP13,43.35361,10.46148
 EnelX IT-Vahrn Via Brennero,46.72858,11.65194
 EnelX IT-Valenzano Via Casamassima,41.03831,16.88843
 EnelX IT-Vallecrosia Via Roma,43.79103,7.64328
+EnelX IT-Vallecrosia Via Roma Traversa,43.78892,7.64196
 EnelX IT-Varese Via Fratelli de Grandi,45.79545,8.84256
 EnelX IT-Venegono Inferiore Via Fratelli Kennedy,45.72929,8.88755
 EnelX IT-Ventimiglia Passeggiata Marconi,43.79037,7.59995
@@ -17907,6 +17920,7 @@ GP-JOULE DE-Ingolstadt Friedrich-Ebert-Straße,48.7741,11.44368
 GP-JOULE DE-Jena Ebereschenstraße,50.88452,11.61735
 GP-JOULE DE-Joldelund Norderweg,54.65438,9.13835
 GP-JOULE DE-Kiel Winterbeker Weg,54.30932,10.1096
+GP-JOULE DE-Königswinter Königswinterer Straße,50.6991,7.27745
 GP-JOULE DE-Laichingen Langestraße,48.47535,9.62684
 GP-JOULE DE-Langenargen Bildstock,47.60343,9.55193
 GP-JOULE DE-Langenhorn An der B 5,54.68591,8.95725
@@ -18137,6 +18151,7 @@ HEnW DE-Grömitz Rathausplatz,54.15084,10.95822
 HEnW DE-Hamburg Adolphsplatz,53.54935,9.99115
 HEnW DE-Hamburg Alter Fischmarkt,53.54854,9.99706
 HEnW DE-Hamburg Am Beckerkamp,53.49727,10.20954
+HEnW DE-Hamburg Am Kaiserkai,53.54138,9.98752
 HEnW DE-Hamburg Auf dem Königslande,53.58113,10.0791
 HEnW DE-Hamburg Banksstraße,53.54468,10.01229
 HEnW DE-Hamburg Barmbeker Markt,53.5808,10.0418
@@ -18370,6 +18385,7 @@ Iberdrola PT-Caldas da Rainha R. Casal dos Barreiros,39.4171,-9.1516
 iCharge AL-Berat Rruga Baki Gjebrea,40.72775,19.9421
 iCharge AL-Durrës Autostrada Tirane,41.3344,19.48028
 iCharge AL-Koplik E762,42.21535,19.45152
+iCharge AL-Saranda Rruga Skënderbeu,39.86897,20.0191
 iCharge AL-Tiranë Rruga e Kavajes,41.3285,19.81318
 iCharge AL-Vlora Rruga Dush Strati,40.45718,19.48917
 iCharge HR-Rab Palit,44.76199,14.7582
@@ -22225,6 +22241,7 @@ MOON AT-Tarsdorf Weilhartstraße,48.07886,12.82685
 MOON AT-Umhausen Niederthai,47.12481,10.96205
 MOON AT-Wien Harry-Glück-Platz,48.16716,16.34891
 MOON AT-Wien Ketzergasse,48.13058,16.29811
+MOON BA-BS Mostar,43.31346,17.8295
 MOON BA-Sarajevo Rajlovačka cesta,43.87316,18.31058
 MOON CH-Nussbaumen Schulstrasse,47.48777,8.2926
 MOON DE-Anger Hauptstraße,47.79073,12.86924
@@ -23970,6 +23987,7 @@ Powy IT-Silea Via Str. della Serenissima,45.64874,12.31085
 
 PPC-blue RO-Agigea Strada Dragoș Vodă,44.10462,28.6057
 PPC-blue RO-Brașov Bulevardul Griviței,45.68488,25.5858
+PPC-blue RO-Brașov Centura Brașov,45.6941,25.58637
 PPC-blue RO-Călugăreni DN5,44.09264,25.985
 PPC-blue RO-Deva Calea Zarandului,45.86127,22.92905
 PPC-blue RO-Miercurea Ciuc Strada Harghita,46.36307,25.79284
@@ -23984,6 +24002,7 @@ PPC-blue RO-Târgu Secuiesc Strada 1 Decembrie 1918,45.99395,26.12133
 
 PRE CZ-Herálec u Havlíčkova Brodu,49.51429,15.41789
 PRE CZ-Karlovy Vary Stará Kysibelská,50.23661,12.89776
+PRE CZ-Karviná Ostravská,49.85506,18.53477
 PRE CZ-Kladruby u Stříbra,49.70176,12.98846
 PRE CZ-Mariánské Lázně Plzeňská,49.95272,12.70286
 PRE CZ-Moravská Třebová Dvorní,49.75143,16.65886
@@ -24013,6 +24032,8 @@ PRE NL-Voorhout Loosterweg,52.24059,4.51009
 
 prio PT-Coimbra Av. Lousã,40.2035,-8.42534
 prio PT-Q.ta do Conde Tv. da Boa Vontade,38.55443,-9.08852
+
+ProCredit-Bank BA-Sarajevo Vrbanja,43.85482,18.40685
 
 Prokon DE-Itzehoe Kirchhoffstraße,53.95928,9.48538
 
@@ -28169,6 +28190,7 @@ Zunder ES-Oviedo C. de Francisco Rodríguez García,43.3686,-5.8394
 Zunder ES-Pancorbo C. Poligono Cantarranas,42.6263,-3.11337
 Zunder ES-Rois Sar Galicia,42.77438,-8.65104
 Zunder ES-Santiago de Compostela Rúa de Miguel Ferro Caaveiro,42.88438,-8.51292
+Zunder ES-Siero Autovía Ruta de la Plata,43.3912,-5.80157
 Zunder ES-Villalpando Cam. de los Gallegos,41.82615,-5.37888,12
 Zunder ES-Zafra Plaza del Alcázar,38.4244,-6.41493
 Zunder ES-Área de servicio Quintanilla Norte,42.0224,-5.8536
@@ -28222,12 +28244,14 @@ Zunder ES-Área de servicio Quintanilla Norte,42.0224,-5.8536
 ČEZ CZ-Kladno Americká,50.12712,14.11714
 ČEZ CZ-Kladruby Pozorka,49.70374,12.98681
 ČEZ CZ-Liberec České mládeže,50.74133,15.04858
+ČEZ CZ-Lipno nad Vltavou Slupečná,48.64342,14.21978
 ČEZ CZ-Litovel Unčovice,49.66334,17.10522
 ČEZ CZ-Mariánské Lázně Masarykova,49.97248,12.70368
 ČEZ CZ-Mladá Boleslav Jičínská,50.40915,14.94109
 ČEZ CZ-Nový Bor B. Egermanna,50.7656,14.544
 ČEZ CZ-Osice,50.1374,15.69811
 ČEZ CZ-Ostrovačice Veveří,49.21547,16.40952
+ČEZ CZ-Plasy Parkoviště Plasy-Rybnik,49.9335,13.38745
 ČEZ CZ-Plzeň,49.74205,13.39345
 ČEZ CZ-Plzeň Písecká,49.7018,13.42816
 ČEZ CZ-Plzeň Radčická,49.74917,13.37022
@@ -28376,7 +28400,7 @@ AU Roselands NSW HomeCo.,-33.93497,151.06807
 AU Sydney NSW Western Sydney University,-33.81128,151.02376
 AU Tonsley SA South Road,-35.00816,138.57499
 AU Waratah TAS Bischoff Hotel,-41.44293,145.52662
-BA Banja Luka Delta Planet,44.78049,17.20657
+BA Banja Luka Delta Planet,44.78052,17.20716,60
 BE Hasselt Corda Campus Kempische Steenweg 293,50.95148,5.35323,14
 BE Humbeek Molenstraat,50.9634,4.37065
 BE Knokke-Heist Lippenslaan,51.35214,3.2891
@@ -28856,6 +28880,7 @@ RO Brașov Țiriac Auto,45.6224,25.64635
 RO București Splaiul Unirii,44.39593,26.20193
 RO Cluj-Napoca Strada Ion Meșter,46.75839,23.5593
 RO Cristian Hotel Sorin Mihai,45.63336,25.49198
+RO Eforie Sud Strada Mihai Eminescu,44.02587,28.65357
 RO Odorheiu Secuiesc Strada Haáz Rezső,46.31342,25.31032
 RO Oradea Pasajul Vulturul Negru,47.05513,21.93175
 RO Sibiu Piața Mică,45.79757,24.15138
