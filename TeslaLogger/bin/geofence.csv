@@ -12214,7 +12214,13 @@ ElDrive RO-Sovata Strada Primăverii,46.58118,25.05548
 ElDrive RO-Târgu Mureș Strada Gheorghe Doja,46.52475,24.53758
 ElDrive RO-Vladimirescu Str. Cetății Orod,46.16738,21.3875
 
+ELE DE-Gelsenkirchen Buer-Gladbeckerstraße,51.57977,7.03865
+ELE DE-Gelsenkirchen Cranger Straße,51.5754,7.05983
 ELE DE-Gelsenkirchen Husemannstraße,51.50603,7.09896,20
+ELE DE-Gelsenkirchen Kurt-Schumacher-Straße,51.52347,7.08865
+ELE DE-Gelsenkirchen Königswiese,51.58197,7.05148
+ELE DE-Gladbeck Karl-Schneider-Straße,51.57298,6.97147,30
+ELE DE-Gladbeck Schillerstraße,51.57495,6.9929
 
 Electra AT-Amstetten Oiden,48.13345,14.83784
 Electra AT-Graz Kärntner Straße,47.0448,15.41478
@@ -12579,11 +12585,6 @@ emobitaly IT-Venezia Isola Nova del Tronchetto,45.4427,12.30654
 emoti CH-Locarno Viale Al Lido,46.16292,8.80299
 
 emotì CH-Locarno Lungolago Giuseppe Motta,46.16593,8.80353
-
-Emscher-Lippe-Energie DE-Gelsenkirchen Cranger Straße,51.5754,7.05983
-Emscher-Lippe-Energie DE-Gelsenkirchen Kurt-Schumacher-Straße,51.52347,7.08865
-Emscher-Lippe-Energie DE-Gelsenkirchen Königswiese,51.58197,7.05148
-Emscher-Lippe-Energie DE-Gladbeck Schillerstraße,51.57495,6.9929
 
 En-Yakıt TR-Bucak Atilla,37.40944,30.54361
 
@@ -15587,6 +15588,7 @@ ESB IE-Waterford Parnell St,52.25879,-7.10867
 
 ESWE DE-Geisenheim Rheinstraße,49.98042,7.96698
 ESWE DE-Idstein Limburger Straße,50.22352,8.2678
+ESWE DE-Idstein Weldertstraße,50.2212,8.2549
 ESWE DE-Idstein Weldertstraße,50.2229,8.25428
 ESWE DE-Königstein im Taunus Limburger Straße,50.19202,8.46427
 ESWE DE-Rüdesheim am Rhein Rheinstraße,49.97764,7.9194
@@ -15632,6 +15634,8 @@ etecnic ES-Santa Eulàlia de Ronçana Carrer Verge del Remei,41.64067,2.23259
 etecnic ES-Segorbe Av. Fray Luis Amigo,39.84834,-0.48888
 etecnic ES-Vilanova i la Geltrú Carrer dels Escolapis,41.22233,1.72666
 etecnic ES-Vilanova i la Geltrú Passeig Marítim,41.21605,1.73325
+
+ets AL-Berat Rruga Antipatrea,40.7254,19.94334
 
 Eulektro DE-Berlin Platz der Luftbrücke,52.47765,13.3868
 Eulektro DE-Bremen Am Dobben,53.0781,8.82284
@@ -18386,6 +18390,7 @@ iCharge AL-Berat Rruga Baki Gjebrea,40.72775,19.9421
 iCharge AL-Durrës Autostrada Tirane,41.3344,19.48028
 iCharge AL-Koplik E762,42.21535,19.45152
 iCharge AL-Saranda Rruga Skënderbeu,39.86897,20.0191
+iCharge AL-Shkodër Rruga Faik Konica,42.05756,19.50152
 iCharge AL-Tiranë Rruga e Kavajes,41.3285,19.81318
 iCharge AL-Vlora Rruga Dush Strati,40.45718,19.48917
 iCharge HR-Rab Palit,44.76199,14.7582
@@ -27436,7 +27441,6 @@ vaylens DE-Friedrichshafen Eckenerstraße,47.65228,9.48248
 vaylens DE-Geisenheim Winkeler Straße,49.98517,7.96964
 vaylens DE-Gersthofen Porschestraße,48.40893,10.87172,20
 vaylens DE-Gescher Schüringsweg,51.9428,7.02548,30
-vaylens DE-Gladbeck Karl-Schneider-Straße,51.57298,6.97147,30
 vaylens DE-Herne Am Neumarkt,51.5412,7.2245
 vaylens DE-Konz Wilde Acht,49.695,6.56544
 vaylens DE-Legden Houlingort,52.02164,7.1164
@@ -28327,6 +28331,7 @@ Zunder ES-Área de servicio Quintanilla Norte,42.0224,-5.8536
 Россети RU-Kolomno Коломно M-11,57.67978,34.22274
 Россети RU-Kolomno Коломно M-11,57.67985,34.2244
 
+AL Gjirokastër Grand Park Hotel,40.14008,20.10048
 AT Alpenhotel Ammerwald,47.5257,10.84337
 AT Altentann Berg,47.89108,13.21846
 AT Bad Häring Hotel DAS SIEBEN,47.51318,12.11127
@@ -28815,6 +28820,7 @@ HU Budapest Omega,47.46799,19.16747,60
 HU Bük Park Hotel Bükfürdő,47.37853,16.78599
 HU Kecskemét Four Points by Sheraton,46.89802,19.67362
 HU Körmend Mjus,47.00862,16.5687
+ID AL-Shkodër Rruga vellezerit frasheri,42.0618,19.50112
 IE Seafield the westlodge hotel,51.67247,-9.4753
 IT Anterselva di Mezzo,46.85817,12.10115
 IT Bollate Via S. Bernardo Pirelli,45.56303,9.14734
