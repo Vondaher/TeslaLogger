@@ -7380,6 +7380,7 @@ Tesla Service Center NL-Den Haag,52.07044,4.38834
 Tesla Service Center NL-Groningen,53.22297,6.61148
 Tesla Service Center NL-Rotterdam,51.86498,4.45695
 Tesla Service Center NL-Tilburg,51.60606,4.9964
+Tesla Service Center NO-Kristiansand,58.17786,8.13658
 Tesla Service Center NO-Skodje,62.4922,6.60694
 Tesla Service Center NO-Tromsø,69.67652,18.9216
 Tesla Service Center PT-Porto,41.17775,-8.65087
@@ -8594,7 +8595,7 @@ Allego DE-Übersee Bahnhofstraße,47.8189,12.4964
 Allego DK-Holstebro Nyholmvej,56.37748,8.6201
 Allego DK-Odense Drejebænken,55.35404,10.4199
 Allego DK-Randers Neptunvej,56.4249,10.05983
-Allego DK-Silkeborg Nordre Højmarksvej,56.18728,9.5102,26
+Allego DK-Silkeborg Nordre Højmarksvej,56.18728,9.5102,24
 Allego DK-Slagelse Idagårdsvej,55.3919,11.35248
 Allego DK-Vejle Godthåbsvej,55.66392,9.55016,20
 Allego FR-Aire de La Bruche,48.539,7.58042
@@ -10651,7 +10652,7 @@ Clever DK-Roskilde Stationscentret,55.63724,12.08278
 Clever DK-Rødekro Skånevej,55.0694,9.35293
 Clever DK-Rønne Østre Ringvej,55.0928,14.72983
 Clever DK-Silkeborg Borgergade,56.18367,9.54622
-Clever DK-Silkeborg Nordre Højmarksvej,56.18762,9.5103,26
+Clever DK-Silkeborg Nordre Højmarksvej,56.18762,9.5103,24
 Clever DK-Silkeborg Torvet,56.16826,9.55104
 Clever DK-Skagen Christian Xs Vej,57.72364,10.59067
 Clever DK-Skærbæk Jernbanegade,55.15875,8.76943
@@ -11198,6 +11199,7 @@ Duferco IT-Albenga Via Cardinale Alimonda,44.05489,8.19572
 Duferco IT-Albissola Marina Via Faraggiana,44.33432,8.50436
 Duferco IT-Genova Corso Andrea Podesta,44.40314,8.93908
 Duferco IT-Genova Via Filippo Turati,44.40833,8.92881
+Duferco IT-Modena Via Carlo Casalegno,44.62047,10.92477
 Duferco IT-Rapallo Via Bartolomeo Maggiocco,44.35148,9.23364
 Duferco IT-Torino Via Parenzo,45.10306,7.64613
 Duferco IT-Uscio Via Crocetta,44.41144,9.16827
@@ -15881,90 +15883,284 @@ EVM DE-Koblenz Contel Hotel,50.36591,7.57722
 EVM DE-Koblenz Festung Ehrenbreitstein,50.36722,7.61763
 EVM DE-Koblenz Schloßstraße,50.3564,7.59699
 
+EVN AT-Absdorf Bahnhofstraße,48.40102,15.98634,38
+EVN AT-Aggsbach Markt Aggsbach Markt,48.29444,15.40443,38
+EVN AT-Altlengbach Hauptstraße,48.15427,15.9188,38
 EVN AT-Amstetten Agathastraße,48.12268,14.88624
+EVN AT-Amstetten Arthur-Krupp-Straße,48.11862,14.89535,38
 EVN AT-Amstetten Eggersdorfer Straße,48.12087,14.87444
-EVN AT-Amstetten Kupferstraße,48.11669,14.89228
+EVN AT-Amstetten Kupferstraße,48.1167,14.89228
+EVN AT-Amstetten Leinerstraße,48.10603,14.83248,38
 EVN AT-Amstetten Oiden,48.13194,14.8403,20
 EVN AT-Amstetten Otto-Schott-Straße,48.11753,14.91083
 EVN AT-Amstetten Waidhofner Straße,48.12153,14.86857
 EVN AT-Amstetten Ybbsstraße,48.11398,14.87068
-EVN AT-Bruck an der Leitha Eco-Plus-Park 4.Straße,48.03511,16.80851
+EVN AT-Amstetten-Neufurth Schlüsselstraße,48.08242,14.80384,38
+EVN AT-Anif Alpenstraße,47.738,13.0513,38
+EVN AT-Annaberg bei Mariazell Annarotte,47.8722,15.3766,38
+EVN AT-Ansfelden Traunuferstraße,48.21747,14.2836,38
+EVN AT-Aschbach Neufeld,48.07393,14.74087,38
+EVN AT-Aschbach-Markt Florianusstraße,48.07117,14.74177,38
+EVN AT-Aspang Wechselstraße,47.55965,16.0934,38
+EVN AT-Bad Fischau Bauhausstraße,47.8233,16.20908,38
+EVN AT-Bad Großpertholz Karlstift,48.5912,14.75265,38
+EVN AT-Bad Traunstein Hauptstraße,48.4343,15.1129,38
+EVN AT-Bad Vöslau Badener Straße,47.9782,16.2208,38
+EVN AT-Baden Wiener Straße,48.01328,16.25608,38
+EVN AT-Bergheim bei Salzburg Moosfeldstraße,47.83806,13.05686,38
+EVN AT-Berndorf Leobersdorfer Straße,47.94272,16.11685,38
+EVN AT-Biedermannsdorf Siegfried Marcus-Straße,48.0861,16.35865,38
+EVN AT-Breitenfurt bei Wien Hauptstraße,48.13582,16.1932,38
+EVN AT-Bruck an der Leitha Bundesstraße,48.02284,16.75887,38
+EVN AT-Bruck an der Leitha Eco-Plus-Park 4.Straße,48.0351,16.8085
+EVN AT-Bruck an der Leitha Industriegelände West,48.0217,16.75786,38
 EVN AT-Brunn am Gebirge Johann Steinböck-Straße,48.1055,16.3103
 EVN AT-Böheimkirchen Hainfelder Straße,48.19525,15.76487
 EVN AT-Böheimkirchen Reith,48.18794,15.76504
+EVN AT-Böheimkirchen Würthstraße,48.19114,15.76938,38
+EVN AT-Deutsch-Wagram Dr. Leopold Figl-Gasse,48.30372,16.57802,38
+EVN AT-Deutsch-Wagram Eduard Scharschon-Straße,48.30256,16.57794,38
+EVN AT-Dietach Harrstraße,48.09958,14.43954,38
+EVN AT-Dürnstein Dürnstein,48.3919,15.5281,38
+EVN AT-Ebenfurth Hauptstraße,47.8746,16.37506,38
+EVN AT-Ebreichsdorf Wiener Neustädter Straße,47.95478,16.40408,38
 EVN AT-Eggenburg Grafenbergerstraße,48.64377,15.82247
 EVN AT-Eggenburg Pulkauerstraße,48.648,15.8231
+EVN AT-Eggenburg Stoitzendorferstraße,48.6443,15.82252,38
 EVN AT-Eisenstadt Haidäckerstraße,47.825,16.532,25
-EVN AT-Ennsdorf Straße 3,48.22133,14.5061
+EVN AT-Eisenstadt Mattersburger Straße,47.82903,16.52282,38
+EVN AT-Eisenstadt Ruster Straße,47.8274,16.5322,38
+EVN AT-Ennsdorf Straße,48.22133,14.5061
+EVN AT-Enzersdorf bei Staatz Bergblick,48.674,16.49216,38
+EVN AT-Ernstbrunn Wienerstraße,48.52656,16.37875,38
+EVN AT-Etsdorf am Kamp Schloßparkstraße,48.44687,15.73786,38
+EVN AT-Gföhl Langenloiser Straße,48.51275,15.50948,38
+EVN AT-Gloggnitz Höllerbauer-Gasse,47.6727,15.95658,38
+EVN AT-Gmünd Emerich Berger Straße,48.76566,14.98027,38
+EVN AT-Gmünd Lagerstraße,48.7589,14.97524,38
+EVN AT-Gmünd Prof.-Krejci-Graf-Straße,48.76105,14.99102,38
+EVN AT-Gmünd Schremser Straße,48.77172,14.98582,38
+EVN AT-Grafenbach Aurieglgasse,47.68684,16.00812,38
+EVN AT-Grafenegg Grafenegg,48.42982,15.75062,38
 EVN AT-Grafenwörth Gewerbepark,48.41187,15.776
+EVN AT-Grafenwörth Gewerbering,48.41352,15.77404,38
+EVN AT-Grafenwörth Mühlplatz,48.40738,15.77608,38
+EVN AT-Grein Ufer,48.219,14.8543,38
 EVN AT-Grimmenstein Wechselbundesstrasse,47.63344,16.13192
+EVN AT-Groß Gerungs Kreuzberg,48.56705,14.95556,38
+EVN AT-Groß-Siegharts Silostraße,48.79004,15.40892,38
+EVN AT-Großweikersdorf DDr. Maier Straße,48.47683,15.97955,38
 EVN AT-Gänserndorf Bodenzeile,48.33526,16.7145
 EVN AT-Gänserndorf Neusiedler Straße,48.3351,16.71196,30
+EVN AT-Gänserndorf Oed Aigenstraße,48.30665,16.68738,38
+EVN AT-Gänserndorf Protteser Straße,48.34775,16.72443,38
 EVN AT-Göllersdorf Hammerschmiedstraße,48.49825,16.11453
+EVN AT-Göstling an der Ybbs Lassing,47.71854,14.9181,38
+EVN AT-Haag Bahnhofstraße,48.10916,14.57037,38
+EVN AT-Hadres Hadres,48.70677,16.13864,38
+EVN AT-Hainfeld Hauptstraße,48.0395,15.75927,38
+EVN AT-Hallwang Wiener Bundesstraße,47.8298,13.0827,38
 EVN AT-Harmannsdorf Kirchengasse,48.3917,16.37124
+EVN AT-Haugsdorf Laaerstraße,48.70404,16.08272,38
+EVN AT-Heidenreichstein Litschauer Straße,48.8735,15.1174,38
+EVN AT-Heidenreichstein Schremser S./Kl.Pertholz,48.8571,15.11074,38
+EVN AT-Heidenreichstein Stadtplatz,48.8658,15.12345,38
+EVN AT-Heiligenkreuz im Wienerwald Hauptstraße,48.05626,16.12792,38
+EVN AT-Hennersdorf bei Wien Hauptstraße,48.11336,16.35684,38
+EVN AT-Herrnbaumgarten Poysbrunner Straße,48.69732,16.6798,38
 EVN AT-Herzogenburg St. Pöltner Straße,48.27414,15.6927
 EVN AT-Herzogenburg Traismauerstraße,48.29015,15.69495
+EVN AT-Himberg bei Wien Gewerbestraße,48.07145,16.45733,38
 EVN AT-Himberg bei Wien Hofer Straße,48.07175,16.45776
+EVN AT-Hofamt Priel Donau Bundesstraße,48.19155,15.0747,38
+EVN AT-Hollabrunn Kaplanstraße,48.56986,16.08147,38
 EVN AT-Hollabrunn Theodor Körner-Gasse,48.56197,16.0793
 EVN AT-Horn Prager Straße,48.66136,15.65458
 EVN AT-Höbenbach Ortsstraße,48.35014,15.64742
+EVN AT-Höbenbach Setzenweg,48.35145,15.65052,38
+EVN AT-Hürm Marktstraße,48.15635,15.41293,38
+EVN AT-Kefermarkt Galgenau,48.483,14.4971,38
 EVN AT-Kematen an der Ybbs 35. Straße,48.03756,14.77816
+EVN AT-Klosterneuburg Brandmayerstraße,48.292,16.32133,38
+EVN AT-Klosterneuburg Hauptstraße,48.30792,16.26867,38
+EVN AT-Klosterneuburg Schüttaustraße,48.2954,16.34072,38
 EVN AT-Korneuburg Girakstraße,48.36066,16.32724
 EVN AT-Korneuburg Laaer Straße,48.35026,16.33878
-EVN AT-Krems an der Donau Flughafenstraße,48.44614,15.62969
+EVN AT-Krems an der Donau An der Schütt,48.39916,15.6636,38
+EVN AT-Krems an der Donau Flughafenstraße,48.44614,15.6297
+EVN AT-Krems an der Donau Gewerbeparkstraße,48.40525,15.6559,38
 EVN AT-Krems an der Donau Philosophensteig,48.4083,15.58502
 EVN AT-Krems an der Donau Steiner Donaulände,48.40407,15.59108
+EVN AT-Krems Wiener Straße,48.41826,15.62805,38
+EVN AT-Krumbach Unterhaus,47.50686,16.20127,38
+EVN AT-Laa an der Thaya Thayapark,48.71032,16.3672,38
+EVN AT-Laa an der Thaya Thayapark,48.71258,16.3712,38
+EVN AT-Laa an der Thaya Ungerndorferstraße,48.7148,16.39328,38
+EVN AT-Langenlois Loisium-Allee,48.47825,15.67642,38
+EVN AT-Langenlois Wiener Straße,48.47117,15.68453,38
+EVN AT-Langenlois Wiener Straße,48.47168,15.6814,38
+EVN AT-Langenrohr Europastraße,48.31726,16.0183,38
+EVN AT-Langenrohr Europastraße,48.32022,16.02167,38
+EVN AT-Langenzersdorf Wiener Straße,48.29746,16.375,38
+EVN AT-Langenzersdorf Wiener Straße,48.29997,16.37308,38
 EVN AT-Leobendorf Hammerschmied-Straße,48.36004,16.31046
+EVN AT-Leobersdorf Färbergasse,47.92812,16.2188,38
 EVN AT-Leopoldsdorf bei Wien Achauerstraße,48.11838,16.3964
+EVN AT-Leopoldsdorf im Marchfeld Hauptstraße,48.2245,16.6898,38
+EVN AT-Leopoldsdorf im Marchfeld Hauptstraße,48.2265,16.69554,38
+EVN AT-Lunz am See Elisabeth-Hummel-Straße,47.86254,15.0304,38
 EVN AT-Mank Bahnhofstraße,48.1119,15.34337
-EVN AT-Mank Schulstraße,48.11077,15.34099,30
+EVN AT-Mank Schulstraße,48.11077,15.341,30
 EVN AT-Mank Wieselburger Straße,48.11364,15.33695
 EVN AT-Maria Ellend Marienring,48.1091,16.68283
 EVN AT-Maria Enzersdorf Südstadtzentrum,48.09522,16.31016
+EVN AT-Mariazell Grazer Straße,47.77132,15.31473,38
+EVN AT-Mattersburg Fachmarktzentrum,47.7303,16.41277,38
+EVN AT-Mauer/Amstetten Boog-Straße,48.08547,14.80388,38
+EVN AT-Mauerbach Kreuzbrunn,48.23827,16.18166,38
+EVN AT-Melk Kolomaniau,48.23412,15.3302,38
 EVN AT-Melk Wiener Straße,48.22538,15.34864
+EVN AT-Micheldorf Michelpark,47.87562,14.12816,38
 EVN AT-Mistelbach Ernstbrunnerstraße,48.5607,16.56084
-EVN AT-Mistelbach Hüttendorfweg,48.56149,16.55836
-EVN AT-Perchtoldsdorf Mühlgasse,48.12359,16.29318
+EVN AT-Mistelbach Herzog Albrecht-Straße,48.5687,16.59807,38
+EVN AT-Mistelbach Hüttendorfweg,48.5615,16.55836
+EVN AT-Mitterbach am Erlaufsee Seestraße,47.81036,15.28952,38
+EVN AT-Mödling Bahnhofplatz,48.086,16.29452,38
+EVN AT-Mödling Schulweg,48.08386,16.30405,38
+EVN AT-Neufurth Schwarzer Weg,48.07966,14.81216,38
+EVN AT-Neulengbach Gaymühlengasse,48.20013,15.90025,38
+EVN AT-Neulengbach Tullner Straße,48.19932,15.90175,38
+EVN AT-Neunkirchen Sandgasse,47.72112,16.06752,38
+EVN AT-Neunkirchen Schraubenwerkstraße,47.7244,16.07662,38
+EVN AT-Ober-Grafendorf Manker Straße,48.1509,15.54062,38
+EVN AT-Oberndorf bei Salzburg Salzburgerstraße,47.93727,12.9439,38
+EVN AT-Obertrum am See Seekirchnerstraße,47.9361,13.0819,38
+EVN AT-Ottenschlag Hammerwerk,48.4477,15.2101,38
+EVN AT-Ottenschlag Sportplatzgasse,48.42588,15.22272,38
+EVN AT-Parndorf Gewerbestraße,47.97772,16.85348,38
+EVN AT-Parndorf Pannonia Straße,47.9815,16.84958,38
+EVN AT-Perchtoldsdorf Mühlgasse,48.1236,16.29318
+EVN AT-Pernitz Hauptstraße,47.89587,15.97273,38
+EVN AT-Pernitz Hauptstraße,47.89627,15.95756,38
 EVN AT-Poysdorf Baumfeldstraße,48.65647,16.63133
+EVN AT-Poysdorf Oberer Markt,48.66838,16.62796,38
 EVN AT-Pressbaum Hauptstraße,48.18037,16.07907
-EVN AT-Pressbaum Hauptstraße,48.18276,16.08919
+EVN AT-Pressbaum Hauptstraße,48.18276,16.0892
+EVN AT-Purgstall an der Erlauf Erlauftalstraße,48.0652,15.135,38
 EVN AT-Purgstall an der Erlauf Ötscherlandstraße,48.05573,15.1395
-EVN AT-Purgstall Erlauftalstraße,48.06599,15.13419
+EVN AT-Purgstall Erlauftalstraße,48.066,15.1342
+EVN AT-Purkersdorf Linzerstraße,48.2116,16.17348,38
 EVN AT-Pöchlarn Anton Schlecker Straße,48.20445,15.21897
 EVN AT-Pöchlarn Manker Straße,48.19958,15.22043
+EVN AT-Pöggstall Untere Hauptstraße,48.31768,15.20883,38
+EVN AT-Rastenfeld B38,48.57545,15.33,38
+EVN AT-Reichenau an der Rax Friedrich Zach-Gasse,47.6954,15.84688,38
+EVN AT-Retz Höfleinerstraße,48.75785,15.95575,38
 EVN AT-Roggendorf A1,48.19475,15.38373
+EVN AT-Salzburg Fürbergstraße,47.80762,13.06652,38
+EVN AT-Sattledt Kirchdorfer Straße,48.07003,14.05338,38
+EVN AT-Scheibbs Gewerbestraße,48.0136,15.15727,38
+EVN AT-Scheiblingkirchen Bundesstraße,47.66222,16.12887,38
 EVN AT-Schiltern Laabergstraße,48.51162,15.63226
 EVN AT-Schrems Josef-Widy-Straße,48.79162,15.07124
+EVN AT-Schrems Schulgasse,48.7932,15.0675,38
+EVN AT-Schwarzenau Parkplatz Bundesstraße,48.74313,15.26144,38
 EVN AT-Schwechat Mannswörther Straße,48.15125,16.4739
+EVN AT-Seitenstetten Steyrer Straße,48.04223,14.6287,38
+EVN AT-Semmering Südbahnstraße,47.64684,15.8252,38
 EVN AT-Semmering-Kurort Semmering,47.64703,15.82485
+EVN AT-Siegendorf Intro Park,47.77543,16.52756,38
+EVN AT-Sieghartskirchen Hoferstraße,48.2562,16.00835,38
+EVN AT-Sigmundsherberg Maigener Straße,48.68564,15.75693,38
 EVN AT-St. Andrä-Wördern Tullnerstraße,48.32272,16.20127
-EVN AT-St. Pölten Ausstellungsstraße,48.20061,15.62996
-EVN AT-St. Pölten Pottenbrunner Hauptstraße,48.23851,15.69444
+EVN AT-St. Georgen am Ybbsfelde Balldorf,48.1243,14.97337,38
+EVN AT-St. Johann im Pongau Bundesstraße,47.3572,13.1977,38
+EVN AT-St. Peter in der Au-Markt Burgholzstraße,48.04107,14.61817,38
+EVN AT-St. Pölten Ausstellungsstraße,48.2006,15.62996
+EVN AT-St. Pölten Bimbo Binder Promenade,48.2208,15.65074,38
+EVN AT-St. Pölten Daniel-Gran-Straße,48.20974,15.63034,38
+EVN AT-St. Pölten Kremser Landstraße,48.22004,15.6274,38
+EVN AT-St. Pölten Landsbergerstraße,48.18578,15.62088,38
+EVN AT-St. Pölten Mariazeller Straße,48.19414,15.62057,38
+EVN AT-St. Pölten Milleniumsstraße,48.2025,15.6336,38
+EVN AT-St. Pölten Neue Herrengasse,48.20084,15.63307,38
+EVN AT-St. Pölten Porschestraße,48.1783,15.6168,38
+EVN AT-St. Pölten Pottenbrunner Hauptstraße,48.2385,15.69444
+EVN AT-St. Pölten Rennbahnstraße,48.20652,15.63335,38
+EVN AT-St. Pölten Schiffmannstraße,48.18295,15.63748,38
 EVN AT-St. Pölten Stattersdorfer Hauptstraße,48.19738,15.64104
-EVN AT-Stockerau Horner Straße,48.38807,16.18479
+EVN AT-St. Pölten Willy Brandt-Straße,48.19958,15.64053,38
+EVN AT-St. Valentin Kaufpark,48.19133,14.52114,38
+EVN AT-St. Valentin Westbahnstraße,48.18326,14.52052,38
+EVN AT-Steyr Pachergasse,48.04153,14.42655,38
+EVN AT-Stockerau Horner Straße,48.38807,16.1848
 EVN AT-Stockerau Rudolf-Hirsch-Straße,48.38117,16.23934
+EVN AT-Strasshof an der Nordbahn Schönkirchner Straße,48.32084,16.65268,38
+EVN AT-Teesdorf Wiener Neustädter Straße,47.94988,16.28712,38
+EVN AT-Theresienfeld Grazerstraße,47.84674,16.24442,38
+EVN AT-Traisen Hainfelder Bundesstraße,48.0503,15.6117,38
 EVN AT-Traismauer Herzogenburger Straße,48.35283,15.73994
 EVN AT-Tulln an der Donau Frauentorgasse,48.32718,16.05535
+EVN AT-Tulln an der Donau Kaplanstraße,48.32665,16.07707,38
+EVN AT-Tulln an der Donau Königstetter Straße,48.31916,16.08273,38
 EVN AT-Tulln an der Donau Langenlebarner Straße,48.32822,16.08246
 EVN AT-Tulln an der Donau Staasdorfer Straße,48.32366,16.05867
+EVN AT-Unterwart Gewerbepark,47.27183,16.23757,38
+EVN AT-Vitis Titus-Appel-Straße,48.7556,15.18478,38
+EVN AT-Völkermarkt Mettingerstraße,46.6606,14.6322,38
+EVN AT-Vösendorf Konsumstraße,48.1298,16.3243,38
 EVN AT-Vösendorf Schönbrunner Allee,48.12878,16.32716
+EVN AT-Waidhofen an der Thaya Brunnerstraße,48.8116,15.26885,38
+EVN AT-Waidhofen an der Ybbs Hammerschmiedstraße,47.94928,14.7906,38
 EVN AT-Waidhofen an der Ybbs Pocksteinerstraße,47.95645,14.77768
+EVN AT-Waidhofen an der Ybbs Wiener Straße,47.97594,14.7551,38
+EVN AT-Wals Franz-Brötzner-Straße,47.793,12.9842,38
+EVN AT-Weibern A8 Innkreis Autobahn,48.1844,13.68788,38
+EVN AT-Weigelsdorf Wiener Straße,47.9502,16.40797,38
 EVN AT-Weitra Bahnhofstraße,48.70086,14.8977
-EVN AT-Wien Albert-Schweitzer-Gasse,48.2075,16.22199
-EVN AT-Wien Dommesgasse,48.17229,16.41517
+EVN AT-Wien Albert-Schweitzer-Gasse,48.2075,16.222
+EVN AT-Wien Bergsteiggasse,48.21846,16.3357,38
+EVN AT-Wien Dommesgasse,48.1723,16.41517
+EVN AT-Wien Donaufelder Straße,48.25245,16.42662,38
+EVN AT-Wien Florian-Hedorfer-Straße,48.16643,16.43117,38
+EVN AT-Wien Gadnergasse,48.16614,16.4104,38
+EVN AT-Wien Gatterederstraße,48.15124,16.29052,38
 EVN AT-Wien Gotramgasse,48.2201,16.44554
+EVN AT-Wien Großenzersdorfer Straße,48.2171,16.4917,38
+EVN AT-Wien Gutheil-Schoder-Gasse,48.16498,16.33437,38
+EVN AT-Wien Klingerstraße,48.1487,16.33827,38
+EVN AT-Wien Landwehrstraße,48.168,16.47095,38
 EVN AT-Wien Linzer Straße,48.20324,16.24355
+EVN AT-Wien Maroltingergasse,48.2025,16.30224,38
+EVN AT-Wien Muthgasse,48.24746,16.3693,38
+EVN AT-Wien Oberlaaer Straße,48.14133,16.39005,38
+EVN AT-Wien Sandleitengasse,48.22027,16.30643,38
+EVN AT-Wien Simmeringer Hauptstraße,48.148,16.46167,38
+EVN AT-Wien Wattgasse,48.21715,16.32062,38
+EVN AT-Wiener Neudorf Am Anningerpark,48.07823,16.31113,38
 EVN AT-Wiener Neudorf IZ NÖ-Süd Straße,48.07747,16.32508
 EVN AT-Wiener Neustadt Ferdinand-Graf-von-Zeppelin-Straße,47.8417,16.25966
 EVN AT-Wiener Neustadt Günser Straße,47.8022,16.24043
+EVN AT-Wiener Neustadt Johannes-von-Nepomuk-Platz,47.81622,16.24394,38
+EVN AT-Wiener Neustadt Neudörfler Straße,47.8044,16.268,38
 EVN AT-Wiener Neustadt Neunkirchner Straße,47.80974,16.24378
+EVN AT-Wiener Neustadt Pottendorfer Straße,47.82685,16.2536,38
 EVN AT-Wiener Neustadt Puchberger Straße,47.8045,16.2103,11
 EVN AT-Wiener Neustadt Puchberger Straße,47.80467,16.21036,11
 EVN AT-Wiener Neustadt Stadionstraße,47.82817,16.24952
-EVN AT-Wolkersdorf Julius Bittner Platz,48.3852,16.51515
+EVN AT-Wiener Neustadt Ungargasse,47.8125,16.24917,38
+EVN AT-Wieselburg Volksfestplatz,48.12982,15.1399,38
+EVN AT-Wolkersdorf im Weinviertel Julius Bittner Platz,48.3852,16.51515
+EVN AT-Wolkersdorf im Weinviertel Winzerstraße,48.3781,16.5089,38
+EVN AT-Wulzeshofen Wulzeshofen,48.71676,16.30674,38
 EVN AT-Ybbs an der Donau Bahnhofstraße,48.16822,15.08626
 EVN AT-Ybbsitz Alte Poststraße,47.94852,14.89427
-EVN AT-Zwettl Gartenstraße,48.60423,15.16982
+EVN AT-Zistersdorf Umfahrungsstraße,48.5452,16.7553,38
+EVN AT-Zwettl Andre Freyskorn Straße,48.6002,15.18942,38
+EVN AT-Zwettl Franz Eigl-Straße,48.6013,15.185,38
+EVN AT-Zwettl Franz Forstreiter-Straße,48.60305,15.18902,38
+EVN AT-Zwettl Gartenstraße,48.60416,15.16977,38
+EVN AT-Zöbern Maierhöfen,47.54263,16.11693,38
 EVN DE-Nordhausen Engelsburg,51.50314,10.7934
 EVN MK-Gevgelija Граничен Премин Богородица,41.13812,22.54435
 EVN MK-Negotino Неготино ул. Железничка бр.,41.4995,22.10018
@@ -21892,6 +22088,7 @@ Mer AT-Linz Freistädter Straße,48.3292,14.31256
 Mer AT-Linz Wegscheider Straße,48.25432,14.28143,40
 Mer AT-Lustenau Sägerstraße,47.41796,9.67112
 Mer AT-Mattighofen Braunauerstraße,48.108,13.14802
+Mer AT-Neunkirchen Schwarzottstraße,47.71852,16.07127
 Mer AT-Neusiedl am See Wiener Straße,47.97165,16.83809
 Mer AT-Rohrbach Volksfeststraße,48.56651,13.98278
 Mer AT-Rum Kaplanstraße,47.27711,11.4562
@@ -27770,6 +27967,8 @@ Volkswagen PL-Wrocław al. Karkonoska,51.05556,16.97776
 Volkswagen RO-Ghimbav Calea Brașovului,45.66277,25.51406
 Volkswagen RO-Suceava Bulevardul Sofia Vicoveanca,47.62286,26.238
 
+voltic ME-Škaljari Шкаљари Put E65,42.3949,18.74703
+
 Voltiva SE-Vetlanda Kyrkogatan,57.42667,15.09076
 Voltiva SE-Värnamo Malmövägen,57.16492,14.06426
 
@@ -28032,7 +28231,7 @@ Wien-Energie AT-Wien U-Bahn-Bogen,48.2177,16.34209,60
 Wien-Energie AT-Wien Waldmüllergasse,48.23295,16.37685
 Wien-Energie AT-Wien Wehrgasse,48.19592,16.35768
 Wien-Energie AT-Wien Wimbergergasse,48.20712,16.33878
-Wien-Energie AT-Wiener Neudorf Multiplex,48.10306,16.3188,20
+Wien-Energie AT-Wiener Neudorf Multiplex,48.10334,16.31917,60
 
 Wiiiz FR-Cannes Bd Général Vautrin,43.54863,7.03206
 Wiiiz FR-Grasse Pl. de la Buanderie,43.66096,6.9234,30
