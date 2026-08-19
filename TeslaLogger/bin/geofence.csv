@@ -5477,6 +5477,7 @@ Supercharger-V3 US-Suwanee GA,34.03407,-84.05267
 Supercharger US-Tifton GA,31.44878,-83.53226
 Supercharger-V4 US-Tifton GA US-319,31.44896,-83.5283
 Supercharger-V3 US-Valdosta GA,30.81735,-83.32082
+Supercharger-V4 US-Valdosta GA N St Augustine Rd,30.84242,-83.32303
 Supercharger-V3 US-Woodstock GA,34.11833,-84.52855
 
 Supercharger-V3 US-Aiea HI,21.38214,-157.94064
@@ -6511,6 +6512,7 @@ Supercharger US-Catoosa OK,36.1676,-95.76603
 Supercharger-V4 US-Chickasha OK Francis Energy,35.0325,-97.93308
 Supercharger-V4 US-Davis OK Francis Energy,34.50594,-97.17134
 Supercharger-V4 US-Edmond OK,35.6226,-97.4786
+Supercharger-V4 US-Elk City OK Francis Energy,35.4082,-99.37974
 Supercharger-V4 US-Guthrie OK,35.88005,-97.39557
 Supercharger-V4 US-Henryetta OK,35.44053,-95.97013
 Supercharger-V4 US-Henryetta OK Hornbeam Rd Francis Energy,35.43467,-96.0181
@@ -10234,6 +10236,8 @@ chargespot GR-Kerkira Κέρκυρα EO Vrionis-Agiou Nikolaou,39.5466,19.9136
 chargespot GR-Loutraki Λουτράκι Meg. Alexandrou,37.97272,22.97817
 chargespot GR-Xanthi Ξανθη χιλ Ξανθης-Καβαλας,41.12297,24.88067
 
+CHARGEUNITY DE-Neuss Carl-Schurz-Straße,51.19577,6.7134
+
 ChargeUp CZ-Brno-Královo Pole Cimburkova,49.21703,16.60614
 
 Chargewell BE-Oostende Buskruitstraat,51.23613,2.92715
@@ -10387,6 +10391,7 @@ CircleK SE-Kiruna Industrivägen,67.84812,20.27537
 CircleK SE-Lund Magistratsvägen,55.72023,13.20381
 CircleK SE-Lycksele Umevägen,64.59021,18.69169
 CircleK SE-Nyköping Norrköpingsvägen,58.74967,16.986,15
+CircleK SE-Piteå Ringiusvägen,65.3102,21.4981
 CircleK SE-Sigtuna Cederströms Slinga,59.60648,17.89644
 CircleK SE-Skellefteå Kågevägen,64.75814,20.9659
 CircleK SE-Solna Järva krog,59.38018,18.00905
@@ -18263,6 +18268,7 @@ GreenWay PL-Sieradz Wojska Polskiego,51.59701,18.72545
 GreenWay PL-Sokolniki Prusak,51.30802,18.36532
 GreenWay PL-Stargard Szczecińska,53.34226,14.99255
 GreenWay PL-Stryków DK14,51.88203,19.58462
+GreenWay PL-Strzyżewice Balonowa,51.83146,16.5302
 GreenWay PL-Sulbiny Bitumiczna,51.86768,21.64406
 GreenWay PL-Suwałki Generała Kazimierza Pułaskiego,54.12546,22.94413
 GreenWay PL-Szczecin Goleniowska,53.40825,14.69914
@@ -20562,7 +20568,6 @@ LEW DE-Wertingen Augsburger Straße,48.55863,10.68955
 LEW DE-Wertingen Marktplatz,48.563,10.68294,30
 LEW DE-Woringen Bahnhofstraße,47.9238,10.20858,12
 
-LichtBlick DE-Andernach Am weißen Haus,50.41842,7.41806
 LichtBlick DE-Bad Fallingborstel Becklingr Straße,52.89747,9.77776
 LichtBlick DE-Bad Königshofen Hoher Markstein,50.306,10.46498
 LichtBlick DE-Bad Marienberg Friedrichstraße,50.65279,7.95923
@@ -20623,7 +20628,6 @@ LichtBlick DE-Marburg Savignystraße,50.81093,8.77637
 LichtBlick DE-Marburg Software-Center,50.80317,8.76879
 LichtBlick DE-Markgröningen Im Tuchgraben (Festplatz),48.90725,9.07894
 LichtBlick DE-Melle Industriestraße,52.19144,8.35422
-LichtBlick DE-Mellrichstadt Sondheimer Straße,50.4295,10.307
 LichtBlick DE-Neuberg Langenselbolder Straße,50.18565,8.9992
 LichtBlick DE-Neustadt in Holstein Rettiner Weg,54.10368,10.8336
 LichtBlick DE-Niederfüllbach Carl-Brandt-Straße,50.22128,10.98469
@@ -21764,6 +21768,7 @@ Lidl PL-Elbląg Jana Kochanowskiego,54.15564,19.42045
 Lidl PL-Giżycko Bohaterów Westerplatte,54.03546,21.77894
 Lidl PL-Kąty Wrocławskie Handlowa,51.0243,16.76048
 Lidl PL-Leszno,51.84837,16.58207
+Lidl PL-Leszno Obrońców Lwowa,51.83648,16.5753
 Lidl PL-Oświęcim Stanisława Konarskiego,50.04128,19.214
 Lidl PL-Pisz Wojska Polskiego,53.62873,21.82326
 Lidl PL-Poznań,52.41669,16.89035
@@ -24522,6 +24527,8 @@ Regioladen DE-Wentorf bei Hamburg Am Casinopark,53.48885,10.25357
 Regioladen DE-Willingen Sonnenweg,51.29618,8.6047
 Regioladen DE-Willingen Waldecker Straße,51.2932,8.6165
 
+Rehl DE-Andernach Am weißen Haus,50.41842,7.41806
+
 Renovatio RO-Alexandria Strada București,43.97289,25.34527
 Renovatio RO-Arad DN69,46.12922,21.31814
 Renovatio RO-Bucuresti Soseaua Bucuresti-Ploiesti,45.78963,24.08611
@@ -24759,6 +24766,7 @@ SalzachSonne AT-Mittersill Zeller Straße,47.28512,12.48996
 
 Salzburg AT-Altenmarkt im Pongau Sinnhub,47.38862,13.41269
 Salzburg AT-Anif Eisgrabenstraße,47.74581,13.05932
+Salzburg AT-Bad Hofgastein Goldbergstraße,47.1785,13.10175
 Salzburg AT-Bad Hofgastein Kurgartenstraße,47.16968,13.09925
 Salzburg AT-Bad Hofgastein Weitmoserstraße,47.15729,13.10638
 Salzburg AT-Bruck Kaprunerstraße,47.28744,12.81005
@@ -28439,6 +28447,10 @@ Zunder ES-Área de servicio Quintanilla Norte,42.0224,-5.8536
 ÖAMTC AT-Wiener Neustadt Neunkirchner Straße,47.78072,16.19059
 ÖAMTC AT-Zell am See Loferer Bundesstraße,47.34049,12.79824
 
+ÜWR DE-Fladungen Schwarzes Moor,50.52413,10.07218
+ÜWR DE-Mellrichstadt Mühlenweg,50.42654,10.30004
+ÜWR DE-Mellrichstadt Sondheimer Straße,50.4295,10.307
+
 ČEZ CZ-Beroun Obchodní,49.95654,14.0596
 ČEZ CZ-Bečov nad Teplou Karlovarská,50.09306,12.84122
 ČEZ CZ-Boskovice Rovná,49.4909,16.64158
@@ -28839,6 +28851,7 @@ DE Langen (Hessen) esatus,49.98757,8.67813,35
 DE Leer Gaswerkstraße,53.23147,7.45039
 DE Leer Hotel Lange,53.21013,7.4771
 DE Leezen Mohnweg,53.66597,11.49275
+DE Leipzig Hotel LOGINN By ACHAT,51.4014,12.38964
 DE Leipzig INNSiDE by Meliá,51.33967,12.37067
 DE Leipzig nextmove,51.32739,12.30916
 DE Leipzig Thiel Ludwig-Hupfeld-Straße,51.3519,12.30139
