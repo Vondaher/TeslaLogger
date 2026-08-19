@@ -39,7 +39,7 @@ else
     <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
     <title>Teslalogger</title>
 	<link rel="stylesheet" href="static/jquery/ui/1.12.1/themes/smoothness/jquery-ui.css">
-	<link rel="stylesheet" href="static/teslalogger_style.css?v=4">
+	<link rel="stylesheet" href="static/teslalogger_style.css?v=5">
 	<script src="static/jquery/jquery-1.12.4.js"></script>
 	<script src="static/jquery/ui/1.12.1/jquery-ui.js"></script>
 	<script src="static/jquery/jquery-migrate-1.4.1.min.js"></script>
@@ -61,6 +61,7 @@ else
 	var TemperatureUnit = "<?php echo($TemperatureUnit); ?>";
 	var PowerUnit = "<?php echo($PowerUnit); ?>";
 	var Range  = "<?php echo ($Range); ?>";
+	var isDockerNet8 = <?php echo (isDockerNet8() ? "true" : "false"); ?>;
 
 	var Display100pctEnable = "<?php echo($Display100pctEnable); ?>";
 
@@ -118,30 +119,45 @@ else
 		  url: "current_json.php",
 		  dataType: "json"
 		  }).done(function( jsonData ) {
-			if (LengthUnit == "mile")
-			{
-				if ( Range == 'IR'){
-					$('#ideal_battery_range_km').text((jsonData["ideal_battery_range_km"] / km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
-					$('#full_battery_range_km').text((jsonData["ideal_battery_range_km"]/jsonData["battery_level"]*100/km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
+			if ("ideal_battery_range_km" in jsonData && "battery_level" in jsonData && "battery_range_km" in jsonData && "odometer" in jsonData) {
+				if (LengthUnit == "mile")
+				{
+					if ( Range == 'IR')
+					{
+						$('#ideal_battery_range_km').text((jsonData["ideal_battery_range_km"] / km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
+						$('#full_battery_range_km').text((jsonData["ideal_battery_range_km"]/jsonData["battery_level"]*100/km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
+					}
+					else
+					{
+						$('#ideal_battery_range_km').text((jsonData["battery_range_km"] / km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
+						$('#full_battery_range_km').text((jsonData["battery_range_km"]/jsonData["battery_level"]*100/km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
+					}
+					$('#odometer').text((jsonData["odometer"] / km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
 				}
 				else
 				{
-					$('#ideal_battery_range_km').text((jsonData["battery_range_km"] / km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
-					$('#full_battery_range_km').text((jsonData["battery_range_km"]/jsonData["battery_level"]*100/km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
+					if ( Range == 'IR')
+					{
+						$('#ideal_battery_range_km').text(jsonData["ideal_battery_range_km"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
+						$('#full_battery_range_km').text((jsonData["ideal_battery_range_km"]/jsonData["battery_level"]*100).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
+					}
+					else
+					{	
+						$('#ideal_battery_range_km').text(jsonData["battery_range_km"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
+						$('#full_battery_range_km').text((jsonData["battery_range_km"]/jsonData["battery_level"]*100).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
+					}
+					$('#odometer').text((jsonData["odometer"]).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
 				}
-				$('#odometer').text((jsonData["odometer"] / km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
 			}
-			else
-			{
-				if ( Range == 'IR'){
-					$('#ideal_battery_range_km').text(jsonData["ideal_battery_range_km"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
-					$('#full_battery_range_km').text((jsonData["ideal_battery_range_km"]/jsonData["battery_level"]*100).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
+			else if ("odometer" in jsonData) {
+				if (LengthUnit == "mile")
+				{
+					$('#odometer').text((jsonData["odometer"] / km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("mi"); ?>");
 				}
 				else
-				{	$('#ideal_battery_range_km').text(jsonData["battery_range_km"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
-					$('#full_battery_range_km').text((jsonData["battery_range_km"]/jsonData["battery_level"]*100).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
+				{
+					$('#odometer').text((jsonData["odometer"]).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
 				}
-				$('#odometer').text((jsonData["odometer"]).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}) + " <?php t("km"); ?>");
 			}
 
 			if (Display100pctEnable == "true")
@@ -154,10 +170,16 @@ else
 			}
 
 			$('#battery_level').text(jsonData["battery_level"]);
-			var car_version = jsonData["car_version"];
-			car_version = car_version.substring(0,car_version.lastIndexOf(" "));
-			$('#car_version').text(car_version);
-			$('#car_version_link').attr("href", "https://www.notateslaapp.com/software-updates/version/"+ car_version +"/release-notes");
+			if (jsonData["car_version"]) {
+				var car_version = jsonData["car_version"];
+
+				var hashpos = car_version.lastIndexOf(" ");
+				if (hashpos > 0)
+					car_version = car_version.substring(0, hashpos);
+				
+				$('#car_version').text(car_version);
+				$('#car_version_link').attr("href", "https://www.notateslaapp.com/software-updates/version/"+ car_version +"/release-notes");
+			}
 
 			if (car_inactive)
 			{
@@ -263,23 +285,24 @@ else
 				hideSMT();
 			}
 
-			if (LengthUnit == "mile")
-			{
-				$("#max_speed").text((jsonData["trip_max_speed"]/ km2mls).toFixed(0));
-				$("#lt_kmh").text("mph");
+			if (jsonData["trip_max_speed"] && jsonData["trip_avg_kwh"] && jsonData["trip_distance"]) {
+				if (LengthUnit == "mile")
+				{
+					$("#max_speed").text((jsonData["trip_max_speed"]/ km2mls).toFixed(0));
+					$("#lt_kmh").text("mph");
 
-				$("#trip_avg_kwh").text((jsonData["trip_avg_kwh"]* km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
-				$("#lt_whkm").text("wh/mi");
+					$("#trip_avg_kwh").text((jsonData["trip_avg_kwh"]* km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
+					$("#lt_whkm").text("wh/mi");
 
-				$("#trip_distance").text((jsonData["trip_distance"]/km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
-				$("#lt_trip_distance_km").text("mi");
-			}
-			else
-			{
-				$("#max_speed").text(jsonData["trip_max_speed"]);
-
-				$("#trip_avg_kwh").text(jsonData["trip_avg_kwh"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
-				$("#trip_distance").text(jsonData["trip_distance"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
+					$("#trip_distance").text((jsonData["trip_distance"]/km2mls).toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
+					$("#lt_trip_distance_km").text("mi");
+				}
+				else
+				{
+					$("#max_speed").text(jsonData["trip_max_speed"]);
+					$("#trip_avg_kwh").text(jsonData["trip_avg_kwh"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
+					$("#trip_distance").text(jsonData["trip_distance"].toLocaleString(loc,{maximumFractionDigits:1, minimumFractionDigits: 1}));
+				}
 			}
 
 			var ts2 = new Date(Date.parse(jsonData["trip_start_dt"]));
@@ -298,7 +321,7 @@ else
 
 			$("#trip_duration_sec").text(min + ":" + sec);
 
-			if (jsonData["software_update_status"].length > 0)
+			if (jsonData["software_update_status"] && jsonData["software_update_status"].length > 0)
 			{
 				$("#SoftwareUpdateRow").show();
 				var temp = jsonData["software_update_status"];
@@ -388,7 +411,14 @@ else
 		if (jsonData["SMTCellTempAvg"])
 		{
 			$('#CellTempRow').show();
-			$('#CellTemp').text(Math.round(jsonData["SMTCellTempAvg"] * 10)/10 + "°C");
+			if (TemperatureUnit == "fahrenheit")
+			{
+				$('#CellTemp').text(Math.round((jsonData["SMTCellTempAvg"] * 9/5 + 32) * 10)/10 + "°F");
+			}
+			else
+			{
+				$('#CellTemp').text(Math.round(jsonData["SMTCellTempAvg"] * 10)/10 + "°C");
+			}
 		}
 		else
 		{
@@ -434,7 +464,25 @@ else
   </head>
   <body>
   <?php
-    echo(menu("Teslalogger"));
+	$teslaloggername = "Teslalogger";
+	if (isDockerNet8())
+		$teslaloggername = "Teslalogger Docker NET8";
+	else if (isDocker())
+		$teslaloggername = "Teslalogger <span style=color:red>Docker MONO</span>";
+	else if (isRaspberryNET8())
+	{
+		$teslaloggername = "Teslalogger NET8";
+	}
+	else
+	{
+		exec('lsb_release -cs', $out);
+		if (strpos($out[0], 'buster') !== false)
+			$teslaloggername = "Teslalogger <span style=color:red>MONO</span>"; // Buster with MONO
+		else
+			$teslaloggername = "Teslalogger <span style=color:red>MONO old</span>"; // old Raspberry with MONO (stretch)
+	}
+
+    echo(menu($teslaloggername));
 ?>
 
   <div id="content" style="max-width:1036px;">
@@ -502,7 +550,7 @@ else
 	  <tr><td><b><?php t("Distance"); ?>:</b></td><td><span id="trip_distance">---</span> <span id="lt_trip_distance_km"><?php t("km"); ?></span></td></tr>
 	  <tr><td><b><?php t("Consumption"); ?>:</b></td><td><span id="trip_kwh">---</span> <?php t("kWh"); ?></td></tr>
 	  <tr><td><b><?php t("Ø Consumption"); ?>:</b></td><td><span id="trip_avg_kwh">---</span> <span id="lt_whkm"><?php t("Wh/km"); ?></span></td></tr>
-	  <tr><td><b><?php t("Max km/h"); ?>:</b></td><td><span id="max_speed">---</span> <?php t("km/h"); ?></span> </td></tr>
+	  <tr><td><b><?php t("Max km/h"); ?>:</b></td><td><span id="max_speed">---</span> <span id='lt_kmh'><?php t("km/h"); ?></span> </td></tr>
   </table>
   </div>
 
@@ -522,6 +570,9 @@ else
 	else
 		$installed = getTeslaloggerVersion("/etc/teslalogger/git/TeslaLogger/Properties/AssemblyInfo.cs");
 
+	if (empty($installed))
+		$installed = GetFromTeslalogger("getversion");
+
 	if (file_exists("/etc/teslalogger/BRANCH"))
 		$branch = file_get_contents("/etc/teslalogger/BRANCH");
 
@@ -531,7 +582,12 @@ else
 		$onlineversion = getTeslaloggerVersion("https://raw.githubusercontent.com/bassmaster187/TeslaLogger/$branch/TeslaLogger/Properties/AssemblyInfo.cs");
 	}
 	else
-		$onlineversion = getTeslaloggerVersion("https://raw.githubusercontent.com/bassmaster187/TeslaLogger/master/TeslaLogger/Properties/AssemblyInfo.cs");
+	{
+		if (isDockerNET8())
+			$onlineversion = file_get_contents("https://teslalogger.de/latest_teslalogger_docker_version.txt");
+		else
+			$onlineversion = getTeslaloggerVersion("https://raw.githubusercontent.com/bassmaster187/TeslaLogger/master/TeslaLogger/Properties/AssemblyInfo.cs");
+	}
 
 	if ($installed != $onlineversion)
 	{
@@ -551,9 +607,9 @@ function getTeslaloggerVersion($path)
 }
 function getZoomLevel()
 {
-	if (file_exists("/etc/teslalogger/settings.json"))
+	if (file_exists("/tmp/settings.json"))
 	{
-		$content = file_get_contents("/etc/teslalogger/settings.json");
+		$content = file_get_contents("/tmp/settings.json");
 		$j = json_decode($content);
 		if (!empty($j->{"ZoomLevel"}))
 			return $j->{"ZoomLevel"};

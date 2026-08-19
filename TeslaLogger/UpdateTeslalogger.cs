@@ -1485,20 +1485,19 @@ PRIMARY KEY(id)
                         {
                             StartInfo = new ProcessStartInfo
                             {
-                                FileName = "/etc/teslalogger/TLUpdate.exe",
-                                UseShellExecute = false,
-                                RedirectStandardOutput = true,
-                                CreateNoWindow = true
+                                // Start via shell using nohup so the update process is detached
+                                 FileName = "/bin/bash",
+                                 Arguments = "-c \"nohup /etc/teslalogger/TLUpdate.exe >> /etc/teslalogger/nohup.out 2>&1 &\"",
+                                UseShellExecute = true,
+                                CreateNoWindow = true,
+                                WorkingDirectory = "/etc/teslalogger"
                             }
                         })
                         {
-                            Logfile.Log(" *** starting TLUpdate.exe now ***");
+                            Logfile.Log(" *** starting TLUpdate.exe now (detached, stdout -> /etc/teslalogger/nohup.out) ***");
                             process.Start();
-                            while (!process.StandardOutput.EndOfStream)
-                            {
-                                Logfile.Log(process.StandardOutput.ReadLine());
-                            }
-                            process.WaitForExit();
+                            
+                            Thread.Sleep(5*60*1000); // 5 minutes
                         }
                     }
                     catch (Exception ex)
@@ -1676,8 +1675,8 @@ PRIMARY KEY(id)
                 if (File.Exists(phpinipath))
                 {
                     string phpini = File.ReadAllText(phpinipath);
-                    string newphpini = Regex.Replace(phpini, "(post_max_size\\s*=)(.*)", "$1 150M");
-                    newphpini = Regex.Replace(newphpini, "(upload_max_filesize\\s*=)(.*)", "$1 150M");
+                    string newphpini = Regex.Replace(phpini, "(post_max_size\\s*=)(.*)", "$1 300M");
+                    newphpini = Regex.Replace(newphpini, "(upload_max_filesize\\s*=)(.*)", "$1 300M");
 
                     File.WriteAllText(phpinipath, newphpini);
 

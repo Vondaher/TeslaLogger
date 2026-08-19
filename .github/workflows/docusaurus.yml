@@ -1,0 +1,64 @@
+name: Build and Deploy Docusaurus
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: Build Docusaurus
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Link static assets
+        run: |
+          mkdir -p docusaurus/static 
+          ln -s ../../img docusaurus/static/img
+
+      - name: Copy English docs to i18n folder
+        run: | 
+          mkdir -p docusaurus/i18n/en/docusaurus-plugin-content-docs/current 
+          cp -r docs/en/* docusaurus/i18n/en/docusaurus-plugin-content-docs/current/ || true
+
+      - name: Install dependencies
+        working-directory: docusaurus
+        run: npm install
+
+      - name: Build
+        working-directory: docusaurus
+        run: npm run build
+
+      - name: Upload ZIP artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: docusaurus-build
+          path: docusaurus/build
+          retention-days: 30
+
+      - name: Local server hint
+        run: echo "To test locally, extract the artifact and run python -m http.server 8000" 
+
+      - name: Upload German docs via SCP
+        env:
+          SSH_PASS: ${{ secrets.FTP_PASSWORD_TESLALOGGER_DE_UPLOADUSER }}
+        run: |
+          sshpass -p "$SSH_PASS" scp -r -o StrictHostKeyChecking=no docusaurus/build/docs/* uploaduser@teslalogger.de:docs/
+          sshpass -p "$SSH_PASS" scp -r -o StrictHostKeyChecking=no docusaurus/build/assets/* uploaduser@teslalogger.de:assets/
+          sshpass -p "$SSH_PASS" scp -r -o StrictHostKeyChecking=no docusaurus/build/img/* uploaduser@teslalogger.de:img/
+          for f in docusaurus/build/*.json; do
+            if [ -f "$f" ]; then
+              sshpass -p "$SSH_PASS" scp -o StrictHostKeyChecking=no "$f" uploaduser@teslalogger.de:docs/rootdir/
+            fi
+          done
+
+      - name: Upload English docs via SCP
+        env:
+          SSH_PASS: ${{ secrets.FTP_PASSWORD_TESLALOGGER_DE_UPLOADUSER }}
+        run:
+          sshpass -p "$SSH_PASS" scp -r -o StrictHostKeyChecking=no docusaurus/build/en/* uploaduser@teslalogger.de:en/

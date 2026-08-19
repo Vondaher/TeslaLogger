@@ -1,5 +1,45 @@
-# Version 1.63.6
-- Bugfixes
+# Version 1.63.20.4
+- Model S/X up to model year 2021 with MCU2 are now also supported by the official Fleet API.
+
+# Version 1.63.15
+- MCP Server: get_tripsummary and get_chargesummary for a given time range. This is especially useful for AI clients to get a quick summary of the last trip or charging session without the need to parse all the data points.
+- BF: Restore backup
+
+# Version 1.63.14 with AI Client Support!
+- AI clients like Claude Desktop can connect to TeslaLogger's MCP server. This opens up a wide range of new possibilities. More info: [LINK](https://teslalogger.de/docs/extras/mcp-server)
+- Support Lucid Gravity
+- Docker image contains now OVMS (Open Vehicle Monitoring System) client. If you have a car supported by OVMS, you can start logging it with TeslaLogger. More info: [LINK](https://github.com/bassmaster187/OVMSLogger#ovmslogger-beta)
+- Modernize code for .NET 8
+
+# Version 1.63.11
+- Power will be calculated from PackCurrent and PackVoltage from Fleet Telemetry
+- Support for Model 3 LR RWD 2025
+- BF: Share Degradation
+
+# Version 1.63.11
+- BF: Cleanup Backup folder on Raspberry
+- Settings: Bar / PSI
+- Automatic switch to .NET 8 on Raspberry Pi installations
+
+# Changelog of newer versions apply only to Teslalogger installations with .NET 8! Mono installations won't get new features!
+- If you have an old Docker Image with Mono, please switch to the new Teslalogger .NET8 Image: [LINK](https://teslalogger.de/docs/installation/upgrade-to-net8-docker)
+- If you have an old Raspberry Pi installation with Mono, it should switch to .NET8 automatically. If not, please contact me: mail@teslalogger.de
+- If you have a very old Raspberry PI installation with Grafana version below 10, please contact me for a new image: mail@teslalogger.de
+
+# Version 1.63.10
+- online update of geofence.csv
+- Nominal Full / SOH Pack Capacity in Dashboard Battery Degradation (Lucid Air)
+- CAC min / max in Dashboard Battery Degradation (ScanMyTesla)
+- Charging Curves in Dashboard Charging Statistics
+- Whole documentation now online instead of a PDF. You're welcome to contribute: [LINK](https://teslalogger.de/docs)
+- Link to description of Vehicle Alerts in Dashboard Vehicle Alerts
+- Support for Cybertruck / Cyberbeast
+
+# Version 1.63.9
+- EVCC: fix for changed JSON shema since version 0.207
+
+# Version 1.63.7
+- Info about deprecated Docker. Please update to new Teslalogger Image: [LINK](https://github.com/bassmaster187/TeslaLogger/blob/master/docs/en/upgrade-to-net8-docker.md)
 
 # Version 1.63.2
 - faster logging (positions every 10 seconds)

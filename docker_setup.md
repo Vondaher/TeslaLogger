@@ -1,16 +1,32 @@
 # Docker Setup
-For Synology NAS users, check the hints here: [LINK DSM 6](docker_setup_synology.md) / [LINK DSM 7](docker_setup_synology_7.md) 
+## Synology NAS
+Synology users must place the docker inside a special folder:
+```
+sudo -i
+cd /volume1/docker
+mkdir teslalogger
+cd teslalogger
+```
 
-Docker on Raspberry: It won't work if you don't have a 64bit OS as MariaDB requires a 64bit OS!
-
-Please make sure you have the latest docker and docker compose. Many repositories comes with old docker and / or docker compose. You can avoid a lot of problems by doblecheck it.
+## Docker on Raspberry:
+It won't work if you don't have a 64bit OS as MariaDB requires a 64bit OS!
 
 ## Install:
+Please make sure you have the latest docker and docker compose. Many repositories comes with old docker and / or docker compose. You can avoid a lot of problems by doblecheck it.
+
 ```
 mkdir backup
 mkdir mysql
+mkdir invoices
+chmod 777 backup
+chmod 777 mysql
+chmod 777 invoices
+wget https://raw.githubusercontent.com/bassmaster187/TeslaLogger/refs/heads/NET8/.env -O .env
 wget https://raw.githubusercontent.com/bassmaster187/TeslaLogger/refs/heads/NET8/docker-compose.yml -O docker-compose.yml
 docker compose pull
+```
+You can adjust some settings in your .env file like Timezone (default is MEZ / Berlin)
+```
 docker compose up -d
 ```
 
@@ -37,17 +53,9 @@ If there are updates of the subsystem, you have to get the latest docker-compose
 
 ```
 docker compose stop
-git fetch
-git reset --hard origin/master
-git checkout origin/master -- docker-compose.yml
-git checkout origin/master -- TeslaLogger/GrafanaConfig/datasource.yaml
-docker compose build
+wget https://raw.githubusercontent.com/bassmaster187/TeslaLogger/refs/heads/NET8/.env -O .env
+wget https://raw.githubusercontent.com/bassmaster187/TeslaLogger/refs/heads/NET8/docker-compose.yml -O docker-compose.yml
 docker compose up -d
-```
-
-If Grafana won't start after upgrade try to give it all permissions. 
-```
-chmod 777 TeslaLogger/GrafanaDB
 ```
 
 # Trouble shooting
@@ -55,7 +63,7 @@ chmod 777 TeslaLogger/GrafanaDB
 
 On slower devices like NAS devices, the init scripts of Teslalogger might not run successful during the first run. What you can do is restart the teslalogger_teslalogger_1 container after ~ 5 minutes. This should fix missing tables in the database and can easily be obsorved via the log files. Repeat a couple of times if required. A helpful command is:
 ```
-docker restart teslalogger_teslalogger_1 # or use the beginning of the container ID instead of the name, e.g. r2d2
+docker restart teslalogger
 ```
 
 2. Messed up container images or build caches

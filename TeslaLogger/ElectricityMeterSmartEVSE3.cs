@@ -79,7 +79,6 @@ namespace TeslaLogger
 
         public override double? GetUtilityMeterReading_kWh()
         {
-
             string j = null;
             try
             {
@@ -92,7 +91,7 @@ namespace TeslaLogger
 
                 string value = jsonResult["mains_meter"]["import_active_energy"];
 
-                return Double.Parse(value, Tools.ciEnUS);
+                return ConvertImportActiveEnergyTo_kWh(Double.Parse(value, Tools.ciEnUS), GetVersionString(jsonResult));
             }
             catch (Exception ex)
             {
@@ -117,7 +116,7 @@ namespace TeslaLogger
 
                 string value = jsonResult["ev_meter"]["import_active_energy"];
 
-                return Double.Parse(value, Tools.ciEnUS);
+                return ConvertImportActiveEnergyTo_kWh(Double.Parse(value, Tools.ciEnUS), GetVersionString(jsonResult));
             }
             catch (Exception ex)
             {
@@ -163,9 +162,7 @@ namespace TeslaLogger
                 if (jsonResult == null)
                     return null;
 
-                string fwversion = jsonResult["version"];
-
-                return fwversion;
+                return GetVersionString(jsonResult);
             }
             catch (Exception ex)
             {
@@ -176,6 +173,48 @@ namespace TeslaLogger
             }
 
             return "";
+        }
+
+        private static string GetVersionString(dynamic jsonResult)
+        {
+            string fwversion = jsonResult["version"];
+
+            return fwversion;
+        }
+
+        private static double ConvertImportActiveEnergyTo_kWh(double value, string version)
+        {
+            return IsImportActiveEnergyInWh(version) ? value / 1000.0 : value;
+        }
+
+        private static bool IsImportActiveEnergyInWh(string version)
+        {
+            if (string.IsNullOrEmpty(version))
+                return false;
+
+            Version parsedVersion;
+            if (!TryParseFirmwareVersion(version, out parsedVersion))
+                return false;
+
+            return parsedVersion.CompareTo(new Version(3, 10, 0)) >= 0;
+        }
+
+        private static bool TryParseFirmwareVersion(string version, out Version parsedVersion)
+        {
+            parsedVersion = null;
+
+            version = version.Trim();
+            if (version.StartsWith("v", StringComparison.InvariantCultureIgnoreCase))
+                version = version.Substring(1);
+
+            int length = 0;
+            while (length < version.Length && (char.IsDigit(version[length]) || version[length] == '.'))
+            {
+                length++;
+            }
+
+            version = version.Substring(0, length).TrimEnd('.');
+            return Version.TryParse(version, out parsedVersion);
         }
     }
 }

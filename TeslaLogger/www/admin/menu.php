@@ -33,11 +33,10 @@ function menu($title, $prefix = "")
 	global $car_inactive;
 	global $vehicle_location;
 
-    $current_carid = $_SESSION["carid"];
-    if (!isset($current_carid))
-        $current_carid = GetDefaultCarId();
+    $current_carid = isset($_SESSION["carid"]) ? $_SESSION["carid"] : GetDefaultCarId();
 
-    $alldashboards = file_get_contents("/etc/teslalogger/dashboardlinks.txt");
+	GetFileFromTeslaloggerAndWriteToTMP("dashboardlinks.txt");
+    $alldashboards = file_get_contents("/tmp/dashboardlinks.txt");
 
     $allcars = file_get_contents(GetTeslaloggerURL("getallcars"),0, stream_context_create(["http"=>["timeout"=>2]]));
 

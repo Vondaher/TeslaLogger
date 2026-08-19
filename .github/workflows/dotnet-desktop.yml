@@ -2,8 +2,6 @@ name: .NET Core Desktop
 
 on:
   workflow_dispatch:
-  push:
-    branches: [ "master","TeslaFleetAPI"]
   pull_request:
     branches: [ "master", "TeslaFleetAPI"]
 
@@ -50,7 +48,7 @@ jobs:
       matrix:
         configuration: [Debug]
   
-    runs-on: windows-2019  # For a list of available runner types, refer to
+    runs-on: windows-2022   # For a list of available runner types, refer to
                              # https://help.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on
 
     env:
@@ -112,4 +110,15 @@ jobs:
       with: 
         name: Teslalogger
         path: TeslaLogger\bin\Debug\TeslaLogger.exe
+
+    #- name: Upload Files
+    #  uses: nerdoza/action-simple-file-upload@v2
+    #  with:
+    #    host: ftp.pogea.de
+    #    user: git
+    #    password: ${{ secrets.FTP_PASSWORD_POGEA_DE }}
+    #    src: TeslaLogger\bin\Debug\TeslaLogger.exe
+    #    dest: /main/
+
+
       

@@ -223,6 +223,7 @@ namespace TeslaLogger
         public string _access_type;
         public bool _virtual_key;
         internal bool vehicle_location = true;
+        internal DateTime lastSendDegradationData = DateTime.MinValue;
 
         [MethodImpl(MethodImplOptions.Synchronized)]
         internal TeslaAPIState GetTeslaAPIState() { return teslaAPIState; }
@@ -324,7 +325,9 @@ namespace TeslaLogger
                             bool supportedByFleetTelemetry = SupportedByFleetTelemetry();
                             if (supportedByFleetTelemetry)
                             {
-                                telemetry = TelemetryConnection.Instance(this);
+                                if (telemetry == null)
+                                    telemetry = TelemetryConnection.Instance(this);
+
                                 telemetryParser = telemetry?.parser;
                                 /*
 
@@ -448,6 +451,8 @@ namespace TeslaLogger
 
         internal bool SupportedByFleetTelemetry()
         {
+            return true;
+            /*
             string vindecoder = Tools.VINDecoder(vin, out int y, out string carType, out _, out _, out _, out _, out _).ToString();
             if (y >= 2021) // all cars from 2021 are supported
                 return true;
@@ -458,6 +463,7 @@ namespace TeslaLogger
             }
 
             return true;
+            */
         }
 
         private void InitStage3()
@@ -900,6 +906,7 @@ namespace TeslaLogger
                 {
                     RefreshToken();
                     UpdateTeslalogger.CheckForNewVersion();
+                    CheckSendDegradationData();
 
                     if (!FleetAPI)
                     {
@@ -1165,11 +1172,36 @@ namespace TeslaLogger
             }
         }
 
+        private void CheckSendDegradationData()
+        {
+            try
+            {
+                if (DateTime.Now.AddDays(-1) > lastSendDegradationData)
+                {
+                    if (Tools.IsShareData())
+                    {
+                        Task.Run(() =>
+                        {
+                            var sd = new ShareData(this);
+                            sd.SendDegradationData();
+                        });
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                SendException2Exceptionless(ex);
+                Logfile.Log(ex.ToString());
+            }
+        }
+
         // if offline, sleep 30000
         // loop until wackup file or back online, sleep 30000 in loop
         private void HandleState_Start()
         {
             RefreshToken();
+
+            CheckSendDegradationData();
 
             if (webhelper.scanMyTesla != null)
             {

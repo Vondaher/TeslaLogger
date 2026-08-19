@@ -1,0 +1,23 @@
+{
+  "version": "v3.10.0",
+  "serialnr": 1234,
+  "mode": "NORMAL",
+  "mode_id": 1,
+  "car_connected": true,
+  "evse": {
+    "state": "Charging",
+    "state_id": 2,
+    "error": "None",
+    "error_id": 0
+  },
+  "ev_meter": {
+    "description": "Eastron3P",
+    "import_active_power": 6.800000191,
+    "import_active_energy": 2874199.951,
+    "export_active_energy": 0
+  },
+  "mains_meter": {
+    "import_active_energy": 3456987.65,
+    "export_active_energy": 0
+  }
+}

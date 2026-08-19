@@ -104,3 +104,12 @@ TeslaLogger/bin/encryption.txt
 /OSMMapGenerator/.vs
 /TeslaLogger/.vs
 .vscode/settings.json
+/TLUpdate/.vs
+/UnitTestsTeslalogger/.vs
+/docusaurus/docs
+/docusaurus/node_modules
+/docusaurus/static
+/docusaurus/.docusaurus
+/docusaurus/i18n/en/docusaurus-plugin-content-docs/current
+/docusaurus/build
+docusaurus/package-lock.json

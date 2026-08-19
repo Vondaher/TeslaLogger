@@ -1,20 +1,21 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Exceptionless;
+using MySql.Data.MySqlClient;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Data.Common;
+using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 using System.Net;
 using System.Runtime.Caching;
+using System.Runtime.InteropServices.ComTypes;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using Exceptionless;
-using Newtonsoft.Json;
-using System.Diagnostics;
-using System.Data.Common;
 using ZstdSharp.Unsafe;
 
 namespace TeslaLogger
@@ -748,7 +749,7 @@ WHERE
         ON
             t1.carid = t2.carid AND t1.StartPos >= t2.StartPos AND t1.StartDate < t2.EndDate AND t1.id > t2.id
     ) AS T3
-)", 300);
+)", 3000);
                 sw.Stop();
 
                 Logfile.Log($"Deleted Duplicate Trips: {cnt} Time: {sw.ElapsedMilliseconds}ms");
@@ -4637,10 +4638,10 @@ WHERE
 
         int last_active_route_energy_at_arrival = int.MinValue;
 
-        public int InsertPos(string timestamp, double latitude, double longitude, int speed, decimal? power, double? odometer, double idealBatteryRangeKm, double batteryRangeKm, double batteryLevel, double? outsideTemp, string altitude)
+        public int InsertPos(string timestamp, double latitude, double longitude, int speed, decimal? power, double? odometer, double idealBatteryRangeKm, double batteryRangeKm, double batteryLevel, double? insideTemp, double? outsideTemp, string altitude)
         {
             int posid = 0;
-            double? inside_temp = car.CurrentJSON.current_inside_temperature;
+            //double? inside_temp = car.CurrentJSON.current_inside_temperature;
             using (MySqlConnection con = new MySqlConnection(DBConnectionstring))
             {
                 con.Open();
@@ -4742,13 +4743,13 @@ VALUES(
                         cmd.Parameters.AddWithValue("@battery_level", batteryLevel);
                     }
 
-                    if (inside_temp == null)
+                    if (insideTemp == null)
                     {
                         cmd.Parameters.AddWithValue("@inside_temp", DBNull.Value);
                     }
                     else
                     {
-                        cmd.Parameters.AddWithValue("@inside_temp", (double)inside_temp);
+                        cmd.Parameters.AddWithValue("@inside_temp", (double)insideTemp);
                     }
 
                     cmd.Parameters.AddWithValue("@battery_heater", car.CurrentJSON.current_battery_heater ? 1 : 0);
@@ -6686,6 +6687,7 @@ FROM
             int newid = GetNextAvailableCarID();
             using (MySqlConnection con = new MySqlConnection(DBHelper.DBConnectionstring))
             {
+                con.Open();
                 using (var cmd2 = new MySqlCommand("insert cars (id, tesla_name, tesla_password, tesla_carid, display_name, freesuc, tesla_token, refresh_token, vin, fleetAPI) values (@id, @tesla_name, @tesla_password, @tesla_carid, @display_name, @freesuc,  @tesla_token, @refresh_token, @vin, @fleetAPI)", con))
                 {
                     cmd2.Parameters.AddWithValue("@id", newid);
@@ -6945,14 +6947,21 @@ WHERE
                     con.Open();
                     using (MySqlCommand cmd = new MySqlCommand(@"
 SELECT
-    id
+	chargingstate.id
 FROM
-    chargingstate
+	chargingstate
+JOIN pos on
+	chargingstate.pos = pos.id
 WHERE
-    sessionId IS NULL
-    AND CarID = @CarID
-    AND fast_charger_brand = @brand
-    AND (fast_charger_type = @type1 OR fast_charger_type = @type2)
+	chargingstate.sessionId IS NULL
+	AND chargingstate.CarID = @CarID
+	AND (
+    	(chargingstate.fast_charger_brand = @brand
+		AND (chargingstate.fast_charger_type = @type1
+			OR chargingstate.fast_charger_type = @type2))
+	OR 
+    	(pos.address LIKE '%Supercharger%')
+    	)
 ", con))
                     {
                         cmd.Parameters.AddWithValue("@CarID", car.CarInDB);
@@ -7457,6 +7466,43 @@ ORDER BY startdate", con))
                 ex.ToExceptionless().Submit();
             }
             return 0;
+        }
+
+        public static bool NET8TaskerToken()
+        {
+            try
+            {
+                return true;
+
+                /*
+                using (MySqlConnection con = new MySqlConnection(DBConnectionstring + ";Allow User Variables=True"))
+                {
+                    con.Open();
+                    using (MySqlCommand cmd = new MySqlCommand($@"SELECT tasker_hash FROM teslalogger.cars where left(tasker_hash,1) in (1,2,3,4,5)", con)) // 
+                    {
+                        using (MySqlDataReader dr = SQLTracer.TraceDR(cmd))
+                        {
+                            if (dr.Read())
+                            {
+                                Logfile.Log("NET8TaskerToken: true - " + dr.GetString(0));
+                                return true;
+                            }
+                            else
+                            {
+                                Logfile.Log("NET8TaskerToken: false");
+                                return false;
+                            }
+                        }
+                    }
+                }*/
+            }
+            catch (Exception ex)
+            {
+                Logfile.Log(ex.ToString());
+                ex.ToExceptionless().Submit();
+            }
+            return false;
+
         }
     }
 }

@@ -4,12 +4,10 @@ using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
-using System.Collections;
 using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
-using System.Diagnostics.Metrics;
 using System.Globalization;
 using System.IO;
 using System.Linq;
@@ -19,13 +17,12 @@ using System.Net.Http.Headers;
 using System.Reflection;
 using System.Runtime.Caching;
 using System.Runtime.CompilerServices;
-using System.Runtime.ConstrainedExecution;
+using System.Security.Authentication;
 using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Web;
 using static TeslaLogger.Car;
 
 namespace TeslaLogger
@@ -352,7 +349,8 @@ namespace TeslaLogger
                         CookieContainer = tokenCookieContainer,
                         AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate,
                         AllowAutoRedirect = false,
-                        UseCookies = true
+                        UseCookies = true,
+                        SslProtocols = SslProtocols.Tls13
                     };
 
                     httpClientForAuthentification = new HttpClient(handler);
@@ -458,7 +456,8 @@ namespace TeslaLogger
 
                 using (HttpClientHandler handler = new HttpClientHandler()
                 {
-                    AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate
+                    AutomaticDecompression = DecompressionMethods.GZip | DecompressionMethods.Deflate,
+                    SslProtocols = SslProtocols.Tls13
                 })
                 {
 
@@ -506,22 +505,15 @@ namespace TeslaLogger
                             car.CreateExeptionlessLog("Tesla Token", "UpdateTeslaTokenFromRefreshToken Success", Exceptionless.Logging.LogLevel.Info).Submit();
                             string Token = jsonResult["access_token"];
 
-                            if (jsonResult.ContainsKey("expires_in"))
-                            {
-                                var t = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"])).AddHours(-2);
-                                if (t > DateTime.UtcNow.AddHours(1))
-                                    nextTeslaTokenFromRefreshToken = t;
-                                else
-                                {
-                                    t = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"]));
-                                    nextTeslaTokenFromRefreshToken = t;
-                                }
+                        if (jsonResult.ContainsKey("expires_in"))
+                        {
+                            var actualExpiry = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"]));
+                            nextTeslaTokenFromRefreshToken = actualExpiry.AddMinutes(-20);
 
-                                Log("access token expires: " + nextTeslaTokenFromRefreshToken.ToLocalTime());
+                            Log("access token expires: " + actualExpiry.ToLocalTime());
                             }
 
                             SetNewAccessToken(Token);
-
                             return Tesla_token;
 
 
@@ -712,27 +704,10 @@ namespace TeslaLogger
                         dynamic jsonResult = JsonConvert.DeserializeObject(result);
                         if (jsonResult.ContainsKey("expires_in"))
                         {
-                            var t = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"])).AddHours(-2);
-                            if (t > DateTime.UtcNow.AddHours(1))
-                                nextTeslaTokenFromRefreshToken = t;
-                            else
-                            {
-                                t = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"]));
-                                nextTeslaTokenFromRefreshToken = t;
-                            }
+                            var actualExpiry = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"]));
+                            nextTeslaTokenFromRefreshToken = actualExpiry.AddMinutes(-20);
 
-                            Log("access token expires: " + nextTeslaTokenFromRefreshToken.ToLocalTime());
-
-                            /*
-                            CacheItemPolicy policy = new CacheItemPolicy();
-                            policy.AbsoluteExpiration = DateTime.Now.AddSeconds((int)(jsonResult["expires_in"])).AddMinutes(-5);
-                            policy.RemovedCallback = new CacheEntryRemovedCallback((CacheEntryRemovedArguments _) =>
-                            {
-                                Tools.DebugLog($"#{car.CarInDB}: access token will expire in 5 minutes");
-                                UpdateTeslaTokenFromRefreshToken();
-                            });
-                            _ = MemoryCache.Default.Add("RefreshToken_" + car.CarInDB+ $"_{Environment.TickCount}", policy, policy);
-                            */
+                            Log("access token expires: " + actualExpiry.ToLocalTime());
                         }
                         string access_token = jsonResult["access_token"];
 
@@ -827,27 +802,10 @@ namespace TeslaLogger
                         dynamic jsonResult = JsonConvert.DeserializeObject(result);
                         if (jsonResult.ContainsKey("expires_in"))
                         {
-                            var t = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"])).AddHours(-2);
-                            if (t > DateTime.UtcNow.AddHours(1))
-                                nextTeslaTokenFromRefreshToken = t;
-                            else
-                            {
-                                t = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"]));
-                                nextTeslaTokenFromRefreshToken = t;
-                            }
+                            var actualExpiry = DateTime.UtcNow.AddSeconds((int)(jsonResult["expires_in"]));
+                            nextTeslaTokenFromRefreshToken = actualExpiry.AddMinutes(-20);
 
-                            Log("access token expires: " + nextTeslaTokenFromRefreshToken.ToLocalTime());
-
-                            /*
-                            CacheItemPolicy policy = new CacheItemPolicy();
-                            policy.AbsoluteExpiration = DateTime.Now.AddSeconds((int)(jsonResult["expires_in"])).AddMinutes(-5);
-                            policy.RemovedCallback = new CacheEntryRemovedCallback((CacheEntryRemovedArguments _) =>
-                            {
-                                Tools.DebugLog($"#{car.CarInDB}: access token will expire in 5 minutes");
-                                UpdateTeslaTokenFromRefreshToken();
-                            });
-                            _ = MemoryCache.Default.Add("RefreshToken_" + car.CarInDB+ $"_{Environment.TickCount}", policy, policy);
-                            */
+                            Log("access token expires: " + actualExpiry.ToLocalTime());
                         }
                         string access_token = jsonResult["access_token"];
 
@@ -1229,6 +1187,12 @@ namespace TeslaLogger
         [MethodImpl(MethodImplOptions.Synchronized)]
         HttpClient GetHttpClientTeslaAPI()
         {
+            if (nextTeslaTokenFromRefreshToken < DateTime.UtcNow)
+            {
+                Log($"#{car.CarInDB}: GetHttpClientTeslaAPI - Token expiring soon, refreshing proactively");
+                UpdateTeslaTokenFromRefreshToken();
+            }
+
             if (httpClientTeslaAPI == null)
             {
                 if (String.IsNullOrEmpty(Tesla_token) || Tesla_token == "NULL")
@@ -1236,7 +1200,10 @@ namespace TeslaLogger
                     car.Log("ERROR: Create HTTP Client with wrong Tesla Token!");
                 }
 
-                httpClientTeslaAPI = new HttpClient();
+                httpClientTeslaAPI = new HttpClient(new HttpClientHandler()
+                {
+                    SslProtocols = SslProtocols.Tls13
+                });
                 {
                     httpClientTeslaAPI.DefaultRequestHeaders.Add("x-tesla-user-agent", "TeslaApp/3.4.4-350/fad4a582e/android/8.1.0");
                     httpClientTeslaAPI.DefaultRequestHeaders.Add("User-Agent", "Mozilla/5.0 (Linux; Android 8.1.0; Pixel XL Build/OPM4.171019.021.D1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36");
@@ -1298,7 +1265,10 @@ namespace TeslaLogger
                     if (r1temp == null)
                     {
                         if (resultContent != null)
+                        {
                             car.Log("GetVehicles: " + resultContent);
+                            car.CreateExeptionlessLog("GetVehicles", resultContent, Exceptionless.Logging.LogLevel.Error).Submit();
+                        }
 
                         car.CurrentJSON.FatalError = "Car not found!";
                         car.CurrentJSON.CreateCurrentJSON();
@@ -2139,6 +2109,11 @@ namespace TeslaLogger
                     WriteCarSettings("0.145", "M3 LR RWD 2019");
                     return;
                 }
+                if (car.TrimBadging == "74" && !AWD && year >= 2025)
+                {
+                    WriteCarSettings("0.132", "M3 LR RWD 2025");
+                    return;
+                }
 
                 int maxRange = car.DbHelper.GetAvgMaxRage();
                 if (maxRange > 430)
@@ -2530,6 +2505,11 @@ namespace TeslaLogger
                     return;
                 }
             }
+            else if (car.TrimBadging == "cyberbeast")
+            {
+                WriteCarSettings("0.256", "Cyberbeast");
+                return;
+            }
 
 
             /*
@@ -2874,6 +2854,7 @@ namespace TeslaLogger
                     // Log("IsDriving2");
 
                     Task<double> odometer = GetOdometerAsync();
+                    double? inside_temp = null;
                     double? outside_temp = null;
                     Task<double?> t_outside_temp = null;
 
@@ -2903,7 +2884,12 @@ namespace TeslaLogger
                         longitude = 0;
                     }
 
-                    car.DbHelper.InsertPos(ts.ToString(), latitude, longitude, speed, power, odometer.Result, ideal_battery_range_km, battery_range_km, battery_level, outside_temp, elevation);
+                    if(car.CurrentJSON.current_inside_temperature != null)
+                    {
+                        inside_temp = (double)car.CurrentJSON.current_inside_temperature;
+                    }
+
+                    car.DbHelper.InsertPos(ts.ToString(), latitude, longitude, speed, power, odometer.Result, ideal_battery_range_km, battery_range_km, battery_level, inside_temp, outside_temp, elevation);
 
                     if (shift_state == "D" || shift_state == "R" || shift_state == "N")
                     {
@@ -3343,6 +3329,7 @@ namespace TeslaLogger
                 double battery_range_km = Tools.MlToKm(irange, 1);
                 // ideal_battery_range_km = ideal_battery_range_km * car specific factor
                 double ideal_battery_range_km = battery_range_km * battery_range2ideal_battery_range;
+                double? inside_temp = car.CurrentJSON.current_inside_temperature;
                 double? outside_temp = car.CurrentJSON.current_outside_temperature;
                 if (!string.IsNullOrEmpty(shift_state) && shift_state.Equals("D") &&
                     (latitude != last_latitude_streaming || longitude != last_longitude_streaming || dpower != last_power_streaming))
@@ -3352,7 +3339,7 @@ namespace TeslaLogger
                     last_power_streaming = dpower;
 
                     //Tools.DebugLog($"Stream: InsertPos({v[0]}, {latitude}, {longitude}, {ispeed}, {dpower}, {dodometer_km}, {ideal_battery_range_km}, {battery_range_km}, {isoc}, {outside_temp}, String.Empty)");
-                    car.DbHelper.InsertPos(v[0], latitude, longitude, ispeed, dpower, dodometer_km, ideal_battery_range_km, battery_range_km, isoc, outside_temp, String.Empty);
+                    car.DbHelper.InsertPos(v[0], latitude, longitude, ispeed, dpower, dodometer_km, ideal_battery_range_km, battery_range_km, isoc, inside_temp, outside_temp, String.Empty);
                 }
             }
             if (int.TryParse(heading, out int iheading)) {  // heading in degrees
@@ -4227,9 +4214,11 @@ WHERE
                 _ = long.TryParse(climate_state["timestamp"].ToString(), out long ts);
                 try
                 {
+                    decimal? inside_temp = null;
                     if (climate_state["inside_temp"] != null)
                     {
-                        car.CurrentJSON.current_inside_temperature = Convert.ToDouble(climate_state["inside_temp"]);
+                        inside_temp = (decimal)climate_state["inside_temp"];
+                        car.CurrentJSON.current_inside_temperature = (double)inside_temp;
                     }
                 }
                 catch (Exception) { }
@@ -4311,7 +4300,6 @@ WHERE
                 Log("*** FleetAPI no Datacalls allowed! ***");
                 return "";
             }
-
 
             string resultContent = "";
             try
@@ -5305,6 +5293,18 @@ WHERE
                 if (!car.FleetAPI)
                 {
                     return false;
+                }
+
+                if (Tesla_token.Length < 10)
+                {
+                    return false;
+                }
+
+                Tools.VINDecoder(car.Vin, out int year, out string carType, out bool _, out bool _, out string _, out string _, out bool _);
+                if (carType == "Model S" || carType == "Model X")
+                {
+                    if (year <= 2021)
+                        return true;
                 }
 
                 string json = "{\"vins\": [\"" + car.Vin + "\"]}";
