@@ -154,6 +154,25 @@ namespace UnitTestsTeslalogger
         }
 
         [TestMethod]
+        public void SmartEVSE3_v3_10_0()
+        {
+            var v = new ElectricityMeterSmartEVSE3("", "");
+            v.mockup_status = System.IO.File.ReadAllText(@"..\..\testdata\smartevse3_v3_10_0.txt");
+
+            double? kwh = v.GetVehicleMeterReading_kWh();
+            var charging = v.IsCharging();
+            var utility_meter_kwh = v.GetUtilityMeterReading_kWh();
+            var version = v.GetVersion();
+            string ret = v.ToString();
+            Console.WriteLine(ret);
+
+            Assert.AreEqual(2874.199951, kwh);
+            Assert.AreEqual(true, charging);
+            Assert.AreEqual(3456.98765, utility_meter_kwh);
+            Assert.AreEqual("v3.10.0", version);
+        }
+
+        [TestMethod]
         public void EVCC_Wallbox()
         {
             var v = new ElectricityMeterEVCC("", "Wallbox1");
