@@ -2461,7 +2461,7 @@ Supercharger-V4 ES-Las Rozas Village,40.51746,-3.90192
 Supercharger-V4 ES-Lerma,42.03767,-3.75473
 Supercharger-V4 ES-León Trobajo del Camino,42.591401,-5.619581
 Supercharger-V4 ES-Lleida,41.66397,0.6054,30
-Supercharger-V4 ES-Los Ríos,38.1945,-3.67093
+Supercharger-V4 ES-Los Ríos,38.19418,-3.6707
 Supercharger-V4 ES-Luarca,43.52944,-6.55736
 Supercharger-V3 ES-Lugo,43.03644,-7.56897
 Supercharger-V3 ES-Lugones,43.38917,-5.803684
@@ -11898,6 +11898,8 @@ EcoCharge CA-Vaudreuil-Dorion QC Bd Harwood,45.3825,-74.01565
 
 EcoEsco IT-Palau Via Fonte Vecchia,41.17872,9.38384
 
+ecoSWITCH DE-Crailsheim Worthingtonstraße,49.13844,10.0673
+
 Ecotap DE-Goch Am Bössershof,51.66563,6.17335
 Ecotap DE-Nürnberg Lübener Straße,49.41036,11.13927,25
 Ecotap DE-Vogtsburg Badbergstraße,48.09542,7.66305
@@ -15507,6 +15509,8 @@ Eranovum ES-Valladolid Cam. Viejo de Simancas,41.62127,-4.75655
 
 Erfurt-e-Mobility DE-Seefeld-Meiling Dorfstraße,48.05544,11.22253
 
+Erlanger-SW DE-Erlangen Mozartstraße,49.59178,11.0116
+
 ESARJ TR-Afyonkarahisar Merkez Dörtyol,38.79337,30.45798
 
 ESB DE-Adelzhausen Mühlweg,48.35948,11.14432
@@ -15697,6 +15701,7 @@ EV-Beckum DE-Beckum Bauknechtstraße,51.77246,8.03242
 EV-Dahlenburg-Bleckede DE-Dahlenburg Am Markt,53.18647,10.74247
 EV-Halle DE-Halle (Saale) Hansering,51.4811,11.97546
 EV-Landsberg DE-Berg Schulplatz,47.9579,11.3633
+EV-Landsberg DE-Landsberg am Lech Am Englischen Garten,48.04695,10.8744
 EV-Landsberg DE-Pöcking Weilheimer Straße,47.9655,11.29917
 EV-Leverkusen DE-Leverkusen Martin-Luther-Straße,51.03348,7.04619
 EV-Leverkusen DE-Leverkusen Paracelsusstraße,51.03254,7.02968
@@ -18375,6 +18380,7 @@ Grüne-Säule DE-Magdeburg Am Fuchsberg,52.11238,11.61701
 
 Grünstrom DE-Marsberg Dalheimer Straße,51.53755,8.83984
 
+GW-Feucht DE-Feucht Kapellenplatz,49.37743,11.21378
 GW-Finnentrop DE-Finnentrop Bamenohler Straße,51.17225,7.96488
 GW-GP DE-Garmisch-Partenkirchen Am Kreuzeckbahnhof,47.47211,11.0634
 GW-GP DE-Garmisch-Partenkirchen Marienplatz,47.49217,11.08608
@@ -18504,6 +18510,8 @@ Hermes-Flow RO-Brașov Calea București,45.63233,25.63805,25
 Hermes-Flow RO-Craiova Calea București,44.31282,23.82912
 
 Hertener-SW DE-Herten Doncaster Platz,51.57255,7.14827
+
+Herzo-Energie DE-Herzogenaurach Olympiaring,49.57408,10.91576
 
 HEW DE-Hof Nailaer Straße,50.32128,11.90475
 
@@ -21526,7 +21534,7 @@ Lidl DE-Rothenburg/Tauber Erlbacher Straße,49.37343,10.18767
 Lidl DE-Rottenburg am Neckar Graf-Bentzel-Straße,48.48047,8.94518
 Lidl DE-Rottenburg an der Laaber Landshuter Straße,48.69204,12.0281
 Lidl DE-Römerberg Lingenfelder Straße,49.28154,8.3936
-Lidl DE-Rüdesheim Industriestraße,49.8451,7.82095
+Lidl DE-Rüdesheim Industriestraße,49.84468,7.82082
 Lidl DE-Saarbrücken Sulzbachtalstraße,49.27174,7.02186
 Lidl DE-Saarburg Im Hagen,49.61303,6.55282
 Lidl DE-Saarwellingen Zur Breitwies,49.35157,6.80725
@@ -21980,6 +21988,8 @@ M-Charge CH-Winterthur In der Au,47.48456,8.7047
 M-Charge CH-Worb Richigenstrasse,46.92674,7.56488
 M-Charge CH-Wünnewil-Flamatt Bernstrasse,46.88996,7.3237
 
+MAG DE-Mainz Rheinstraße,50.00086,8.27668
+
 Maingau DE-Dietzenbach Europaplatz,50.01935,8.78201
 Maingau DE-Obertshausen Industriestraße,50.0698,8.85463
 
@@ -22282,6 +22292,7 @@ Mer DE-Straubing Donaugasse,48.88545,12.57574
 Mer DE-Tank- und Rastanlage Marienborn,52.21504,11.07967
 Mer DE-Tegernheim Von-Heyden-Straße,49.02354,12.16184
 Mer DE-Teisnach Technologiecampus,49.02576,13.00339
+Mer DE-Titisee-Neustadt Titiseestraße,47.91858,8.20646
 Mer DE-Töging am Inn Franz-Marc-Straße,48.2675,12.60902
 Mer DE-Unterschleißheim Michael-Kölbl-Straße,48.28144,11.5671
 Mer DE-Vreden Wüllener Straße,52.03359,6.84135
@@ -22696,9 +22707,12 @@ N-ERGIE DE-Erlangen Langfeldstraße,49.57867,10.99245
 N-ERGIE DE-Erlangen Schuhstraße,49.59127,11.00875
 N-ERGIE DE-Georgensgmünd Bahnhofstraße,49.1835,11.01585
 N-ERGIE DE-Georgensgmünd Wiesenstraße,49.1837,11.01704
+N-ERGIE DE-Hallbergmoos Theresienstraße,48.32817,11.7523
 N-ERGIE DE-Hilpoltstein Gredinger Straße,49.18663,11.1944
 N-ERGIE DE-Hilpoltstein Sperberstraße,49.19277,11.18336
 N-ERGIE DE-Hilpoltstein Zwingerstraße,49.1896,11.19099
+N-ERGIE DE-Hof Oberer Anger,50.31434,11.91917
+N-ERGIE DE-Kammerstein Espanstraße,49.29198,10.9704
 N-ERGIE DE-Kulmbach Georg-Hagen-Straße,50.10487,11.46964
 N-ERGIE DE-Kulmbach Kronacher Straße,50.11073,11.45421
 N-ERGIE DE-Lauf an der Pegnitz Glockengießerstraße,49.51112,11.278
@@ -22709,17 +22723,32 @@ N-ERGIE DE-Leutershausen Am Kirchweihplatz,49.29929,10.41058
 N-ERGIE DE-Neunkirchen am Sand Bahnhofplatz,49.52075,11.32141
 N-ERGIE DE-Neusitz Schaffeldstraße,49.37484,10.23512
 N-ERGIE DE-Nürnberg Allersberger Straße,49.43809,11.09047
+N-ERGIE DE-Nürnberg Am Leonhardspark,49.4434,11.05623
+N-ERGIE DE-Nürnberg An der Ehrenhalle,49.43468,11.10958
+N-ERGIE DE-Nürnberg Fichtestraße,49.45853,11.10574,25
 N-ERGIE DE-Nürnberg Finkenbrunn,49.40932,11.07297
+N-ERGIE DE-Nürnberg Färberstraße,49.44793,11.07184
+N-ERGIE DE-Nürnberg Glogauer Straße,49.3978,11.14212
+N-ERGIE DE-Nürnberg Grünstraße,49.4394,11.05115
 N-ERGIE DE-Nürnberg Gutenstetter Straße,49.43611,11.0027
+N-ERGIE DE-Nürnberg Karl-Schönleben-Straße,49.4172,11.1229
 N-ERGIE DE-Nürnberg Keßlerplatz,49.45305,11.0928
+N-ERGIE DE-Nürnberg Kornmarkt,49.44917,11.07472
 N-ERGIE DE-Nürnberg Königstorgraben,49.44951,11.08325
+N-ERGIE DE-Nürnberg Marienbergstraße,49.48705,11.0935
+N-ERGIE DE-Nürnberg Norikerstraße,49.45115,11.10268,25
 N-ERGIE DE-Nürnberg Norikerstraße,49.45128,11.10351,25
 N-ERGIE DE-Nürnberg Passauer Straße,49.44834,11.12298
+N-ERGIE DE-Nürnberg Sandreuthstraße,49.43538,11.05956
+N-ERGIE DE-Nürnberg Sandstraße,49.4458,11.0722
 N-ERGIE DE-Nürnberg Schlotfegergasse,49.4502,11.0676
 N-ERGIE DE-Nürnberg Singerstraße,49.43848,11.06887
 N-ERGIE DE-Nürnberg Sulzbacher Straße,49.45787,11.09089
 N-ERGIE DE-Nürnberg Südliche Fürther Straße,49.44859,11.06246,25
+N-ERGIE DE-Nürnberg Südwestpark,49.42676,11.01822
 N-ERGIE DE-Nürnberg Südwestpark,49.42782,11.01953
+N-ERGIE DE-Nürnberg Südwestpark,49.42798,11.0229
+N-ERGIE DE-Nürnberg Thomas-Mann-Straße,49.41302,11.13596
 N-ERGIE DE-Pleinfeld Leitenbuckstraße,49.12018,10.93026
 N-ERGIE DE-Pommelsbrunn Hubmersberg,49.52643,11.50735
 N-ERGIE DE-Roßtal Dinkelsbühler Straße,49.3633,10.87108
@@ -22775,6 +22804,7 @@ Naturstrom DE-Bad Zwischenahn Am Badepark,53.186,7.99886
 NCP DE-Hohenwart Industriestraße,48.58864,11.38772
 NCP DE-Nürnberg Tillypark,49.43382,11.0358
 
+NEG DE-Karlstadt Mainpromenade,49.9632,9.76286
 NEG DE-Karlstadt Uhlandstraße,49.96483,9.78177
 
 Neogy IT-Arco Via S. Pietro,45.91815,10.88713
@@ -25739,6 +25769,7 @@ Smatrics CH-Unterbäch Kantonsstrasse,46.28755,7.8015
 Smatrics DE-Balingen Leibbrandstraße,48.24475,8.8772
 Smatrics DE-Eisenstadt Haidäcker-Park,47.8275,16.52437
 Smatrics DE-Heilbronn Weipertstraße,49.1488,9.2144
+Smatrics DE-Leonberg m Schlossberg,48.81627,9.0168
 Smatrics DE-Neuenstadt am Kocher Daimlerstraße,49.23866,9.34116
 Smatrics DE-Passau Messestraße,48.55925,13.41126
 Smatrics DE-Passau Regensburger Straße,48.57432,13.446
@@ -25762,39 +25793,9 @@ Smopi DE-Nürnberg Kurt-Triest-Straße,49.43086,11.04335
 SolarHub AU-Mitchell ACT Flemington Rd,-35.21779,149.14409
 
 solid DE-Bad Windsheim Illesheimer Straße,49.49613,10.40525
-solid DE-Crailsheim Worthingtonstraße,49.13844,10.06729
-solid DE-Dinkelsbühl Mönchsrother Straße,49.06442,10.32575
-solid DE-Erlangen Mozartstraße,49.59178,11.0116
-solid DE-Feucht Kapellenplatz,49.37743,11.21378
-solid DE-Hallbergmoos Theresienstraße,48.32817,11.75231
-solid DE-Hersbruck Badstraße,47.57307,10.56608
-solid DE-Hersbruck Nürnberger Straße,49.50991,11.42507
 solid DE-Hersbruck Poststraße,49.50848,11.42779
-solid DE-Herzogenaurach Olympiaring,49.57408,10.91576
-solid DE-Hirschaid Sassanfahrter Hauptstraße,49.80495,10.96938
-solid DE-Hof Oberer Anger,50.31434,11.91917
-solid DE-Kammerstein Espanstraße,49.29198,10.97039
-solid DE-Karlstadt Mainpromenade,49.96321,9.76286
-solid DE-Landsberg am Lech Am Englischen Garten,48.04695,10.87439
 solid DE-Langenzenn Sanktustorstraße,49.49548,10.79519
-solid DE-Lauf an der Pegnitz Hugo-Dietz-Straße,49.50988,11.29066
-solid DE-Lauf an der Pegnitz Schlossplatz,49.50956,11.28166
 solid DE-Lichtenau Festplatz,49.28074,10.68593
-solid DE-Nürnberg,49.43538,11.05956
-solid DE-Nürnberg Am Leonhardspark,49.44341,11.05623
-solid DE-Nürnberg An der Ehrenhalle,49.43468,11.10958
-solid DE-Nürnberg Fichtestraße,49.45853,11.10574,25
-solid DE-Nürnberg Färberstraße,49.44793,11.07184
-solid DE-Nürnberg Glogauer Straße,49.3978,11.14212
-solid DE-Nürnberg Grünstraße,49.4394,11.05115
-solid DE-Nürnberg Karl-Schönleben-Straße,49.41719,11.12289
-solid DE-Nürnberg Kornmarkt,49.44917,11.07472
-solid DE-Nürnberg Marienbergstraße,49.48705,11.09349
-solid DE-Nürnberg Norikerstraße,49.45115,11.10268,25
-solid DE-Nürnberg Sandstraße,49.44579,11.0722
-solid DE-Nürnberg Südwestpark,49.42676,11.01822
-solid DE-Nürnberg Südwestpark,49.42798,11.02291
-solid DE-Nürnberg Thomas-Mann-Straße,49.41302,11.13596
 
 Sonnenladen AT-St. Pantaleon Dorfstraße,48.21293,14.56515
 
@@ -26074,6 +26075,7 @@ SW-FFB DE-Fürstenfeldbruck Cerveteristraße,48.17172,11.22629
 SW-Flensburg DE-Flensburg Batteriestraße,54.8047,9.42978
 SW-Flensburg DE-Flensburg Nordergraben,54.78729,9.43153
 SW-Forchheim DE-Forchheim Äußere Nürnberger Straße,49.70444,11.06029
+SW-Forchheim DE-Hirschaid Sassanfahrter Hauptstraße,49.80495,10.96938
 SW-Frankenthal DE-Frankenthal Jahnplatz,49.53048,8.35475
 SW-Freiberg DE-Freiberg Geschwister-Scholl-Straße,50.92135,13.3429
 SW-Freiberg DE-Freiberg Hornstraße,50.91645,13.34712
@@ -26129,6 +26131,8 @@ SW-Heidelberg DE-Heidelberg Vangerowstraße,49.4089,8.67884
 SW-Heidelberg DE-Heidelberg Zeppelinstraße,49.42322,8.6847
 SW-Heidenheim DE-Rothenburg ob der Tauber Bezoldweg,49.3804,10.17887
 SW-Herne DE-Herne Grenzweg,51.54066,7.2076
+SW-Hersbruck DE-Hersbruck Badstraße,47.57307,10.56608
+SW-Hersbruck DE-Hersbruck Nürnberger Straße,49.5099,11.42507
 SW-Herten DE-Herten Herner Straße,51.58255,7.15027
 SW-Hilden DE-Hilden Am Lindenplatz,51.16263,6.94072
 SW-Hockenheim DE-Hockenheim Beethovenstraße,49.3112,8.54627
@@ -26192,6 +26196,8 @@ SW-Köflach AT-Köflach Stadtwerkgasse,47.06054,15.07832
 SW-Landshut DE-Landshut Isargestade,48.53986,12.15252
 SW-Langen DE-Langen Liebigstraße,49.99428,8.65773
 SW-Lauf DE-Lauf an der Pegnitz Eckertstraße,49.50715,11.28489
+SW-Lauf DE-Lauf an der Pegnitz Hugo-Dietz-Straße,49.50988,11.29066
+SW-Lauf DE-Lauf an der Pegnitz Schlossplatz,49.50956,11.28166
 SW-LB DE-Ludwigsburg Brenzstraße,48.89232,9.18277
 SW-LB DE-Ludwigsburg Groenerstraße,48.8929,9.1729
 SW-LB DE-Ludwigsburg Karl-Haußmann-Straße,48.88928,9.16427
@@ -26442,6 +26448,8 @@ SW-Zweibrücken DE-Zweibrücken Gottlieb-Daimler-Straße,49.24923,7.3488
 SW-Zwickau DE-Zwickau Äußere Dresdner Straße,50.71728,12.50231
 
 Swarco GB-Gwynedd Marian Mawr enterprize park Dolgellau,52.74422,-3.88604
+
+SWD-Plus DE-Dinkelsbühl Mönchsrother Straße,49.06442,10.32575
 
 swisscharge CH-Adlikon bei Regensdorf Breitestrasse,47.44873,8.46287
 swisscharge CH-Aesch Nordring,47.47904,7.59006
