@@ -2564,7 +2564,7 @@ Supercharger-V4 FI-Parkano,62.00557,23.00974
 Supercharger-V3 FI-Pello,66.80876,23.99627,20
 Supercharger-V4 FI-Pori,61.49468,21.798
 Supercharger-V4 FI-Porvoo,60.38822,25.60655
-Supercharger FI-Pyhtää,60.489054,26.554835
+Supercharger-V4 FI-Pyhtää,60.48902,26.55495
 Supercharger FI-Pyhäjärvi,63.716298,25.920103
 Supercharger-V4 FI-Raisio,60.4949,22.22567
 Supercharger-V3 FI-Rovaniemi,66.501765,25.723048
@@ -3033,10 +3033,10 @@ Supercharger GB-Liphook,51.076281,-0.831807
 Supercharger-V4 GB-Little Bentley,51.86874,1.07453
 Supercharger-V4 GB-Liverpool,53.40913,-2.92393
 Supercharger-V3 GB-London - Bromley,51.404036,0.019443
-Supercharger-V3 GB-London - Croydon,51.35591,-0.116472
 Supercharger-V3 GB-London - Tottenham,51.611107,-0.043032
 Supercharger-V4 GB-London Camberwell Road EV OTM,51.48096,-0.09463
 Supercharger-V4 GB-London Colliers Wood,51.4133,-0.17535
+Supercharger-V3 GB-London Croydon,51.35664,-0.1168
 Supercharger-V3 GB-London Gateway,51.63036,-0.26354
 Supercharger GB-London North Greenwich,51.50245,-0.00175
 Supercharger-V3 GB-London Park Royal,51.52673,-0.28348
@@ -4213,7 +4213,7 @@ Supercharger-V4 SE-Skellefteå,64.76232,21.00264
 Supercharger-V3 SE-Sollentuna,59.496586,17.92444
 Supercharger-V4 SE-Stenungsund Central,58.06755,11.8182
 Supercharger SE-Stockholm,59.500743,17.927563
-Supercharger SE-Storlien,63.30987,12.1089
+Supercharger-V4 SE-Storlien,63.30987,12.1089
 Supercharger SE-Storuman,65.092642,17.107984
 Supercharger-V3 SE-Strängnäs,59.328037,17.016299
 Supercharger-V3 SE-Strömstad,58.945779,11.193034
@@ -9737,6 +9737,8 @@ Bestcharge LU-Huldang Ëlwen Stawelerstrooss,50.17166,6.02516
 Bestcharge LU-Remerschen Schengerwis,49.48001,6.36441
 Bestcharge LU-Wasserbillig Mertert Route de Wasserbillig,49.70674,6.48866
 
+Beuzentrum-Zerssen DE-Rendsburg Friedrichstädter Straße,54.32466,9.62858
+
 BEW DE-Wipperfürth Gaulstraße,51.11358,7.40603
 
 Bidirex DE-Auggen An der Sonnberghalle,47.79103,7.59245
@@ -10398,8 +10400,8 @@ CircleK NO-Fjellhamar Strømsveien,59.93377,10.98443
 CircleK NO-Geilo Lienvegen,60.53548,8.2206
 CircleK NO-Leknes Storgata,68.14874,13.61273
 CircleK NO-Molde Fannestrandvegen,62.7392,7.19896,20
-CircleK NO-Oslo Ankerveien,59.9624,10.64207,30
-CircleK NO-Oslo Ankerveien,59.96261,10.64281,30
+CircleK NO-Oslo Ankerveien,59.9624,10.64207,25
+CircleK NO-Oslo Ankerveien,59.9626,10.6428,25
 CircleK NO-Oslo Lambertseterveien,59.87916,10.82013
 CircleK NO-Stavanger Petroleumsveien,58.89288,5.724
 CircleK NO-Tromsø Terminalgata,69.67669,18.97973
@@ -11151,6 +11153,7 @@ da-emobil AT-Rutzenmoos Am Moosgraben,47.9554,13.72683,20
 da-emobil AT-Salzburg Europastraße,47.81653,13.00869
 da-emobil AT-Schwanenstadt Staig,48.06059,13.78556
 da-emobil AT-Serfaus Kreuzwiesenweg,47.03938,10.61436
+da-emobil AT-Sillian Arnbach,46.7424,12.38712
 da-emobil AT-Sinabelkirchen Untergroßau,47.09653,15.82452
 da-emobil AT-Spielfeld Bundesstraße,46.7083,15.63406
 da-emobil AT-Spittal an der Drau Villacher Straße,46.79209,13.51054
@@ -18339,7 +18342,7 @@ GreenWay PL-Łyszkowice Kościelna,51.98566,19.91046
 GreenWay PL-Łódź Aleksandra Puszkina,51.75215,19.53338
 GreenWay PL-Świecie Morsk,53.41846,18.47478
 GreenWay PL-Świnoujście Skandynawska,53.90239,14.27527
-GreenWay SK-Banská Bystrica Na Troskách,48.73114,19.13589
+GreenWay SK-Banská Bystrica Na Troskách,48.73042,19.13564
 GreenWay SK-Košice Moldavská cesta,48.70027,21.24055
 GreenWay SK-Košťany nad Turcom,49.03429,18.90843
 GreenWay SK-Kútniky Töböréte,47.97506,17.6643
@@ -18392,6 +18395,8 @@ GW-Pleinfeld DE-Pleinfeld Lauterbrunnenweg,49.10277,10.9841
 GW-Unterhaching DE-Unterhaching An d. Hachinger Haid,48.06838,11.62005,25
 
 HadSol DE-Bremen Fangturm,53.0792,8.79823,25
+
+Hamburg-Messe-und-Congress DE-Hamburg St. Petersburger Straße,53.55958,9.9806
 
 Harz-Energie DE-Altenau Torfhaus,51.80391,10.53587
 Harz-Energie DE-Braunlage Am Amtsweg,51.73147,10.613
@@ -22322,6 +22327,7 @@ Mer DE-Zwiesel Badstraße,49.02458,13.22562
 Mer DE-Zwiesel Bahnhofsplatz,49.02064,13.22661
 Mer DE-Zwiesel Kirchplatz,49.01539,13.23344
 Mer DE-Öhringen Rudolf-Diesel-Straße,49.19887,9.47625
+Mer DE-Übersee Greimelstraße,47.83624,12.48534
 Mer DE-Übersee Julius-Exter-Promenade,47.84898,12.47599
 Mer NO-Bjerkvik Trollvikveien,68.55088,17.55264,30
 Mer NO-Dal Kolonivegen,60.24981,11.18049
@@ -24505,7 +24511,7 @@ Recharge NO-Mo i Rana Handelspark,66.3062,14.14924,25
 Recharge NO-Odda Røldalsvegen,60.06726,6.54713,20
 Recharge NO-Orkanger Løypstrengen,63.29618,9.85342
 Recharge NO-Os Gudridflaten,60.20441,5.45325
-Recharge NO-Oslo Ankerveien,59.96226,10.64281,30
+Recharge NO-Oslo Ankerveien,59.96226,10.6428,25
 Recharge NO-Oslo Strømsveien,59.92517,10.84421
 Recharge NO-Røros Peder Hiortgata,62.57609,11.38022
 Recharge NO-Sola Solbergvegen,58.88156,5.65433
@@ -24859,6 +24865,7 @@ Salzburg AT-Lamprechtshausen Schulstraße,47.99297,12.95741
 Salzburg AT-Leogang Hütten,47.43952,12.71878
 Salzburg AT-Lofer Loferer Straße,47.5837,12.69416
 Salzburg AT-Mattsee Passauer Straße,47.9739,13.10234
+Salzburg AT-Mittersill Gerlos Straße,47.279,12.47695
 Salzburg AT-Mittersill Kirchgasse,47.28046,12.48178
 Salzburg AT-Neu-Anif Alpenstraße,47.73771,13.05132
 Salzburg AT-Obertrum am See Reintalstraße,47.9322,13.0799
@@ -26106,6 +26113,7 @@ SW-Greven DE-Greven Hinter der Lake,52.09279,7.60883
 SW-Gronau DE-Gronau Alfred-Dragstra-Platz,52.21157,7.02808
 SW-Gronau DE-Gronau Konrad-Adenauer-Straße,52.20814,7.0274
 SW-Görlitz DE-Görlitz Bismarckstraße,51.15398,14.98972
+SW-Görlitz DE-Görlitz Demianiplatz,51.15504,14.9848
 SW-Görlitz DE-Görlitz Jüdenstraße,51.15784,14.98963
 SW-Görlitz DE-Görlitz Pomologische GartenStraße,51.14131,14.97656
 SW-Güstrow DE-Güstrow Schloßberg,53.79112,12.17567
@@ -27722,6 +27730,7 @@ Veefi AU-St Lucia QLD Walcott St,-27.49483,153.00886
 VEGA AL-Aliban A2,40.59918,19.4768
 VEGA AL-Durrës Rruga Adria,41.3175,19.472
 VEGA AL-Elbasan Rruga Elbasan-Metalurgji,41.10214,20.05636
+VEGA AL-Lukovë SH8,39.99587,19.91487
 VEGA AL-Lushnjë SH4,40.95494,19.68658
 VEGA AL-Shkodër Rruga Mbreti Gent,42.055,19.49925
 VEGA AL-Tiranë Rruga Vilave,41.28357,19.8586
@@ -28272,6 +28281,7 @@ Wien-Energie AT-Wien Linzer Straße,48.1919,16.31684
 Wien-Energie AT-Wien Margaretengürtel,48.18015,16.3521
 Wien-Energie AT-Wien Martinstraße,48.22019,16.34015
 Wien-Energie AT-Wien Montleartstraße,48.2109,16.30451
+Wien-Energie AT-Wien Oeverseestraße,48.2031,16.31338
 Wien-Energie AT-Wien Ottakringer Straße,48.21346,16.32004
 Wien-Energie AT-Wien Perfektastraße,48.13719,16.29996
 Wien-Energie AT-Wien Raffaelgasse,48.23318,16.37169
@@ -28413,8 +28423,8 @@ ziwa AT-Kottingbrunn August-Resch-Straße,47.95588,16.2188
 
 ZSE HR-Opatija Liburnijska ul.,45.3123,14.2856
 ZSE HU-Alacska pihenőhely,47.38406,19.28321
+ZSE SK-Banská Bystrica Na Troskách,48.7313,19.13586
 ZSE SK-Bernolákovo Baničova,48.21102,17.26318
-ZSE SK-Blatná na Ostrove R7,48.0113,17.4559
 ZSE SK-Bratislava Bory Mall,48.20621,17.03329,75
 ZSE SK-Bratislava Dunajská,48.1445,17.1142
 ZSE SK-Bratislava Jelačičova,48.15691,17.13035
@@ -28424,6 +28434,8 @@ ZSE SK-Chocholná-Velčice Eurofuel,48.8703,17.95632
 ZSE SK-Galanta Esterházyovcov,48.19894,17.73317
 ZSE SK-Košice Toryská,48.71565,21.23859
 ZSE SK-Matejovce Štefánikova,49.07302,20.3289
+ZSE SK-Odpočívadlo Blatná na Ostrove Jug,48.0113,17.4559
+ZSE SK-Odpočívadlo Blatná na Ostrove Sever,48.0118,17.4604
 ZSE SK-Petržalka Panónska cesta,48.10715,17.09742
 ZSE SK-Pezinok Šenkvická cesta,48.29124,17.27924
 ZSE SK-Piešťany A. Hlinku,48.59439,17.82519
@@ -28927,6 +28939,7 @@ DE München AF Automotive,48.18688,11.58993,30
 DE München Alphahaus,48.1302,11.5301
 DE München Holiday Inn München Ost,48.13185,11.62799
 DE München Hotel Heigl,48.07561,11.5139
+DE München Karlstraße,48.14335,11.5669
 DE München Messe,48.13372,11.70692
 DE München Messe,48.13514,11.70607
 DE München Messe,48.13677,11.69161
