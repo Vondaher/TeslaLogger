@@ -1961,7 +1961,7 @@ Supercharger-V4 DE-Bad Rappenau,49.2119,9.0771,32
 Supercharger-V4 DE-Bad Segeberg,53.93756,10.2974
 Supercharger-V4 DE-Bad Vilbel,50.16863,8.72895
 Supercharger-V3 DE-Baden-Baden,48.78364,8.19225
-Supercharger-V3 DE-Barsbüttel,53.578295,10.193266
+Supercharger-V3 DE-Barsbüttel,53.57834,10.19308,32
 Supercharger-V4 DE-Bautzen,51.18866,14.45457
 Supercharger-V3 DE-Bayreuth,49.9626,11.61055,95
 Supercharger-V4 DE-Beelitz,52.26678,12.92225
@@ -2171,7 +2171,7 @@ Supercharger DE-Lutterberg alt,51.370977,9.633306,10
 Supercharger-V4 DE Lübeck (Cafe del Sol),53.881288,10.660194
 Supercharger-V4 DE-Lübeck Moisling,53.912554,10.732506
 Supercharger-V4 DE-Lünen (Cafe Del Sol),51.60468,7.5262
-Supercharger-V3 DE-Magdeburg,52.21074,11.67012
+Supercharger-V3 DE-Magdeburg,52.21074,11.67012,40
 Supercharger-V4 DE-Magdeburg Florapark,52.15917,11.60737
 Supercharger-V4 DE-Mainz,49.9814,8.28052
 Supercharger-V4 DE-Mainz Weberstraße,49.9753,8.28673
@@ -4306,6 +4306,7 @@ Supercharger-V3 SK-Trenčín,48.8643,18.022992,30
 Supercharger SK-Zvolen,48.6274,19.10354,30
 
 Supercharger-V4 TH-Bangkok AIA Connect,13.76437,100.5701
+Supercharger-V4 TH-Chonburi Numchai,12.9341,100.90232
 
 Supercharger-V4 TR-Afyonkarahisar Asiye Sultan Blv.,38.7547,30.55634
 Supercharger-V4 TR-Afyonkarahisar Dörtyol,38.79183,30.45374
@@ -8049,7 +8050,6 @@ Allego DE-Bad Oeynhausen Mindener Straße,52.21347,8.81468,18
 Allego DE-Bad Salzuflen Otto-Hahn-Straße,52.06558,8.75107
 Allego DE-Bad Sassendorf Schuetzenstraße,51.57904,8.1585
 Allego DE-Bad Segeberg Bahnhofstraße,53.9346,10.3072
-Allego DE-Barsbüttel Bauhaus,53.5768,10.19448
 Allego DE-Barth Gewerbegebiet am Mastweg,54.35926,12.711
 Allego DE-Bayreuth Ludwig-Thoma-Straße,49.93297,11.56776,20
 Allego DE-Bayreuth Sophian-Kolb-Straße,49.95784,11.6019
@@ -8624,7 +8624,7 @@ Allego DK-Holstebro Nyholmvej,56.37748,8.6201
 Allego DK-Odense Drejebænken,55.35404,10.4199
 Allego DK-Randers Neptunvej,56.4249,10.05983
 Allego DK-Silkeborg Nordre Højmarksvej,56.18728,9.5102,24
-Allego DK-Slagelse Idagårdsvej,55.3919,11.35248
+Allego DK-Slagelse Idagårdsvej,55.3919,11.35248,20
 Allego DK-Vejle Godthåbsvej,55.66392,9.55016,20
 Allego FR-Aire de La Bruche,48.539,7.58042
 Allego FR-Anglet Centre Commercial,43.4904,-1.49698
@@ -9598,6 +9598,8 @@ badenova DE-Rust Roland-Mack-Ring,48.26212,7.7387
 
 BatteryFly BY-Minsk Мінск вуліца Ціміразева,53.93933,27.44224
 
+Bauzentrum-Zerssen DE-Rendsburg Friedrichstädter Straße,54.32466,9.62858
+
 Bayernwerk DE-Heßdorf Hannberger Straße,49.62884,10.90561
 Bayernwerk DE-Kulmbach Oberhacken,50.10593,11.45829
 Bayernwerk DE-Teublitz Regensburger Straße,49.22158,12.0823
@@ -9736,8 +9738,6 @@ Best-in AT-Linz Hauptplatz,48.30604,14.28647
 Bestcharge LU-Huldang Ëlwen Stawelerstrooss,50.17166,6.02516
 Bestcharge LU-Remerschen Schengerwis,49.48001,6.36441
 Bestcharge LU-Wasserbillig Mertert Route de Wasserbillig,49.70674,6.48866
-
-Beuzentrum-Zerssen DE-Rendsburg Friedrichstädter Straße,54.32466,9.62858
 
 BEW DE-Wipperfürth Gaulstraße,51.11358,7.40603
 
@@ -12830,6 +12830,8 @@ EnBW DE-Bamberg Hallstadter Straße,49.91043,10.88115
 EnBW DE-Bamberg Laubanger,49.91074,10.87457
 EnBW DE-Barbing Neutraublinger Str,49.00126,12.19716
 EnBW DE-Bardowick Schwarzer Weg,53.2864,10.395
+EnBW DE-Barsbüttel Rahlstedter Straße,53.57677,10.19454
+EnBW DE-Barsbüttel Rahlstedter Straße,53.57808,10.19377,25
 EnBW DE-Barsinghausen Werner-von-Siemens-Straße,52.3058,9.46786
 EnBW DE-Barsinghausen Wilhelm-Heß-Straße,52.3071,9.4553
 EnBW DE-Baunach Haßbergstraße,49.9913,10.8437
@@ -22997,6 +22999,7 @@ nonoxx-pro DE-Neustadt in Holstein Dünenweg,54.08863,10.8611
 nonoxx-pro DE-Neustadt in Holstein Klosterstraße,54.10878,10.8129
 nonoxx-pro DE-Wernigerode Halberstädter Straße,51.83823,10.79588
 
+Norlys DK-Billund Nordmarksvej,55.72828,9.13272
 Norlys DK-Gilleleje Alfavej,56.12646,12.30511
 Norlys DK-Hjørring Frederikshavnsvej,57.45557,10.00555
 Norlys DK-Hvide Sande Kirksvej,55.86376,8.18126
@@ -23009,6 +23012,7 @@ Norlys DK-Ringkøbing Sletten,56.11787,8.11566
 Norlys DK-Ringkøbing Vester Kær,56.09463,8.23612
 Norlys DK-Roskilde Algade,55.64095,12.09053
 Norlys DK-Rødvig Stevns Østersøvej,55.25301,12.37789
+Norlys DK-Slagelse Idagårdsvej,55.39218,11.3524,20
 Norlys DK-Sorø Ringstedvej,55.44096,11.56662
 Norlys DK-Ulfborg Vesterhavsgade,56.37364,8.11866
 Norlys DK-Vejle Dandyvej,55.72603,9.58114
@@ -23309,6 +23313,7 @@ OVAG DE-Alsfeld Schellengasse,50.75273,9.27153
 OVAG DE-Altenstadt Wiesenstraße,50.28335,8.94242
 OVAG DE-Antrifttal Seehotel Antrifttal,50.77363,9.20262
 OVAG DE-Bad Homburg Josef-Baumann-Straße,50.22697,8.67873
+OVAG DE-Bad Nauheim b. d. Warth,50.3469,8.76423
 OVAG DE-Butzbach Griedeler Straße,50.43538,8.67642
 OVAG DE-Butzbach Weiseler Straße,50.43097,8.6719
 OVAG DE-Büdingen Altstadt,50.29145,9.11605
