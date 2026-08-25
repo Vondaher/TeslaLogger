@@ -61,7 +61,7 @@ Supercharger AT-Laßnitzhöhe,47.070925,15.578139
 Supercharger AT-Lermoos,47.394965,10.887519
 Supercharger AT-Lermoos,47.395975,10.887217
 Supercharger AT-Liezen,47.55937,14.252606
-Supercharger-V4 AT-Linz,48.30215,14.31032
+Supercharger-V4 AT-Linz Semmelweisstraße,48.30215,14.31032
 Supercharger-V4 AT-Meggenhofen,48.18346,13.78649
 Supercharger-V4 AT-Melk,48.21438,15.34943
 Supercharger-V3 AT-Niederndorf,47.649,12.19776
@@ -391,6 +391,7 @@ Supercharger-V3 CA-Winnipeg MB,49.882369,-97.198327
 
 Supercharger CA-Aulac NB,45.871352,-64.280378
 Supercharger CA-Lincoln NB,45.851583,-66.560574
+Supercharger-V4 CA-Moncton NB,46.13027,-64.77292
 Supercharger CA-Quispamsis NB,45.41751,-65.943243
 Supercharger CA-Saint Leonard NB,47.168726,-67.918016
 Supercharger CA-Salisbury NB,46.050222,-65.061501
@@ -2127,6 +2128,7 @@ Supercharger-V4 DE-Kaiserslautern Merkurstraße,49.44158,7.70743
 Supercharger-V3 DE-Kaltenkirchen,53.8462,9.9362,38
 Supercharger-V4 DE-Kamen,51.56978,7.67511,70
 Supercharger-V4 DE-Kappel-Grafenhausen,48.28135,7.77755
+Supercharger-V3 DE-Karlsruhe,48.99746,8.43063,10
 Supercharger-V3 DE-Karlsruhe,48.99897,8.4286
 Supercharger-V4 DE-Karlsruhe-Grünwinkel,49.00933,8.35364
 Supercharger-V3 DE-Kassel (Cafe del Sol),51.30868,9.54597
@@ -2538,6 +2540,7 @@ Supercharger-V4 FI-Hankasalmi,62.3587,26.571
 Supercharger-V3 FI-Hartola,61.578409,26.009758
 Supercharger-V3 FI-Huittinen,61.16836,22.67993,35
 Supercharger-V4 FI-Hämeenlinna,60.9962,24.45549
+Supercharger-V4 FI-Ii,65.28965,25.37474
 Supercharger-V3 FI-Inari,68.906674,27.025661
 Supercharger FI-Jalasjärvi,62.417071,22.791815
 Supercharger-V3 FI-Joensuu,62.60113,29.78203
@@ -3029,6 +3032,7 @@ Supercharger-V4 GB-Leicester Humberstone Road,52.6395,-1.1168
 Supercharger-V3 GB-Leigh Delamere - Westbound,51.510017,-2.156316
 Supercharger GB-Lifton,50.643377,-4.284553
 Supercharger-V4 GB-Lincoln,53.1989,-0.6135
+Supercharger-V4 GB-Lincoln Horncastle Ln EV OTM,53.29014,-0.5415
 Supercharger GB-Liphook,51.076281,-0.831807
 Supercharger-V4 GB-Little Bentley,51.86874,1.07453
 Supercharger-V4 GB-Liverpool,53.40913,-2.92393
@@ -4003,7 +4007,7 @@ Supercharger-V3 NO-Åfjord,63.959951,10.226023
 Supercharger-V3 NO-Ål,60.63013,8.563912
 Supercharger-V4 NO-Ålesund,62.47248,6.3645
 Supercharger-V4 NO-Åmot Vinje,59.57013,7.99255
-Supercharger NO-Åndalsnes,62.55781,7.68544,60
+Supercharger-V4 NO-Åndalsnes,62.5578,7.68544,60
 Supercharger-V3 NO-Åsane,60.472861,5.333181,80
 Supercharger-V3 NO-Ørnes,66.86818,13.703568
 Supercharger NO-Ørskog,62.52017,6.91651,60
@@ -12575,7 +12579,7 @@ ELLA AT-Wien Albert-Schweitzer-Gasse,48.20634,16.22295
 
 eLoaded DE-Neusäß Richard-Wagner-Straße,48.3897,10.83564
 eLoaded DE-Ulm Magirus-Deutz-Straße,48.3984,9.95808,70
-eLoaded DE-Zusmarshausen Am Innovationspark,48.407,10.59997,99
+eLoaded DE-Zusmarshausen Am Innovationspark,48.407,10.59997,90
 
 Elocity PL-Człuchów Średnia,53.665,17.3515
 Elocity PL-Jelenia Góra Jana Sobieskiego,50.90367,15.7284
@@ -23440,8 +23444,6 @@ Petrol HR-Zagreb Sesvete Zapad,45.87003,16.19188
 Petrol HR-Zagreb Ul. Vjenceslava Richtera,45.78206,15.98189
 Petrol ME-Podgorica Ilije Plamenca,42.43088,19.24341
 Petrol SI-Bled Ljubljanska cesta,46.36867,14.11159
-Petrol SI-Dogoše Maribor,46.53128,15.70102
-Petrol SI-Dogoše Maribor,46.53291,15.69896,8
 Petrol SI-Ivančna Gorica Vodotučine,45.93543,14.80501
 Petrol SI-Izola Ulica prekomorskih brigad,45.53593,13.65875
 Petrol SI-Koper Kolodvorska cesta,45.54275,13.7358,30
@@ -23452,6 +23454,8 @@ Petrol SI-Počivališče Barje,46.02873,14.47913
 Petrol SI-Počivališče Barje,46.0293,14.48123
 Petrol SI-Počivališče Lom,45.89864,14.25664
 Petrol SI-Počivališče Lopata,46.26248,15.22255
+Petrol SI-Počivališče Maribor vzhod,46.53128,15.70102
+Petrol SI-Počivališče Maribor zahod,46.5329,15.69896,8
 Petrol SI-Počivališče Šentilj,46.68489,15.64979
 
 Petrom RO-Caransebeș Cent.Caransebes,45.36875,22.24154
@@ -28436,6 +28440,7 @@ ZSE SK-Bratislava Jelačičova,48.15691,17.13035
 ZSE SK-Bratislava Námestie Franza Liszta,48.15626,17.1068
 ZSE SK-Bratislava Vazovova,48.15439,17.1176
 ZSE SK-Chocholná-Velčice Eurofuel,48.8703,17.95632
+ZSE SK-Dolný Kubín Aleja Slobody,49.21574,19.29915
 ZSE SK-Galanta Esterházyovcov,48.19894,17.73317
 ZSE SK-Košice Toryská,48.71565,21.23859
 ZSE SK-Matejovce Štefánikova,49.07302,20.3289
