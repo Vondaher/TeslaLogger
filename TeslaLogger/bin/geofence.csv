@@ -355,6 +355,7 @@ Supercharger-V3 CA-Merritt BC - De Wolf Way,50.12384,-120.76129
 Supercharger-V3 CA-Merritt BC De Wolf Way,50.12429,-120.76158
 Supercharger-V3 CA-Mission BC,49.133979,-122.341492
 Supercharger CA-Nanaimo BC,49.238472,-124.053887
+Supercharger-V4 CA-Nanaimo BC Turner Rd,49.22595,-124.03636
 Supercharger-V3 CA-North Vancouver BC Lonsdale Ave,49.32788,-123.07094
 Supercharger-V3 CA-Osoyoos BC,49.03162,-119.46693
 Supercharger-V3 CA-Penticton BC,49.496244,-119.61599
@@ -2249,7 +2250,7 @@ Supercharger-V3 DE-Regensburg - Ostenviertel,48.9998,12.14843,30
 Supercharger-V4 DE-Regensburg-Ost,48.99477,12.15066
 Supercharger-V3 DE-Reichertshofen,48.645645,11.520604
 Supercharger-V3 DE-Reinfeld,53.8232,10.50352
-Supercharger-V4 DE-Reiskirchen,50.59563,8.818755,30
+Supercharger-V4 DE-Reiskirchen,50.59563,8.81875,35
 Supercharger-V4 DE-Rhüden,51.9472,10.14027,30
 Supercharger-V3 DE-Rhüden,51.94732,10.14113,30
 Supercharger-V4 DE-Ringsheim,48.25,7.76567,21
@@ -4376,6 +4377,7 @@ Supercharger-V3 US-Mountain Brook AL,33.48487,-86.77206
 Supercharger-V3 US-Orange Beach AL,30.29223,-87.6271
 Supercharger US-Oxford AL,33.61043,-85.7832
 Supercharger-V4 US-Pell City AL,33.6111,-86.27933
+Supercharger-V4 US-Prattville AL Hwy 31 N Lakh Enterprises,32.54747,-86.45698
 Supercharger-V3 US-Robertsdale AL,30.6336,-87.6756
 Supercharger US-Steele AL,33.9328,-86.19177
 Supercharger-V4 US-Tuscaloosa AL,33.1939,-87.51906
@@ -7903,7 +7905,7 @@ Aldi DE-Rauenberg Frankenäcker,49.27325,8.69579,13
 Aldi DE-Regensburg Johann-Hösl-Straße,48.99457,12.11154
 Aldi DE-Rehlingen Im Dürrfeldslach,49.37231,6.68625
 Aldi DE-Reichshof Falkenweg,50.94155,7.74992
-Aldi DE-Reiskirchen,50.5982,8.82455,20
+Aldi DE-Reiskirchen Siemensstraße,50.5982,8.82456,25
 Aldi DE-Remseck am Neckar Neckaraue,48.88777,9.27235
 Aldi DE-Reutlingen Föhrstraße,48.50228,9.20789,20
 Aldi DE-Reutlingen Heubergstraße,48.51249,9.21785,20
@@ -11289,7 +11291,7 @@ E-Merge DE-Aalen Daimlerstraße,48.8257,10.0651
 E-Merge DE-Bad Nenndorf Im Niedernfeld,52.34387,9.3837
 E-Merge DE-Bad Soden am Taunus Am Bahnhof,50.14244,8.5046
 E-Merge DE-Bergkamen Industriestraße,51.64265,7.67264
-E-Merge DE-Berlin Kantstraße,52.50574,13.32955
+E-Merge DE-Berlin Kantstraße,52.50594,13.3302
 E-Merge DE-Biedenkopf Am Bahnhof,50.90987,8.52965
 E-Merge DE-Biedenkopf Bachgrundstraße,50.9104,8.529
 E-Merge DE-Bonn Christian-Lassen-Straße,50.7525,7.05918
@@ -12148,6 +12150,8 @@ EFFIA FR-Grenoble Rue de Belgrade,45.19212,5.72586
 Effo FO-Tórshavn Oyggjarvegur,62.1192,-6.98374,55
 
 EFL DE-Sinzig Schloß Ahrenthal,50.52073,7.24871
+
+EG-Chemnitz-Zwickau DE-Schneeberg Seminarstraße,50.59684,12.64
 
 EG-Hasbergen DE-Hasbergen Rheiner Landstraße,52.26617,7.96555
 
@@ -13515,7 +13519,6 @@ EnBW DE-Hamburg Kamerbalken,53.5935,9.923
 EnBW DE-Hamburg Kieler Straße,53.57986,9.9356
 EnBW DE-Hamburg Krähenweg,53.63244,9.95538
 EnBW DE-Hamburg Lentersweg,53.6391,10.02773
-EnBW DE-Hamburg Maldfeldstraße,53.4296,9.93546
 EnBW DE-Hamburg Oberer Landweg,53.48955,10.18733
 EnBW DE-Hamburg Rugenbarg,53.58572,9.87224
 EnBW DE-Hamburg Schwarzer Weg,53.6072,10.0547
@@ -17204,7 +17207,7 @@ EWE-GO DE-Regenstauf An der Hasler Zell,49.1166,12.11277
 EWE-GO DE-Reichenbach Rosa-Luxemburg-Straße,50.61953,12.28559
 EWE-GO DE-Reichertshofen Am Auer Bach,48.64428,11.52024
 EWE-GO DE-Reinfeld An der Autobahn,53.82334,10.50233,30
-EWE-GO DE-Reiskirchen Carl-Benz-Straße,50.59837,8.82213,25
+EWE-GO DE-Reiskirchen Carl-Benz-Straße,50.59838,8.8221,30
 EWE-GO DE-Reitrain Tegernseer Straße,47.68545,11.75849
 EWE-GO DE-Remagen Am Güterbahnhof,50.5755,7.23248
 EWE-GO DE-Rennerod Gewerbestraße,50.59885,8.06416
@@ -19915,7 +19918,7 @@ K-Lataus FI-Kotka Koulukatu,60.4606,26.94025
 K-Lataus FI-Kouvola Tervasharjunkatu,60.87586,26.65345
 K-Lataus FI-Kuusamo Luomantie,65.95627,29.1614
 K-Lataus FI-Lahti Ajokatu,60.96525,25.6561
-K-Lataus FI-Lieksa Pielisentie,63.3182,30.0246
+K-Lataus FI-Lieksa Pielisentie,63.3182,30.0246,30
 K-Lataus FI-Muonio Yrjö Kokontie,67.95784,23.68468
 K-Lataus FI-Mäntsälä Sälinkääntie,60.63753,25.3162
 K-Lataus FI-Oulu Metsokankaantie,64.95716,25.52752
@@ -21712,6 +21715,7 @@ Lidl FI-Helsinki Vanha talvitie,60.19205,24.97697
 Lidl FI-Jyväskylä Akkalankuja,62.2376,25.81652
 Lidl FI-Jyväskylä Saarijärventie,62.29005,25.71637
 Lidl FI-Leppävirta Tarhurintie,62.49055,27.77095
+Lidl FI-Lieksa Mönninkatu,63.31772,30.0236,30
 Lidl FI-Tampere Autovarikonkatu,61.45384,23.76498
 Lidl FI-Tampere Harjuntausta,61.51646,23.66541
 Lidl FI-Vantaa,60.26158,24.87252
@@ -22021,6 +22025,7 @@ Mainova DE-Frankfurt am Main Ludwig-Landmann-Straße,50.12889,8.62135
 Mainova DE-Frankfurt am Main Opernplatz,50.11626,8.67283
 Mainova DE-Frankfurt am Main Töngesgasse,50.11379,8.68448
 Mainova DE-Frankfurt am Main Zum Rebstockbad,50.11189,8.62006
+Mainova DE-Kelsterbach Rüsselsheimer Straße,50.06218,8.528
 Mainova DE-Mainz Am Leichborn,49.99855,8.21503
 Mainova DE-Mainz Dijonstraße,49.99713,8.2304
 Mainova DE-Niedernhausen Idsteiner Straße,50.16321,8.31372
@@ -25480,6 +25485,7 @@ Shell NL-Rotterdam Schiekade,51.92551,4.47812,25
 Shell NL-Winterswijk Europark,51.97298,6.70488
 Shell NL-Workum Spoardyk,52.97395,5.45226
 Shell NO-Kristiansand Vigeveien,58.16387,8.04322
+Shell PL-Kisielnica E67,53.25017,22.10812
 Shell PL-Nowa Wieś Legnicka,51.15885,16.1716
 Shell RO-Macun Bağdat Caddesi,39.96079,32.77047
 Shell TR-Horozluhan Yeni İstanbul Cd.,37.93425,32.511
@@ -26936,7 +26942,7 @@ TEAG DE-Osterode am Harz Herzberger Straße,51.71795,10.2727
 TEAG DE-Petersberg Billerer Straße,50.55923,9.72693
 TEAG DE-Petersberg Eichenweg,50.96943,11.85505
 TEAG DE-Reichenbach Lengenfelder Straße,50.61515,12.31145
-TEAG DE-Reiskirchen Carl-Benz-Straße,50.5979,8.82288,25
+TEAG DE-Reiskirchen Carl-Benz-Straße,50.5979,8.8229,30
 TEAG DE-Rockenberg Burgweg,50.42386,8.74087
 TEAG DE-Rosdorf Rischenweg,51.50906,9.90927,20
 TEAG DE-Rudolstadt Gartenstraße,50.72079,11.34988
@@ -28383,6 +28389,7 @@ WVV DE-Sommerhausen Jahnstraße,49.70852,10.02362
 WVV DE-Würzburg Leightonstraße,49.78672,9.98062
 WVV DE-Würzburg Pleichertorstraße,49.79891,9.92584
 WVV DE-Würzburg Residenzplatz,49.79264,9.93701
+WVV DE-Würzburg Unterdürrbacher Straße,49.80293,9.8957
 
 XCharge RO-Căzănești Str. Căzănești,45.05756,24.29187
 
@@ -28453,6 +28460,7 @@ ZSE SK-Podunajské Biskupice,48.09495,17.21286
 ZSE SK-Poprad Námestie svätého Egídia,49.05319,20.29827
 ZSE SK-Poprad Spišská Sobota,49.06078,20.30695
 ZSE SK-Rimavská Sobota Košická cesta,48.39207,20.00367
+ZSE SK-Senec Hurbanova,48.21926,17.40283
 ZSE SK-Senec Trnavská,48.23,17.40271
 ZSE SK-Senica Obchodná,48.68664,17.3654
 ZSE SK-Trenčín Gen. M. R. Štefánika,48.89185,18.05658
