@@ -295,7 +295,7 @@ Supercharger-V4 BE-Marche-en-Famenne,50.22314,5.33004
 Supercharger-V3 BE-Mons,50.4566,3.9403
 Supercharger-V3 BE-Namur,50.48602,4.79723
 Supercharger BE-Nivelles-Sud,50.5887,4.3081
-Supercharger BE-Remouchamps,50.48388,5.70033
+Supercharger-V4 BE-Remouchamps,50.4839,5.7004
 Supercharger-V4 BE-Stekene,51.2359,4.05943
 Supercharger-V4 BE-Verviers,50.59222,5.84853
 Supercharger-V3 BE-Wavre,50.70787,4.59855,60
@@ -368,6 +368,7 @@ Supercharger CA-Richmond BC,49.169479,-123.138016
 Supercharger-V3 CA-Richmond BC Steveston Hwy,49.1328,-123.09472
 Supercharger-V3 CA-Salmon Arm BC,50.7086,-119.25406
 Supercharger-V3 CA-Sechelt BC,49.47532,-123.747785
+Supercharger-V4 CA-Sicamous BC,50.83732,-118.96764
 Supercharger CA-Squamish BC,49.736183,-123.132904
 Supercharger-V3 CA-Squamish BC - Commercial Way,49.722806,-123.152229
 Supercharger CA-Surrey BC,49.193049,-122.805555
@@ -2685,7 +2686,7 @@ Supercharger-V3 FR-Chambray-Lès-Tours,47.324854,0.713898
 Supercharger-V3 FR-Chambray-Lès-Tours,47.325354,0.713727
 Supercharger FR-Chambéry,45.593128,5.898171
 Supercharger-V4 FR-Chambéry Nord,45.596817,5.895551
-Supercharger-V3 FR-Champfleury,49.2043,4.0131
+Supercharger-V3 FR-Champfleury,49.20445,4.01287
 Supercharger-V4 FR-Chanteloup-en-Brie,48.85693,2.75205
 Supercharger FR-Chapelle sur Erdre,47.282771,-1.550008
 Supercharger FR-Charleville-Mézières,49.736834,4.744095
@@ -3683,7 +3684,7 @@ Supercharger KZ-Astana Астана,51.12413,71.43133
 
 Supercharger LI-Schaan,47.16523,9.50765
 
-Supercharger-V3 LT-Kaunas,54.942187,24.006453
+Supercharger-V3 LT-Kaunas,54.9422,24.00645,40
 Supercharger-V4 LT-Klaipeda,55.69582,21.17406
 Supercharger-V4 LT-Vilnius,54.70311,25.26424
 
@@ -4291,7 +4292,7 @@ Supercharger-V3 SG-West Coast Plaza,1.3038,103.76668
 Supercharger-V4 SG-Westgate,1.33468,103.74296
 
 Supercharger-V4 SI-Grosuplje,45.96817,14.65767
-Supercharger-V4 SI-Koper,45.54086,13.73565
+Supercharger-V4 SI-Koper,45.5409,13.7356
 Supercharger SI-Kozina,45.60492,13.928521
 Supercharger SI-Kozina,45.607449,13.931531
 Supercharger-V3 SI-Krško,45.93517,15.48299
@@ -4311,6 +4312,7 @@ Supercharger-V3 SK-Trenčín,48.8643,18.022992,30
 Supercharger SK-Zvolen,48.6274,19.10354,30
 
 Supercharger-V4 TH-Bangkok AIA Connect,13.76437,100.5701
+Supercharger-V4 TH-Chiangmai The Backyard Mahidol,18.76638,98.9888
 Supercharger-V4 TH-Chonburi Numchai,12.9341,100.90232
 
 Supercharger-V4 TR-Afyonkarahisar Asiye Sultan Blv.,38.7547,30.55634
@@ -4595,6 +4597,7 @@ Supercharger-V3 US-Emeryville CA,37.84044,-122.29403
 Supercharger-V3 US-Emeryville CA - Christie Ave,37.83752,-122.29514
 Supercharger-V4 US-Encinitas CA N El Camino Real,33.0682,-117.26707
 Supercharger-V3 US-Escondido CA,33.12948,-117.08758
+Supercharger-V4 US-Escondido CA E Via Rancho Pkwy,33.07008,-117.0669
 Supercharger US-Eureka CA,40.77882,-124.18846
 Supercharger-V4 US-Eureka CA 4th St,40.80607,-124.14587
 Supercharger US-Fairfield CA - Holiday Lane,38.25668,-122.0651
@@ -5279,6 +5282,7 @@ Supercharger-V3 US-Lady Lake FL,28.91695,-81.92245
 Supercharger-V4 US-Lady Lake FL US-441,28.95307,-81.9577
 Supercharger US-Lake City FL,30.18143,-82.6796
 Supercharger-V3 US-Lake City FL - US-441,29.99604,-82.59898
+Supercharger-V4 US-Lake City FL SW Commerce Dr,30.17933,-82.68626
 Supercharger-V4 US-Lake City FL US-41,30.24646,-82.6766
 Supercharger-V3 US-Lakeland FL,28.09797,-81.97504
 Supercharger-V3 US-Lamont FL,30.47215,-83.89144
@@ -7222,6 +7226,7 @@ Supercharger-V3 US-Pasco WA,46.27243,-119.18245
 Supercharger-V4 US-Prosser WA,46.21675,-119.78657
 Supercharger-V4 US-Puyallup WA,47.1587,-122.29364
 Supercharger-V3 US-Quincy WA,47.1034,-119.8335
+Supercharger-V4 US-Redmond WA,47.62863,-122.14083
 Supercharger-V3 US-Renton WA - Southwest 41st Street,47.44306,-122.22515
 Supercharger-V4 US-Richland WA,46.26403,-119.26534
 Supercharger-V3 US-Ridgefield WA,45.81775,-122.68288
@@ -7958,6 +7963,7 @@ Aldi DE-Vallendar Rheinauf,50.39355,7.61684
 Aldi DE-Vellmar Zum Feldlager,51.3522,9.4671
 Aldi DE-Waldbronn Talstraße,48.93006,8.4738
 Aldi DE-Wangen im Allgäu Siemensstraße,47.69732,9.8235
+Aldi DE-Wasserburg am Inn Staudhamer Feld,48.06056,12.17484
 Aldi DE-Weferlingen Wilhelm-Suder-Straße,52.30924,11.05066
 Aldi DE-Weil-Friedlingen Alte Straße,47.59936,7.59906
 Aldi DE-Weilimdorf,48.8213,9.09882
@@ -12533,6 +12539,7 @@ ELEN HR-Čavle Cernik,45.35984,14.49331
 ELEN HR-Čavle D3,45.35708,14.48719
 
 Eleport EE-Pärnu Niidu,58.39173,24.53646
+Eleport HR-Zadar Ul. Akcije Maslenica,44.1157,15.2713
 Eleport HR-Šibenik Put Vida,43.75535,15.87973
 
 Elevat SI-Dolenjske Toplice Sokolski trg,45.7557,15.05995
@@ -24761,6 +24768,7 @@ RoboCharge NL-Kamperland Golfslag,51.58942,3.6726
 RoboCharge NL-Nieuwvliet Zeedijk,51.39103,3.45642
 RoboCharge NL-Zeewolde Slingerweg,52.26078,5.39597
 
+Route220 IT-Castelnovo ne’ Monti Via G. Micheli,44.4329,10.40908
 Route220 IT-Modena Viale Virginia Reiter,44.6501,10.9373
 Route220 IT-Piombino Località Montecaselli,42.94262,10.53556
 Route220 IT-Querce al Pino Via dei Tulipani,43.01616,11.90872
@@ -25027,6 +25035,7 @@ Shell DE-Achim Margarete-Steiff Allee,53.01947,9.06805
 Shell DE-Ahrensfelde Karower Weg,52.6011,13.51432
 Shell DE-Andernach Rasselsteinstraße,50.43314,7.42676
 Shell DE-Angermünde Prenzlauer Straße,53.02655,13.99582
+Shell DE-Aplerbeck Schleefstraße,51.5064,7.57015
 Shell DE-Aschaffenburg Schillerstraße,49.98698,9.1402
 Shell DE-Asperg Ludwigsburger Straße,48.89717,9.1541
 Shell DE-Autohof Georgswerder,53.51856,10.02174
@@ -27610,7 +27619,7 @@ Vattenfall DE-Schwaan Doberaner Straße,53.94388,12.0995
 Vattenfall DE-Schwedeneck Eckernförder Straße,54.4699,10.0731
 Vattenfall DE-Schwedt/Oder Julian-Marchlewski-Ring,53.06195,14.27556
 Vattenfall DE-Schwerin Alte Crivitzer Landstraße,53.5993,11.47643
-Vattenfall DE-Schwerin Blumenbrink,53.6033,11.42427
+Vattenfall DE-Schwerin Blumenbrink,53.60387,11.42464
 Vattenfall DE-Schwerin Dohlenweg,53.6276,11.37235
 Vattenfall DE-Schwerin Karl-Kleinschmidt-Straße,53.59135,11.4029
 Vattenfall DE-Schwerin Ratzeburger Straße,53.64854,11.3536
@@ -28127,6 +28136,8 @@ Walmart US-Rogers AR W Pauline Whitaker Pkwy,36.29612,-94.18657
 Walmart US-San Antonio TX Thousand Oaks Dr,29.55316,-98.40838
 Walmart US-Springdale AR Elm Springs Rd,36.195,-94.18522
 
+Wasserwerk-Vechta DE-Vechta Kapitelplatz,52.72756,8.28726
+
 Wattif AT-Nauders Doktor-Tschiggfrey-Straße,46.88905,10.50173,30
 Wattif DE-Braunschweig Schmalbachstraße,52.2989,10.5103
 Wattif DE-Landshut Bürgermeister-Zeiler-Straße,48.55596,12.20048
@@ -28268,6 +28279,7 @@ Wien-Energie AT-Schwadorf bei Wien Brucker Straße,48.06854,16.5872
 Wien-Energie AT-Schwechat Concorde Business Park,48.13752,16.4941
 Wien-Energie AT-Traiskirchen Tribuswinkel Neurißgasse,47.99123,16.27539
 Wien-Energie AT-Vösendorf SCS Ostring,48.10857,16.3193
+Wien-Energie AT-Waidhofen an der Thaya Moritz-Schadek-Gasse,48.80786,15.28756
 Wien-Energie AT-Wien Amerlingstraße,48.19703,16.35125
 Wien-Energie AT-Wien Antonigasse,48.2225,16.33746
 Wien-Energie AT-Wien Apollogasse,48.1979,16.34108
