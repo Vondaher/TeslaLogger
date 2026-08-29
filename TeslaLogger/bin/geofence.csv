@@ -4297,6 +4297,7 @@ Supercharger SI-Kozina,45.60492,13.928521
 Supercharger SI-Kozina,45.607449,13.931531
 Supercharger-V3 SI-Krško,45.93517,15.48299
 Supercharger-V4 SI-Ljubljana,46.05178,14.45206
+Supercharger-V4 SI-Ljubljana,46.05205,14.45332,10
 Supercharger-V4 SI-Ljubljana East,46.06383,14.54842
 Supercharger SI-Maribor,46.5329,15.6998,55
 Supercharger-V4 SI-NovoMesto,45.797184,15.181046
@@ -9429,7 +9430,11 @@ Astor TR-Çorum Çevre Yolu Blv,40.55195,34.92965
 
 Atlante ES-Lliçà d’Amunt Carrer de la Matarranya,41.61834,2.2154
 Atlante ES-Lliçà d’Amunt Carrer de la Matarranya,62.47466,21.36138
+Atlante FR-Chalon-sur-Saône Rue René Cassin,46.77545,4.8648
+Atlante FR-Champniers Rte de la Braconne,45.69237,0.17505
+Atlante FR-Danjoutin Av. de la République,47.6247,6.86067
 Atlante FR-Houssen Rue de Rosenkranz,48.12734,7.3647
+Atlante FR-Montluçon Rue de Pasquis,46.36828,2.5929
 Atlante IT-Montaione Via Aldo Moro,43.55431,10.91143
 Atlante IT-Roma Via Giorgio Zoega,41.87423,12.43276
 Atlante IT-San Pietro di Cadore Piazza Tre Terze,46.57048,12.59099
@@ -11448,6 +11453,7 @@ E.ON DE-Ahrensburg Kornkamp,53.68339,10.25765
 E.ON DE-Altwarmbüchen Opelstraße,52.42332,9.8354,10
 E.ON DE-Autohof Bremgarten,47.9092,7.5923
 E.ON DE-Autohof Geiselwind,49.7691,10.4708,9
+E.ON DE-Autohof Linthe,52.1606,12.78167
 E.ON DE-Autohof Pfalzfeld,50.11537,7.59846,12
 E.ON DE-Bad Kreuznach Wolfsheimer Straße,49.8433,7.86947
 E.ON DE-Bad Schwartau Eutiner Ring,53.9178,10.69624
@@ -11531,7 +11537,6 @@ E.ON DE-Köln Boltensternstraße,50.98073,6.96859
 E.ON DE-Lahr/Schwarzwald Im Götzmann,48.33365,7.84502,20
 E.ON DE-Lensahn Dieselstraße,54.21817,10.89711
 E.ON DE-Linthe Am Kalkberg,52.15922,12.77645
-E.ON DE-Linthe Westfalenstraße,52.16059,12.78167
 E.ON DE-Ludwigsfelde Zum Industriepark,52.32068,13.26888
 E.ON DE-Lübeck Possehlstraße,53.85326,10.67971
 E.ON DE-Lütjenburg Posthofstraße,54.29327,10.5866
@@ -17523,6 +17528,7 @@ Ewiva IT-Aprilia Via Aldo Moro,41.58686,12.64667
 Ewiva IT-Arcola Via della Repubblica,44.11604,9.91309
 Ewiva IT-Asti Corso Casale,44.91548,8.22732
 Ewiva IT-Bagnolo San Vito Via Marco Biagi,45.08582,10.85562
+Ewiva IT-Belforte Monferrato Via S. Colombano,44.62597,8.65543
 Ewiva IT-Biandrate Via Valsesia,45.45706,8.46356,20
 Ewiva IT-Bracciano Via Santa Lucia,42.08823,12.18323
 Ewiva IT-Calenzano Via Leonardo Da Vinci,43.86714,11.16467
@@ -18691,6 +18697,7 @@ IECharge FR-Vezin-le-Coquet Rue de la Belle Épine,48.1251,-1.75488
 
 Ignitis EE-Haapsalu Ranna tee,58.9398,23.5175
 Ignitis LT-Jonava Parko g.,55.07326,24.28165
+Ignitis LT-Jurbarkas Dariaus ir Girėno g.,55.0775,22.76478
 Ignitis LT-Klaipėda Baltijos pr.,55.68572,21.15422
 Ignitis LT-Liepāja Vētru iela,56.48325,21.00323
 Ignitis LT-Marijampolė Beržų g.,54.56668,23.36348
@@ -19192,6 +19199,7 @@ Ionity DE-Autohof Geseke,51.59825,8.51547,30
 Ionity DE-Autohof Gotha,50.89838,10.72563
 Ionity DE-Autohof Halle-Tornau,51.54513,12.01387,30
 Ionity DE-Autohof Homberg/Efze,51.0053,9.48134
+Ionity DE-Autohof Linthe,52.16012,12.7799
 Ionity DE-Autohof Lippetal,51.69593,7.96615
 Ionity DE-Autohof Lutterberg,51.37034,9.63356,11
 Ionity DE-Autohof Lutterberg,51.37043,9.63373,11
@@ -19236,7 +19244,6 @@ Ionity DE-Kirchheim Hauptstraße,50.83328,9.57318
 Ionity DE-Kirchheim Hauptstraße,50.8337,9.57078
 Ionity DE-Konstanz Reichenaustraße,47.6749,9.15394
 Ionity DE-Leinefelde Ernemannstraße,51.39074,10.34255
-Ionity DE-Linthe Westfalenstraße,52.16012,12.7799
 Ionity DE-Marl Herzlia-Allee,51.64452,7.10234
 Ionity DE-Meerane Hohe Straße,50.84076,12.44502
 Ionity DE-Memmingen Fraunhoferstraße,47.99943,10.15528
@@ -20472,6 +20479,7 @@ Kelag AT-St. Lorenzen im Lesachtal Gailtal Straße,46.70204,12.7797
 KELAG AT-St. Veit an der Glan Kalten Kellerstraße,46.76577,14.37724
 KELAG AT-St. Veit an der Glan Völkermarkter Straße,46.76528,14.36979
 KELAG AT-Velden Villacher Straße,46.6141,14.03883
+KELAG AT-Villach Bruno-Kreisky-Straße,46.60528,13.86245
 KELAG AT-Villach Maria-Gailer-Straße,46.60398,13.86929,12
 KELAG AT-Wien Gutheil-Schoder-Gasse,48.16241,16.3402
 KELAG AT-Winklern Winklern,46.8725,12.8788
@@ -22306,6 +22314,7 @@ Mer DE-Rennerod Konnwiese,50.5999,8.06182
 Mer DE-Rheda-Wiedenbrück Aurea,51.83123,8.21918
 Mer DE-Roding Jahnstraße,49.19814,12.51743
 Mer DE-Rötz Bräumeisterweg,49.34001,12.53523
+Mer DE-Scheßlitz Oberend,49.97957,11.03964
 Mer DE-Schönefeld Am Rondell,52.36765,13.5588
 Mer DE-Sengenthal Schlierfer Holz,49.22485,11.45632
 Mer DE-Simbach am Inn Münchner Straße,48.26083,13.00742
@@ -24012,6 +24021,7 @@ Pfalzwerke DE-Würzburg Robert-Bunsen-Straße,49.79722,9.9913
 Pfalzwerke DE-Zweibrücken Londoner Bogen,49.23082,7.40606
 Pfalzwerke DE-Zweibrücken Wilkstraße,49.25174,7.3445
 
+Pilot-FlyingJ US-Colorado Springs CO Terrazzo Dr,39.056,-104.853
 Pilot-FlyingJ US-Hayti MO MO-84,36.22725,-89.72486
 Pilot-FlyingJ US-Matthews MO MO-80,36.7604,-89.54045
 
@@ -25861,6 +25871,7 @@ Stark DE-Dortmund Köln-Berliner Straße,51.4938,7.55633
 Stark DE-Hauenstein Alte Bundesstraße,49.20005,7.83614,25
 Stark DE-Ringsheim Ruster Straße,48.24998,7.76947
 Stark DE-Scharbeutz Bormwiese,54.05472,10.73083
+Stark DE-Viernheim Heidelberger Straße,49.52652,8.57065
 
 Stations-e FR-Draveil Rue Ferdinand Buisson,48.6735,2.40768
 Stations-e FR-Gérardmer Bd de la Jamagne,48.0782,6.88706
@@ -27759,6 +27770,8 @@ VEGA AL-Lushnjë SH4,40.95494,19.68658
 VEGA AL-Shkodër Rruga Mbreti Gent,42.055,19.49925
 VEGA AL-Tiranë Rruga Vilave,41.28357,19.8586
 VEGA AL-Vlora Rruga Enver Jaho,40.46504,19.4822
+
+VG-Edenkoben DE-Hainfeld Im Pflaumen,49.25726,8.1032
 
 vigoris DE-Zinnowitz Dr.-Wachsmann-Straße,54.08001,13.90632
 
