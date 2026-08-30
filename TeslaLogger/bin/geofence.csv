@@ -1999,6 +1999,7 @@ Supercharger-V4 DE-Bordesholm,54.18074,9.94337
 Supercharger-V3 DE-Braak,53.61803,10.23968
 Supercharger-V4 DE-Braunschweig (Globus),52.24359,10.51295,30
 Supercharger-V4 DE-Bremen,53.04964,8.82077
+Supercharger-V4 DE-Bremen Huchting,53.05884,8.73464
 Supercharger-V4 DE-Bremen-Osterholz (Cafe Del Sol),53.054,8.961
 Supercharger-V4 DE-Bremerhaven,53.52678,8.61944
 Supercharger-V4 DE-Brinkum,53.02833,8.80876
@@ -2009,6 +2010,7 @@ Supercharger-V3 DE-Burgdorf,52.122717,10.229433,35
 Supercharger-V4 DE-Busdorf,54.47796,9.54494,40
 Supercharger-V3 DE-Böblingen,48.69138,9.00365,55
 Supercharger-V4 DE-Bühl,48.724669,8.110452
+Supercharger-V4 DE-Castrop-Rauxel,51.56623,7.31537
 Supercharger-V4 DE-Chemnitz,50.864124,12.867845
 Supercharger-V4 DE-Cottbus,51.71586,14.35225
 Supercharger-V4 DE-Darmstadt Kasinostraße,49.88314,8.64662
@@ -2026,6 +2028,7 @@ Supercharger-V3 DE-Düsseldorf - Ando Campus,51.2516,6.79466
 Supercharger-V4 DE-Düsseldorf Lierenfeld,51.21326,6.8244
 Supercharger-V4 DE-Ebersdorf bei Coburg,50.2237,11.05285
 Supercharger-V3 DE-Eching,48.306431,11.634784
+Supercharger-V4 DE-Egestorf,53.16126,10.06102
 Supercharger-V4 DE Eging am See,48.689644,13.212607
 Supercharger-V4 DE Eichenzell Rhönhof,50.487892,9.708998,40
 Supercharger-V3 DE-Eimeldingen,47.62684,7.59946,65
@@ -2051,12 +2054,14 @@ Supercharger-V4 DE-Essen Haedenkampstraße,51.457373,6.983408,20
 Supercharger-V4 DE-Essen Süd,51.421386,6.961
 Supercharger-V3 DE-Feucht,49.36498,11.20717,60
 Supercharger-V4 DE-Forchheim,49.70775,11.06985
+Supercharger-V4 DE-Frankenthal,49.55165,8.3479
 Supercharger-V4 DE-Frankfurt Am Flughafen,50.053239,8.5716
 Supercharger-V4 DE-Frankfurt am Main,50.1149,8.6815
 Supercharger-V3 DE-Frechen,50.91787,6.83338,40
 Supercharger-V4 DE-Freiburg-Gundelfingen,48.03967,7.86103
 Supercharger-V4 DE-Friedland,53.58662,13.41903
 Supercharger-V4 DE-Friedrichsdorf,50.25422,8.6438
+Supercharger-V4 DE-Fulda,50.55443,9.71748
 Supercharger-V4 DE-Fürstenfeldbruck,48.173313,11.26439
 Supercharger-V3 DE-Fürth - Ronhof,49.494376,10.994299
 Supercharger-V3 DE-Füssen,47.56798,10.67541,60
@@ -2123,6 +2128,7 @@ Supercharger-V4 DE-Ingolstadt,48.774,11.38844
 Supercharger-V3 DE-Irschenberg,47.82656,11.89837
 Supercharger-V4 DE-Irschenberg Wendling,47.82755,11.9031
 Supercharger-V3 DE-Irxleben,52.17062,11.4849,60
+Supercharger-V4 DE-Jena,50.89928,11.59295
 Supercharger-V4 DE-Jettingen,48.41098,10.44051,40
 Supercharger-V4 DE-Jettingen,48.41264,10.42508,10
 Supercharger-V4 DE-Kaiserslautern,49.459907,7.82141
@@ -2137,6 +2143,7 @@ Supercharger-V3 DE-Kassel (Cafe del Sol),51.30868,9.54597
 Supercharger-V3 DE-Kassel (GALERIA),51.31331,9.493391
 Supercharger-V3 DE-Kaufering,48.08077,10.858599,30
 Supercharger-V3 DE-Kerpen,50.897831,6.682291
+Supercharger-V4 DE-Kiel Wissenschaftspark,54.34164,10.1231
 Supercharger-V4 DE-Kiel-Neumeiersdorf,54.28062,10.1337
 Supercharger-V3 DE-Kirchheim,50.8348,9.57443,35
 Supercharger-V4 DE-Kirchheim unter Teck,48.64135,9.4295
@@ -2152,16 +2159,19 @@ Supercharger-V3 DE-Köln Bonn Airport,50.883137,7.111943
 Supercharger-V4 DE-Köln Carlswerk,50.96608,7.01404
 Supercharger-V4 DE-Köln-Goltstein,50.9079,6.97083
 Supercharger-V3 DE-Kösching,48.81133,11.4799
+Supercharger-V4 DE-Ladbergen,52.1469,7.73813
 Supercharger-V4 DE Langenhagen,52.458282,9.716301
 Supercharger-V4 DE-Laucha,50.92246,10.55333,40
 Supercharger-V3 DE-Lauenau,52.2791,9.351,60
 Supercharger-V3 DE-Leer,53.25967,7.45557
 Supercharger-V3 DE-Lehre,52.31318,10.63498,20
+Supercharger-V4 DE-Leipheim,48.43655,10.21295
 Supercharger-V4 DE-Leipzig Rosa-Luxemburg-Straße,51.34682,12.39433
 Supercharger-V4 DE-Leipzig Sachsenpark,51.401142,12.39782,15
 Supercharger-V3 DE-Leipzig-Flughafen,51.40153,12.18123
 Supercharger-V4 DE-Leonberg,48.78523,9.01755
 Supercharger-V3 DE-Leonberg Glemseck,48.78456,9.01918
+Supercharger-V4 DE-Leverkusen,51.03636,7.00485
 Supercharger-V3 DE-Limburg - (Globus),50.398424,8.076242
 Supercharger-V3 DE-Limburg an der Lahn,50.38128,8.08996,60
 Supercharger-V4 DE-Lindau,47.548127,9.72566
@@ -2181,6 +2191,7 @@ Supercharger-V4 DE-Mainz,49.9814,8.28052
 Supercharger-V4 DE-Mainz Weberstraße,49.9753,8.28673
 Supercharger-V4 DE-Malsfeld,51.0875,9.48563,62
 Supercharger-V4 DE-Mannheim,49.54824,8.45752
+Supercharger-V4 DE-Memmingen,47.9957,10.15867
 Supercharger-V4 DE-Merenberg,50.49945,8.18538
 Supercharger-V3 DE-Merklingen,48.51637,9.75754,32
 Supercharger-V4 DE-Moers,51.44182,6.61183
@@ -2191,6 +2202,7 @@ Supercharger-V3 DE-Motorworld München,48.196866,11.605312
 Supercharger-V4 DE-Motten,50.35562,9.75384
 Supercharger-V3 DE-Murr,48.95615,9.24545
 Supercharger-V4 DE-Mönchengladbach,51.144112,6.426722
+Supercharger-V4 DE-Mönchengladbach Krefelder Straße,51.20683,6.4605
 Supercharger-V3 DE-Mücke,50.64544,8.98982
 Supercharger-V4 DE-Mühldorf,48.27253,12.54963
 Supercharger-V4 DE Mülheim an der Ruhr,51.450248,6.91344
@@ -2211,6 +2223,7 @@ Supercharger-V4 DE-Neudrossenfeld,50.03775,11.4893,30
 Supercharger-V3 DE-Neumünster,54.07014,9.94147,35
 Supercharger-V4 DE-Neuss,51.20092,6.71383
 Supercharger-V4 DE-Neustadt an der Weinstraße (Globus),49.3408,8.16172
+Supercharger-V4 DE-Neustadt in Holstein,54.10002,10.79523
 Supercharger-V3 DE-Norden,53.61358,7.16703
 Supercharger-V3 DE-Northeim,51.7318,9.97284,35
 Supercharger-V3 DE-Nossen,51.08255,13.27406
@@ -2296,7 +2309,9 @@ Supercharger-V4 DE-Tuttlingen,47.9835,8.80347
 Supercharger-V3 DE-Türkheim,48.0425,10.61983,30
 Supercharger DE-Uckerfelde,53.23499,13.98606
 Supercharger-V3 DE-Ulm,48.45712,10.03095,99
+Supercharger-V4 DE-Umkirch,48.02688,7.77756
 Supercharger-V4 DE-Unterkaka,51.08775,11.96053
+Supercharger-V4 DE-Unterschleißheim,48.29163,11.57122
 Supercharger-V3 DE-Ursensollen,49.406052,11.761054
 Supercharger-V3 DE-Vaterstetten,48.1465,11.78943,110
 Supercharger-V4 DE-Viernheim,49.539868,8.595241
@@ -3398,7 +3413,7 @@ Supercharger-V3 IT-Torri di Quartesolo,45.50851,11.62614
 Supercharger IT-Trento,46.11166,11.09172
 Supercharger-V4 IT-Udine,46.08703,13.179853
 Supercharger-V3 IT-Vado Ligure,44.265368,8.425217
-Supercharger-V3 IT-Valli di Carnia,46.36813,13.07285
+Supercharger-V3 IT-Valli di Carnia,46.3681,13.073
 Supercharger-V4 IT-Varazze,44.35161,8.56544
 Supercharger IT-Verona,45.412326,10.970212
 Supercharger-V4 IT-Verona Viale delle Nazioni,45.39817,10.97237
@@ -4235,7 +4250,7 @@ Supercharger-V4 SE-Södertälje Moraberg,59.20074,17.66347
 Supercharger SE-Tanum,58.72113,11.34523,40
 Supercharger SE-Tanum,58.722128,11.344127,40
 Supercharger-V4 SE-Tierp,60.340202,17.487263
-Supercharger SE-Torsby,60.129704,12.998069
+Supercharger-V4 SE-Torsby,60.1297,12.99807
 Supercharger-V4 SE-Torsvik,57.691181,14.155433
 Supercharger-V3 SE-Trollhättan,58.31361,12.299
 Supercharger SE-Tystberga,58.91818,17.36792,30
@@ -9436,6 +9451,7 @@ Atlante FR-Danjoutin Av. de la République,47.6247,6.86067
 Atlante FR-Houssen Rue de Rosenkranz,48.12734,7.3647
 Atlante FR-Montluçon Rue de Pasquis,46.36828,2.5929
 Atlante IT-Montaione Via Aldo Moro,43.55431,10.91143
+Atlante IT-Montepulciano Ovest,43.13546,11.86467
 Atlante IT-Roma Via Giorgio Zoega,41.87423,12.43276
 Atlante IT-San Pietro di Cadore Piazza Tre Terze,46.57048,12.59099
 Atlante IT-Voghiera Via Alfieri Maserati,44.78968,11.72829
@@ -10254,6 +10270,7 @@ ChargePoint US-Kalkaska MI US-131,44.74319,-85.17578
 ChargePoint US-Kanab UT N 100 E,37.04846,-112.52624
 ChargePoint US-Kawkawlin MI E Beaver Rd,43.66771,-84.01506
 ChargePoint US-Kearney NE W Talmadge Rd,40.67465,-99.09311
+ChargePoint US-Lakewood CO S Allison Pkwy,39.7087,-105.0859
 ChargePoint US-Little Rock AR S Woodrow St,34.7446,-92.30585
 ChargePoint US-Moab UT N 100 W,38.57783,-109.55246
 ChargePoint US-Monticello UT South Main Street,37.86955,-109.34346
@@ -11209,7 +11226,7 @@ deer DE-Bietigheim Fichtenweg,48.90346,8.25048
 deer DE-Bodenheim Am Dollesplatz,49.92972,8.30382
 deer DE-Bondorf Niederreutin,48.52788,8.80655
 deer DE-Calw Auf dem Brühl,48.71758,8.7381
-deer DE-Calw Gottlob-Bauknecht-Straße,48.70574,8.76572
+deer DE-Calw Gottlob-Bauknecht-Straße,48.70574,8.76572,15
 deer DE-Calw Leibnizstraße,48.70398,8.76156
 deer DE-Calw Robert-Bosch-Straße,48.7063,8.75363
 deer DE-Calw Rudolf-Diesel-Straße,48.70446,8.75655
@@ -15020,6 +15037,7 @@ EnelX IT-Firenze Via Enrico de Nicola,43.76622,11.30161
 EnelX IT-Firenze Viale Europa,43.75641,11.29959
 EnelX IT-Foiano della Chiana Valdichiana Outlet,43.22707,11.7993
 EnelX IT-Gagliano del Capo LE,39.83806,18.36647,15
+EnelX IT-Gallicano Via di Fondovalle,44.06505,10.44142
 EnelX IT-Gela Via Generale Cascino,37.06503,14.26126
 EnelX IT-Giardini-Naxos Viale Jannuzzo,37.81831,15.26601
 EnelX IT-Giulianova Via Galileo Galilei,42.768,13.95534
@@ -27873,6 +27891,7 @@ Virta SE-Västervik Allén,57.76055,16.61269
 Virta SK-Prešov Cesta na Senec,48.98978,21.25838
 
 Vispiron DE-Hallbergmoos Messerschmittstraße,48.3308,11.7301
+Vispiron DE-Schäftlarn Starnberger Straße,47.9954,11.43024
 
 Volkswagen AT-Haag am Hausruck Reischau,48.19852,13.6362
 Volkswagen AT-Mondsee Am Schusterbach,47.87779,13.32143
