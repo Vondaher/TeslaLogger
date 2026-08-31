@@ -5864,6 +5864,7 @@ Supercharger-V3 US-Ocean City MD,38.33543,-75.10524
 Supercharger-V3 US-Ocean City MD - Ocean Gateway,38.339,-75.11905
 Supercharger-V3 US-Owings Mills MD,39.4077,-76.78378
 Supercharger-V3 US-Port Deposit MD,39.596,-76.073
+Supercharger-V4 US-Potomac MD,39.04058,-77.1581
 Supercharger US-Riverdale Park MD,38.97062,-76.93756
 Supercharger US-Rockville MD,39.0869,-77.14983
 Supercharger-V3 US-Rosedale MD,39.31204,-76.52492
@@ -12180,16 +12181,10 @@ Effo FO-Tórshavn Oyggjarvegur,62.1192,-6.98374,55
 EFL DE-Sinzig Schloß Ahrenthal,50.52073,7.24871
 
 EG-Chemnitz-Zwickau DE-Schneeberg Seminarstraße,50.59684,12.64
-
 EG-Hasbergen DE-Hasbergen Rheiner Landstraße,52.26617,7.96555
-
 EG-Wittmund DE-Wittmund Isums,53.5634,7.7845
 EG-Wittmund DE-Wittmund Kutterweg,53.68797,7.8006
 EG-Wittmund DE-Wittmund Osterstraße,53.57617,7.78456
-
-EGG DE-Gera Am Steingarten,50.95618,12.12518
-EGG DE-Gera Siemensstraße,50.90775,12.06334
-EGG DE-Gera Siemensstraße,50.90806,12.06653
 
 EGT DE-Triberg Schonacher Straße,48.13318,8.22212
 
@@ -12437,6 +12432,7 @@ Electrify-America US-Placerville CA Sacramento St,38.72677,-120.80302
 Electrify-America US-Pleasanton CA Johnson Dr,37.7011,-121.9181
 Electrify-America US-Plymouth Meeting PA W Germantown Pike,40.11699,-75.27937
 Electrify-America US-Pompton Plains NJ Route 23 North,40.96869,-74.28467
+Electrify-America US-Pueblo CO Eagleridge Blvd,38.3193,-104.61314
 Electrify-America US-Rocky Hill CT Silas Deane Hwy,41.67497,-72.6502
 Electrify-America US-Salina UT South State Street,38.93164,-111.85423
 Electrify-America US-San Jose CA Alum Rock Ave,37.35826,-121.84266
@@ -15741,6 +15737,9 @@ Eulektro DE-Stuhr Delmenhorster Straße,52.99375,8.76883
 EV-Alzenau DE-Alzenau Burgstraße,50.08713,9.07415
 EV-Beckum DE-Beckum Bauknechtstraße,51.77246,8.03242
 EV-Dahlenburg-Bleckede DE-Dahlenburg Am Markt,53.18647,10.74247
+EV-Gera DE-Gera Am Steingarten,50.95618,12.12518
+EV-Gera DE-Gera Siemensstraße,50.90775,12.06334
+EV-Gera DE-Gera Siemensstraße,50.90806,12.06653
 EV-Halle DE-Halle (Saale) Hansering,51.4811,11.97546
 EV-Landsberg DE-Berg Schulplatz,47.9579,11.3633
 EV-Landsberg DE-Landsberg am Lech Am Englischen Garten,48.04695,10.8744
@@ -16652,7 +16651,7 @@ EWE-GO DE-Einbeck Grimsehlstraße,51.8153,9.87785
 EWE-GO DE-Einbeck Hansestraße,51.81822,9.83595
 EWE-GO DE-Eisenhüttenstadt Am Waldrand,52.1308,14.6354
 EWE-GO DE-Eisleben Am Helftaer Anger,51.51119,11.57696,20
-EWE-GO DE-Ellhofen Am Autobahnkreuz,49.14288,9.30906,20
+EWE-GO DE-Ellhofen Am Autobahnkreuz,49.143,9.30918,26
 EWE-GO DE-Elsfleth Oberrege,53.23165,8.45285
 EWE-GO DE-Elsfleth Rathausplatz,53.23613,8.46405
 EWE-GO DE-Emden Am Südbahnhof,53.36042,7.2161
@@ -21212,7 +21211,7 @@ Lidl DE-Gelsenkirchen Ulrichstraße,51.5514,7.09273
 Lidl DE-Gelsenkirchen Vinckestraße,51.57426,7.04666
 Lidl DE-Gelsenkirchen Wanner Straße,51.51542,7.12057
 Lidl DE-Gemünden a. Main Ladestraße,50.04783,9.70503
-Lidl DE-Gera Straße des Bergmanns,50.89298,12.0841
+Lidl DE-Gera Straße des Bergmanns,50.89305,12.08317
 Lidl DE-Gera Straße des Friedens,50.86984,12.06906
 Lidl DE-Germering Industriestraße,48.13242,11.37906
 Lidl DE-Gernsbach Im Wörthgarten,48.7668,8.33243
@@ -23046,6 +23045,7 @@ Norlys DK-Billund Nordmarksvej,55.72828,9.13272
 Norlys DK-Gilleleje Alfavej,56.12646,12.30511
 Norlys DK-Hjørring Frederikshavnsvej,57.45557,10.00555
 Norlys DK-Hvide Sande Kirksvej,55.86376,8.18126
+Norlys DK-Hørsholm Christianshusvej,55.9038,12.47676
 Norlys DK-Kliplev Industripark,54.93976,9.3803,18
 Norlys DK-København Hans Knudsens Pl.,55.7127,12.56131
 Norlys DK-Løkken Jyllandsgade,57.36825,9.71188
@@ -24265,6 +24265,7 @@ Powerdot ES-Jerez de La Frontera C. Holanda,36.67196,-6.15267
 Powerdot ES-Salamanca Av. de los Cipreses,40.97742,-5.64855
 Powerdot ES-Vilafranca del Penedès Carrer Pla del Viver,41.33542,1.68243
 Powerdot FR-Bergerac Rue du Tounet,44.83547,0.45136,30
+Powerdot FR-Canet-en-Roussillon Bd Carrère Vieille,42.7064,3.01413
 Powerdot FR-Charmes Voie Carpini,48.35963,6.30408
 Powerdot FR-Concarneau Rue de Lanriec,47.86926,-3.89397
 Powerdot FR-Cosne-Cours-sur-Loire Rue des Minotiers,47.38305,2.91929
