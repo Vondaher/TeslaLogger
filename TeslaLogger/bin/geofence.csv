@@ -2769,7 +2769,7 @@ Supercharger-V4 FR-Les Clayes-sous-Bois,48.8251,1.96833
 Supercharger-V3 FR-Les Herbiers,46.889368,-1.032994
 Supercharger-V4 FR-Les Pennes-Mirabeau,43.41473,5.2754
 Supercharger-V4 FR-Les Sables D’Olonne,46.51405,-1.77701
-Supercharger-V4 FR-Lexy,49.5134,5.73006
+Supercharger-V4 FR-Lexy,49.51282,5.73086
 Supercharger FR-Lille,50.5834,3.08986,30
 Supercharger FR-Limoges,45.867688,1.271166
 Supercharger-V3 FR-Limoges,45.870671,1.2684
@@ -4541,6 +4541,7 @@ Supercharger-V3 US-Carlsbad CA Paseo Del Norte,33.12477,-117.31925
 Supercharger-V3 US-Carson CA,33.83273,-118.25858
 Supercharger-V4 US-Carson CA E Carson St,33.83343,-118.2601
 Supercharger-V3 US-Castaic CA,34.45213,-118.61606
+Supercharger-V4 US-Castaic CA Castaic Rd,34.4991,-118.62436
 Supercharger US-Cerritos CA - Los Cerritos Center,33.86434,-118.09192
 Supercharger-V3 US-Chatsworth CA,34.23802,-118.5894
 Supercharger US-Chico CA,39.72664,-121.80243
@@ -4567,6 +4568,7 @@ Supercharger-V4 US-Concord CA Ygnacio Valley Rd,37.95087,-121.9572
 Supercharger-V3 US-Copperopolis CA,37.9728,-120.6534
 Supercharger US-Corning CA,39.92643,-122.1984
 Supercharger US-Corona CA,33.82638,-117.51538
+Supercharger-V4 US-Corona CA Green River Rd,33.87098,-117.6228
 Supercharger US-Corte Madera CA,37.92822,-122.51488
 Supercharger-V3 US-Costa Mesa CA,33.6925,-117.9253
 Supercharger-V4 US-Costa Mesa CA Harbor Blvd,33.66947,-117.91857
@@ -5032,6 +5034,7 @@ Supercharger-V4 US-Turlock CA Fulkerth Rd,37.50683,-120.881
 Supercharger-V3 US-Tustin CA,33.71087,-117.81728
 Supercharger-V3 US-Tustin CA - Flight Way,33.7039,-117.83727
 Supercharger-V3 US-Tustin CA - Red Hill Avenue,33.72826,-117.8217
+Supercharger-V4 US-Tustin CA El Camino Real,33.73022,-117.79772
 Supercharger US-Twentynine Palms CA,34.1211,-116.05082
 Supercharger US-Ukiah CA,39.14784,-123.2087
 Supercharger-V3 US-Ukiah CA - North State Street,39.16782,-123.21042
@@ -6803,6 +6806,7 @@ Supercharger US-Chattanooga TN,35.0387,-85.19594
 Supercharger-V3 US-Chattanooga TN Hamilton Place Boulevard,35.03646,-85.15986
 Supercharger-V4 US-Chattanooga TN North Mack Smith Rd,34.99108,-85.2081
 Supercharger-V4 US-Clarksville TN,36.5898,-87.2909
+Supercharger-V4 US-Clarksville TN International Blvd HiON EV,36.55827,-87.2395
 Supercharger-V4 US-Cleveland TN,35.21704,-84.86706
 Supercharger US-Cookeville TN,36.15575,-85.5152
 Supercharger-V3 US-Crossville TN,35.9795,-85.0155
@@ -7026,6 +7030,7 @@ Supercharger US-Texarkana TX,33.4599,-94.07723
 Supercharger-V4 US-Texas City TX,29.42815,-95.06415
 Supercharger US-Three Rivers TX,28.52162,-98.18582
 Supercharger-V4 US-Tyler TX,32.44068,-95.13705
+Supercharger-V4 US-Tyler TX S SW Loop 323,32.3335,-95.33942
 Supercharger-V3 US-Uvalde TX,29.2117,-99.7773
 Supercharger US-Van Horn TX,31.03447,-104.86142
 Supercharger-V3 US-Vernon TX,34.16115,-99.29756
@@ -7283,6 +7288,7 @@ Supercharger-V3 US-Yakima WA - East Yakima Avenue,46.6053,-120.48262
 
 Supercharger-V4 US-Altoona WI,44.81717,-91.45828
 Supercharger-V3 US-Black River Falls WI,44.2939,-90.82628
+Supercharger-V4 US-Caledonia WI Welch,42.77886,-87.94974
 Supercharger US-Eau Claire WI,44.77088,-91.4372
 Supercharger-V3 US-Fond du Lac WI,43.79143,-88.48602
 Supercharger-V3 US-Glendale WI,43.1209,-87.91637
@@ -8990,7 +8996,7 @@ ARAL DE-Chemnitz Zschopauer Straße,50.8141,12.95464,30
 ARAL DE-Coburg Ernst-Faber-Straße,50.2481,10.96575
 ARAL DE-Dachau Alte Römerstraße,48.25985,11.46993
 ARAL DE-Darmstadt Heinrichstraße,49.86768,8.68213
-ARAL DE-Dasing Laimeringer Straße,48.39033,11.06398
+ARAL DE-Dasing Laimeringer Straße,48.39032,11.064,30
 ARAL DE-Demmin Jarmener Chaussee,53.9045,13.0681
 ARAL DE-Dessau-Roßlau Junkersstraße,51.826,12.21492
 ARAL DE-Dettelbach Mainfrankenpark,49.7784,10.0657
@@ -12322,7 +12328,7 @@ Electra DE-Bielefeld Detmolder Straße,52.0015,8.5727
 Electra DE-Bischofsheim Am Schindberg,49.9766,8.37798
 Electra DE-Chemnitz Bergstraße,50.84327,12.90854
 Electra DE-Coburg Callenberger Straße,50.27017,10.95302
-Electra DE-Dasing Laimeringer Straße,48.39073,11.06417
+Electra DE-Dasing Laimeringer Straße,48.3908,11.06438,30
 Electra DE-Detmold Klingenbergstraße,51.95144,8.854
 Electra DE-Dortmund Westfalendamm,51.50435,7.51502
 Electra DE-Dresden Gerichtsstraße,51.051,13.75132
@@ -12474,6 +12480,7 @@ electrip HR-Krnjak Budačka Rijeka,45.31045,15.6153
 electrip HR-Osijek Svilajska ul.,45.56092,18.63974
 electrip HR-Osijek Ul. Svetog Leopolda Bogdana Mandića,45.54814,18.65775
 electrip HR-Rijeka Osječka ul.,45.34167,14.42436
+electrip HR-Split Mall of Split,43.5191,16.4852
 electrip HR-Tučepi Slatina,43.2731,17.04598
 electrip HR-Zagreb Oreškovićeva ulica,45.75946,15.98306
 electrip HR-Zagreb Ulica Velimira Škorpika,45.79679,15.85954
@@ -18576,6 +18583,8 @@ HoryzontEV PL-Koszalin Gnieźnieńska,54.17814,16.19732
 HoryzontEV PL-Kraków Mirowska,50.03495,19.81922
 HoryzontEV PL-Piła al. Powstańców Wielkopolskich,53.16875,16.7705
 
+Hotel-Restaurant-Fischer DE-Remscheid Lüttringhauser Straße,51.20442,7.2463
+
 Hotel-Waldmühle DE-Zella-Mehlis Lubenbachstraße,50.67202,10.68615
 
 Hrvatski-Telekom HR-Bjelovar Trg Eugena Kvaternika,45.89827,16.8412
@@ -22841,6 +22850,7 @@ naturenergie DE-Lörrach Marie-Curie-Straße,47.60843,7.65766
 naturenergie DE-Lörrach Wiesentalstraße,47.61984,7.65356
 naturenergie DE-Münstertal Belchenstraße,47.85498,7.78105
 naturenergie DE-Rickenbach Im Schaffeld,47.62204,7.98528
+naturenergie DE-Rust Karl-Friedrich-Straße,48.2696,7.72618
 naturenergie DE-Schliengen Am Sonnenstück,47.76345,7.57887
 naturenergie DE-Singen (Hohentwiel) Georg-Fischer-Straße,47.75424,8.8563
 naturenergie DE-Sölden Ziegelstraße,47.93395,7.8109
@@ -24683,6 +24693,7 @@ Repower CH-Uster Aathalstrasse,47.3454,8.74213
 Repower HR-Valbandon Dragonja,44.91627,13.80968
 Repower IT-Lignano Sabbiadoro Lungomare Alberto Kechler,45.66518,13.10994
 Repower IT-Malcesine Via Gardesana,45.77346,10.81333
+Repower IT-San Quirico d’Orcia Via dei Mulini,43.02777,11.61922
 
 Repsol ES-Alcorcón Camino de Leganes,40.32415,-3.8474
 Repsol ES-Altafulla N-340,41.14004,1.36536
@@ -24887,6 +24898,7 @@ SachsenEnergie DE-Weißwasser Karl-Liebknecht-Straße,51.5033,14.63698
 SachsenEnergie DE-Wilsdruff Am Rittergut,51.05102,13.47787
 SachsenEnergie DE-Wilsdruff Markt,51.05138,13.53743
 SachsenEnergie DE-Wilthen St.-Barbara-Platz,51.09995,14.40026
+SachsenEnergie DE-Zittau Äußere Weberstraße,50.89813,14.7939
 
 SalzachSonne AT-Kaltenbach Reisrachweg,47.28412,11.87503
 SalzachSonne AT-Mittersill Zeller Straße,47.28512,12.48996
@@ -25942,8 +25954,6 @@ StromTankstelle DE-Waltenhofen Ahornweg,47.68294,10.30878
 
 Stöhr-Energie DE-Mainz Am Sportfeld,50.008,8.21067
 Stöhr-Energie DE-Mainz Bürgermeister-Alexander-Straße,50.0095,8.21775
-
-SUpercharger-V4 US-Caledonia WI Welch,42.77886,-87.94974
 
 SVG DE-Merenberg Autohof Benzstraße,50.49926,8.18562
 
