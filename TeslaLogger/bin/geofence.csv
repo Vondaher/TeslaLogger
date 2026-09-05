@@ -31,6 +31,7 @@ Supercharger-V3 AE-Sharjah City Centre,25.32563,55.3947
 Supercharger-V4 AE-Sharjah Rahmania Mall,25.33067,55.599
 Supercharger-V4 AE-Sharjah Suyoh Mall,25.2229,55.61358
 
+Supercharger-V4 AT-Amstetten,48.12964,14.843,10
 Supercharger-V4 AT-Amstetten,48.13232,14.84104
 Supercharger-V4 AT-Ansfelden,48.195342,14.249553
 Supercharger-V3 AT-Asten,48.22132,14.40675
@@ -2029,6 +2030,7 @@ Supercharger-V4 DE-Düsseldorf Lierenfeld,51.21326,6.8244
 Supercharger-V4 DE-Ebersdorf bei Coburg,50.2237,11.05285
 Supercharger-V3 DE-Eching,48.306431,11.634784
 Supercharger-V4 DE-Egestorf,53.16126,10.06102
+Supercharger-V4 DE Eging am See,48.68903,13.21208,10
 Supercharger-V4 DE Eging am See,48.689644,13.212607
 Supercharger-V4 DE Eichenzell Rhönhof,50.487892,9.708998,40
 Supercharger-V3 DE-Eimeldingen,47.62684,7.59946,65
@@ -2347,7 +2349,7 @@ Supercharger-V4 DE-Wilnsdorf,50.8163,8.0864,90
 Supercharger-V4 DE-Windischeschenbach,49.80413,12.18416,24
 Supercharger-V3 DE Winsen (Luhe),53.35028,10.147426
 Supercharger-V3 DE-Wismar,53.879307,11.454047
-Supercharger-V3 DE-Wittenburg,53.50736,11.09685
+Supercharger-V3 DE-Wittenburg,53.50734,11.09647
 Supercharger-V4 DE-Wittlich,49.96968,6.86169,32
 Supercharger-V4 DE-Wittlich (Globus),49.98189,6.9086
 Supercharger-V4 DE-Wittstock,53.15795,12.4551
@@ -4813,6 +4815,7 @@ Supercharger-V4 US-Ontario CA N Haven Ave,34.077,-117.57428
 Supercharger-V4 US-Ontario CA Ontario Mills Pkwy,34.06925,-117.55586
 Supercharger-V4 US-Oroville CA,39.50114,-121.56233
 Supercharger US-Oxnard CA,34.2385,-119.17722
+Supercharger-V4 US-Oxnard CA W Pleasant Valley Rd,34.15522,-119.17902
 Supercharger-V3 US-Pacific Palisades CA,34.04756,-118.5252
 Supercharger-V4 US-Pacifica CA,37.59327,-122.50366
 Supercharger-V3 US-Palm Springs CA,33.82496,-116.54932
@@ -5079,6 +5082,7 @@ Supercharger-V3 US-West Hollywood CA (Pay to Park),34.09124,-118.38263
 Supercharger-V4 US-West Sacramento CA,38.57305,-121.5804
 Supercharger-V4 US-Westlake Village CA,34.18477,-118.78797
 Supercharger US-Westminster CA,33.74505,-118.01308
+Supercharger-V4 US-Westminster CA Westminster Blvd,33.76015,-118.00953
 Supercharger-V3 US-Williams CA - 6th Street,39.15573,-122.14892
 Supercharger-V3 US-Windsor CA,38.54988,-122.8054
 Supercharger-V3 US-Woodland CA,38.6712,-121.72387
@@ -7011,6 +7015,7 @@ Supercharger US-San Antonio TX,29.54902,-98.5811
 Supercharger-V3 US-San Antonio TX - North Loop 1604 East,29.61034,-98.48907
 Supercharger-V4 US-San Antonio TX Broadway,29.4322,-98.48262
 Supercharger-V4 US-San Antonio TX Horizon Hill Blvd,29.50964,-98.55423
+Supercharger-V4 US-San Antonio TX I-35 Access Rd,29.35286,-98.53574
 Supercharger-V4 US-San Antonio TX West Loop 1604 North,29.5037,-98.69927
 Supercharger US-San Marcos TX,29.82764,-97.97956
 Supercharger US-Schertz TX,29.59838,-98.27598
@@ -7037,6 +7042,7 @@ Supercharger-V4 US-Tyler TX,32.44068,-95.13705
 Supercharger-V4 US-Tyler TX S SW Loop 323,32.3335,-95.33942
 Supercharger-V3 US-Uvalde TX,29.2117,-99.7773
 Supercharger US-Van Horn TX,31.03447,-104.86142
+Supercharger-V4 US-Van TX Victron Energy,32.50513,-95.64253
 Supercharger-V3 US-Vernon TX,34.16115,-99.29756
 Supercharger US-Victoria TX,28.76688,-96.97882
 Supercharger US-Waco TX,31.5822,-97.10905
@@ -7602,6 +7608,7 @@ AgriSnellaad NL-Goes Hudsonweg,51.48319,3.89467,30
 AgriSnellaad NL-Kruiningen Weihoek,51.46507,4.02955
 AgriSnellaad NL-Middelburg Londensekaai,51.4977,3.61657
 AgriSnellaad NL-Middelburg Mortiereboulevard,51.48015,3.62581
+AgriSnellaad NL-Vlissingen Dokter Friesenstraat,51.44863,3.5695
 AgriSnellaad NL-Wemeldinge Oostelijke Kanaalweg,51.5097,4.006
 
 AGROLA CH-Bevaix Chem. des Maladières,46.92199,6.80843
@@ -11135,6 +11142,7 @@ Counties NZ-Pōkeno Market Street West,-37.24551,175.02101
 CSDD LT-Ādaži Rīgas gatve,57.07874,24.31775
 CSDD LV-Bauska Uzvaras iela,56.40552,24.1856
 CSDD LV-Iecava Rīgas iela,56.59294,24.19152
+CSDD LV-Jūrkalne P111,57.01243,21.39165
 CSDD LV-Jūrmala Ventspils šoseja,56.93048,23.5871
 CSDD LV-Liepāja Tirgus iela,56.51963,21.0147
 
@@ -12591,8 +12599,10 @@ ELEN HR-Čavle Cernik,45.35984,14.49331
 ELEN HR-Čavle D3,45.35708,14.48719
 
 Eleport EE-Pärnu Niidu,58.39173,24.53646
-Eleport HR-Zadar Ul. Akcije Maslenica,44.1157,15.2713
+Eleport HR-Zadar Ul. Akcije Maslenica,44.11566,15.27125
 Eleport HR-Šibenik Put Vida,43.75535,15.87973
+Eleport LT-Klaipėda Taikos pr.,55.6906,21.15304
+Eleport LV-Ādaži Rīgas gatve,57.07065,24.31976
 
 Elevat SI-Dolenjske Toplice Sokolski trg,45.7557,15.05995
 
@@ -16179,6 +16189,7 @@ EVN AT-Neulengbach Tullner Straße,48.19932,15.90175,38
 EVN AT-Neunkirchen Sandgasse,47.72112,16.06752,38
 EVN AT-Neunkirchen Schraubenwerkstraße,47.7244,16.07662,38
 EVN AT-Ober-Grafendorf Manker Straße,48.1509,15.54062,38
+EVN AT-Oberndorf an der Melk Hauptstraße,48.06487,15.21718
 EVN AT-Oberndorf bei Salzburg Salzburgerstraße,47.93727,12.9439,38
 EVN AT-Obertrum am See Seekirchnerstraße,47.9361,13.0819,38
 EVN AT-Ottenschlag Hammerwerk,48.4477,15.2101,38
@@ -19479,6 +19490,7 @@ Ionity ES-Área de Servicio Tudela La Pausa,42.01239,-1.60049
 Ionity FI-Jyväskylä,62.2869,25.71491,25
 Ionity FI-Karisto,60.9835,25.73731
 Ionity FI-Kittilä Rakkavaarantie,67.80776,24.81173
+Ionity FI-Kuopio Kolmisopentie,62.86324,27.61528
 Ionity FI-Oulu,64.95755,25.52472
 Ionity FI-Paimio,60.42632,22.72266,30
 Ionity FI-Pyhäjärvi,63.71394,25.91901
@@ -19811,6 +19823,7 @@ IONNA US-Goodland KS Commerce Rd,39.32593,-101.72686
 IONNA US-Grand Prairie TX S Carrier Pkwy,32.6729,-97.0062
 IONNA US-Houston TX Washington Ave,29.77288,-95.4248
 IONNA US-Janesville WI Morse St,42.7241,-88.99568
+IONNA US-Kendall Park NJ NJ-27,40.43268,-74.5479
 IONNA US-Kutztown PA Golden Key Rd,40.5816,-75.70816
 IONNA US-Largo FL Missouri Ave. North,27.92874,-82.78857
 IONNA US-Lewisville TX S Stemmons Fwy,33.03747,-97.00196
@@ -24406,6 +24419,7 @@ Powerstop IT-Ancona Via Girombelli Arnaldo,43.5434,13.51157
 
 Powy IT-Cesena Via Leopoldo Lucchi,44.14387,12.26004
 Powy IT-Levanto Passeggiata a Mare,44.17212,9.60635
+Powy IT-Matera Via Gaio Sallustio Crispo,40.6813,16.5779
 Powy IT-Morena Via Michelangelo Buonarroti,50.93522,7.35014
 Powy IT-Pisa Via Quarantola,43.70929,10.3954
 Powy IT-San Donà di Piave Via dei Laghi 38 Pittarello,45.64244,12.59396
@@ -25627,6 +25641,7 @@ Shell TR-Horozluhan Yeni İstanbul Cd.,37.93425,32.511
 Shell TR-Karşıyaka/İzmir Soğukkuyu Anadolu Cd.,38.46806,27.1134
 Shell US-De Soto IA Guthrie St,41.53846,-94.01151
 Shell US-Houston TX Main St,29.76277,-95.36066
+Shell US-Junction TX N Main St,30.50884,-99.77346
 
 SI-Energy DE-Epfenbach Hauptstraße,49.33774,8.9105
 SI-Energy DE-Grafschaft Im Kreuzerfeld,50.5698,7.08606
@@ -26028,6 +26043,7 @@ Stekerr BA-Jajce E761,44.33926,17.26402
 Stella DK-Ballerup Lautrupvang,55.73182,12.38906
 Stella DK-København Bernstorffsgade,55.66863,12.57199
 
+StromSpeicherMarkt DE-Freiburg im Breisgau Basler Straße,47.9887,7.84763
 StromSpeicherMarkt DE-Freiburg im Breisgau Ensisheimer Straße,48.00817,7.82843,30
 StromSpeicherMarkt DE-Freiburg im Breisgau Leisnerstraße,48.01419,7.81346
 StromSpeicherMarkt DE-Freiburg im Breisgau Merianstraße,47.99983,7.85074
@@ -26137,6 +26153,7 @@ SW-Bonn DE-Bonn Mackestraße,50.74394,7.07997
 SW-Bonn DE-Bonn Magdalenenstraße,50.72648,7.07385
 SW-Bonn DE-Bonn Moltkestraße,50.685,7.15698
 SW-Bonn DE-Bonn Paulusplatz,50.7455,7.06711
+SW-Bonn DE-Bonn Poppelsdorfer Allee,50.7308,7.0997
 SW-Bonn DE-Bonn Quirinusplatz,50.7045,7.11276
 SW-Bonn DE-Bonn Rathausstraße,50.73973,7.12018
 SW-Bonn DE-Bonn Stiftsplatz,50.73929,7.10198,30
